@@ -1,0 +1,773 @@
+data;horario;n_da_ocorrencia;tipo_de_ocorrencia;km;trecho;sentido;tipo_de_acidente;caminhao;ilesos;levemente_feridos;moderadamente_feridos;gravemente_feridos;mortos;3
+01/05/2021;05:25:32;12;Acidente com VITIMA;350;BR-101/SC;Sul;Saída de pista;1;0;1;0;0;0;1
+02/05/2021;23:12:00;134;Acidente com VITIMA;337;BR-101/SC;Norte;Colisão - Traseira;1;2;0;1;1;0;2
+11/05/2021;00:08:51;1;Acidente com VITIMA;364;BR-101/SC;Norte;Colisão - Traseira;1;1;1;0;0;0;1
+14/05/2021;18:09:00;127;Acidente sem VITIMA;331;BR-101/SC;Norte;Engavetamento;1;7;0;0;0;0;1
+16/05/2021;00:04:00;2;Acidente com VITIMA;335;BR-101/SC;Norte;Colisão - Frontal;1;1;0;3;1;0;2
+20/05/2021;12:15:00;96;Acidente com VITIMA;337;BR-101/SC;Sul;Choque - Arvore;1;1;0;1;0;0;2
+27/05/2021;10:47:00;56;Acidente sem VITIMA;323;BR-101/SC;Norte;Colisão - Traseira;1;3;0;0;0;0;1
+28/05/2021;08:59:00;51;Acidente com VITIMA FATAL;269;BR-101/SC;Sul;Choque - Poste;1;2;0;0;0;1;3
+04/06/2021;10:51:00;53;Acidente sem VITIMA;256;BR-101/SC;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+08/06/2021;08:53:09;31;Acidente com VITIMA;362;BR-101/SC;Norte;Colisão - Traseira;1;1;1;0;0;0;1
+09/06/2021;20:17:18;118;Acidente sem VITIMA;355;BR-101/SC;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+12/06/2021;20:47:00;92;Acidente sem VITIMA;290;BR-101/SC;Norte;Choque Defensa;1;2;0;0;0;0;1
+16/06/2021;01:42:00;6;Acidente sem VITIMA;345;BR-101/SC;Sul;Tombamento;1;2;0;0;0;0;1
+30/06/2021;01:58:45;3;Acidente sem VITIMA;372;BR-101/SC;Norte;Tombamento;1;1;0;0;0;0;1
+06/07/2021;03:41:00;13;Acidente com VITIMA;441,000;BR-101/SC;Sul;;2;0;2;0;0;0;1
+10/07/2021;04:22:00;14;Acidente sem VITIMA;269,000;BR-101/SC;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+23/07/2021;22:08:53;157;Acidente sem VITIMA;435,000;BR-101/SC;Ambos;Colisão - Lateral;1;3;0;0;0;0;1
+28/07/2021;08:15:01;47;Acidente com VITIMA;382,000;BR-101/SC;Sul;Colisão - Traseira;1;1;1;0;0;0;1
+05/08/2021;05:10:14;19;Acidente sem VITIMA;311,000;BR-101/SC;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+07/08/2021;16:54:11;93;Acidente sem VITIMA;379,000;BR-101/SC;Sul;Colisão - Traseira;1;5;0;0;0;0;1
+08/08/2021;13:50:14;61;Atropelamento Fatal;302,000;BR-101/SC;Norte;Atropelamento - Suicida;1;1;0;0;0;1;3
+08/08/2021;02:26:09;8;Acidente com VITIMA;397,000;BR-101/SC;Sul;Colisão - Traseira;1;2;0;1;0;0;2
+14/08/2021;09:09:13;31;Acidente sem VITIMA;429,000;BR-101/SC;Norte;Outros;1;3;0;0;0;0;1
+19/08/2021;14:41:31;107;Acidente com VITIMA;289,000;BR-101/SC;Norte;Colisão - Lateral;1;3;1;0;0;0;1
+23/08/2021;21:47:06;124;Acidente sem VITIMA;259,000;BR-101/SC;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+29/08/2021;08:55:46;31;Atropelamento;313,000;BR-101/SC;Norte;Atropelamento - Usuário;1;1;1;0;0;0;1
+02/09/2021;00:18:10;2;Acidente com VITIMA;366,000;BR-101/SC;Sul;Colisão - Traseira;1;0;1;1;0;0;2
+10/09/2021;09:46:24;51;Acidente sem VITIMA;275,000;BR-101/SC;Sul;Choque com objeto sobre a pista;1;1;0;0;0;0;1
+15/09/2021;14:49:57;98;Acidente sem VITIMA;245,000;BR-101/SC;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+29/09/2021;13:20:08;80;Acidente sem VITIMA;253,000;BR-101/SC;Sul;Tombamento;1;2;0;0;0;0;1
+04/10/2021;17:00:55;143;Acidente sem VITIMA;330,000;BR-101/SC;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+12/10/2021;22:15:25;104;Acidente sem VITIMA;380,000;BR-101/SC;Sul;Saída de pista;1;1;0;0;0;0;1
+13/10/2021;11:46:58;99;Acidente sem VITIMA;282,000;BR-101/SC;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+14/10/2021;03:35:49;12;Acidente sem VITIMA;298,000;BR-101/SC;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+25/10/2021;08:02:53;51;Acidente com VITIMA;368,000;BR-101/SC;Sul;Tombamento;1;0;1;0;0;0;1
+01/11/2021;19:29:58;86;Sem vítima;432,000;BR-101/SC;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+01/11/2021;21:09:32;87;Sem vítima;417,000;BR-101/SC;Crescente;Colisão lateral no mesmo sentido;1;6;0;0;0;0;1
+05/11/2021;11:47:27;79;Sem vítima;340,000;BR-101/SC;Crescente;Choque;1;2;0;0;0;0;1
+06/11/2021;19:37:20;105;Sem vítima;427,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+19/11/2021;23:44:31;124;Sem vítima;334,000;BR-101/SC;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+20/11/2021;04:31:31;11;Sem vítima;276,000;BR-101/SC;Crescente;Tombamento;1;1;0;0;0;0;1
+22/11/2021;16:54:21;118;Sem vítima;336,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+30/11/2021;16:14:14;66;Sem vítima;448,000;BR-101/SC;Crescente;Colisão traseira;1;1;0;0;0;0;1
+10/12/2021;11:39:56;80;Com vítima;450,000;BR-101/SC;Crescente;Colisão lateral no mesmo sentido;1;2;0;1;0;0;2
+15/12/2021;22:10:15;136;Sem vítima;370,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+17/12/2021;19:12:28;119;Sem vítima;448,000;BR-101/SC;Decrescente;Tombamento;1;1;0;0;0;0;1
+18/12/2021;20:31:32;93;Com vítima;328,000;BR-101/SC;Crescente;Colisão traseira;1;1;1;1;0;0;2
+22/12/2021;01:28:46;10;Sem vítima;442,000;BR-101/SC;Crescente;Colisão traseira;2;3;0;0;0;0;1
+02/04/2022;21:23:48;114;Sem vítima;308,000;BR-101/SC;Decrescente;Choque;1;7;0;0;0;0;1
+04/04/2022;23:36:19;114;Sem vítima;277,000;BR-101/SC;Decrescente;Colisão traseira;2;0;0;0;0;0;1
+15/04/2022;05:39:17;13;Com vítima;371,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;2;0;0;1;3
+15/04/2022;09:58:47;45;Sem vítima;276,000;BR-101/SC;Decrescente;Atropelamento de animal;1;1;0;0;0;0;1
+29/04/2022;11:27:05;72;Sem vítima;338,000;BR-101/SC;Crescente;Colisão traseira;2;3;0;0;0;0;1
+30/04/2022;01:23:41;4;Com vítima;291,000;BR-101/SC;Crescente;Colisão traseira;1;1;0;1;0;0;2
+06/05/2022;10:33:09;57;Sem vítima;337,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+25/05/2022;20:06:17;116;Sem vítima;273,000;BR-101/SC;Crescente;Choque;1;3;0;0;0;0;1
+27/05/2022;18:07:18;87;Com vítima;390,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;2;4;0;1;0;0;2
+31/05/2022;20:11:25;118;Sem vítima;329,000;BR-101/SC;Decrescente;Queda de carga;1;1;0;0;0;0;1
+30/06/2022;07:13:33;15;Sem vítima;394,000;BR-101/SC;Crescente;Colisão traseira;2;3;0;0;0;0;1
+01/07/2022;12:48:14;73;Sem vítima;332,000;BR-101/SC;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+01/07/2022;18:07:38;95;Sem vítima;301,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+01/07/2022;20:05:02;110;Sem vítima;355,000;BR-101/SC;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+02/07/2022;22:08:33;129;Sem vítima;283,000;BR-101/SC;Decrescente;Colisão traseira;1;6;0;0;0;0;1
+05/07/2022;01:56:56;4;Sem vítima;277,000;BR-101/SC;Crescente;Tombamento;1;1;0;0;0;0;1
+05/07/2022;07:12:42;18;Sem vítima;404,000;BR-101/SC;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+05/07/2022;15:00:36;93;Sem vítima;348,000;BR-101/SC;Crescente;Colisão traseira;2;2;0;0;0;0;1
+10/07/2022;12:18:11;52;Sem vítima;263,000;BR-101/SC;Crescente;Colisão traseira;1;2;0;0;0;0;1
+11/07/2022;03:34:01;7;Sem vítima;255,000;BR-101/SC;Crescente;Atropelamento de animal;1;1;0;0;0;0;1
+12/07/2022;11:47:00;65;Sem vítima;333,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+13/07/2022;13:36:38;87;Sem vítima;269,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+13/07/2022;22:15:45;131;Sem vítima;355,000;BR-101/SC;Decrescente;Tombamento;1;0;0;0;0;0;1
+15/07/2022;08:15:17;39;Sem vítima;356,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+17/07/2022;19:27:55;104;Sem vítima;404,000;BR-101/SC;Crescente;Colisão traseira;1;0;0;0;0;0;1
+24/07/2022;17:16:57;79;Sem vítima;368,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/07/2022;23:41:08;124;Sem vítima;298,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+26/07/2022;14:14:52;97;Sem vítima;327,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+27/07/2022;10:33:17;90;Sem vítima;344,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+28/07/2022;06:36:15;22;Sem vítima;405,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+30/07/2022;19:54:59;111;Sem vítima;252,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+02/08/2022;14:25:06;115;Sem vítima;457,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+08/08/2022;06:05:51;10;Sem vítima;401,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+08/08/2022;10:01:37;46;Sem vítima;344,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/08/2022;14:00:08;182;Sem vítima;331,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/08/2022;19:02:19;223;Sem vítima;298,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/08/2022;23:18:20;246;Sem vítima;367,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+14/08/2022;15:17:43;80;Sem vítima;344,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+16/08/2022;04:29:16;7;Sem vítima;385,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+16/08/2022;14:44:17;111;Sem vítima;269,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+17/08/2022;10:55:49;86;Sem vítima;262,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/08/2022;17:45:54;136;Sem vítima;350,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/08/2022;02:34:36;11;Sem vítima;329,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/08/2022;15:53:57;119;Sem vítima;318,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+26/08/2022;01:00:57;2;Sem vítima;358,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+26/08/2022;18:35:57;147;Sem vítima;265,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+26/08/2022;21:57:47;170;Sem vítima;319,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+29/08/2022;15:56:59;98;Sem vítima;266,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+30/08/2022;09:19:38;61;Sem vítima;334,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+31/08/2022;18:09:40;111;Com vítima;430,000;BR-101/SC;Crescente;Colisão traseira;1;2;0;0;0;1;3
+02/09/2022;14:14:39;97;Sem vítima;329,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/09/2022;10:41:25;47;Sem vítima;433,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/09/2022;11:48:37;53;Sem vítima;265,000;BR-101/SC;Crescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+06/09/2022;16:33:43;93;Sem vítima;327,000;BR-101/SC;Crescente;Colisão traseira;1;3;0;0;0;0;1
+06/09/2022;20:22:59;116;Sem vítima;271,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+07/09/2022;04:43:47;9;Sem vítima;333,000;BR-101/SC;Decrescente;Atropelamento de pedestre;1;1;0;0;0;0;1
+08/09/2022;09:03:01;57;Com vítima;298,000;BR-101/SC;Crescente;Colisão traseira;1;3;1;0;0;0;1
+09/09/2022;17:57:40;118;Sem vítima;426,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+09/09/2022;18:31:14;123;Sem vítima;464,000;BR-101/SC;Decrescente;Choque;1;2;0;0;0;0;1
+09/09/2022;21:00:44;148;Sem vítima;324,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/09/2022;21:09:59;149;Sem vítima;391,000;BR-101/SC;Crescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+10/09/2022;10:06:31;41;Sem vítima;372,000;BR-101/SC;Crescente;Colisão traseira;1;3;0;0;0;0;1
+10/09/2022;18:40:54;91;Sem vítima;252,000;BR-101/SC;Crescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+10/09/2022;21:29:31;102;Com vítima;306,000;BR-101/SC;Decrescente;Colisão traseira;1;1;0;1;0;0;2
+10/09/2022;22:19:20;105;Sem vítima;290,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+11/09/2022;22:29:43;105;Sem vítima;416,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+14/09/2022;07:50:05;31;Sem vítima;348,300;BR-101/SC;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+14/09/2022;20:18:57;141;Sem vítima;362,000;BR-101/SC;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+18/09/2022;01:53:57;5;Sem vítima;287,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+22/09/2022;05:03:22;10;Sem vítima;405,000;BR-101/SC;Decrescente;Colisão traseira;1;0;0;0;0;0;1
+22/09/2022;14:39:41;100;Sem vítima;298,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/09/2022;19:34:19;152;Sem vítima;286,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/09/2022;22:15:55;168;Sem vítima;345,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/09/2022;02:18:21;7;Sem vítima;268,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+26/09/2022;21:41:15;130;Sem vítima;364,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+27/09/2022;22:33:35;140;Sem vítima;298,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+28/09/2022;23:27:39;144;Sem vítima;257,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+30/09/2022;01:04:19;7;Sem vítima;319,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+05/10/2022;19:31:15;110;Sem vítima;264,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+11/10/2022;05:03:39;13;Sem vítima;308,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+14/10/2022;02:47:16;8;Sem vítima;442,200;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+18/10/2022;22:40:22;128;Sem vítima;300,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+20/10/2022;18:47:40;84;Sem vítima;384,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/10/2022;01:25:34;6;Sem vítima;299,200;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/10/2022;07:08:24;17;Sem vítima;344,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+26/10/2022;11:54:51;55;Sem vítima;337,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+26/10/2022;12:53:43;58;Sem vítima;435,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+27/10/2022;20:06:51;108;Sem vítima;308,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/11/2022;16:40:57;41;Sem vítima;452,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/11/2022;06:45:11;12;Sem vítima;441,000;BR-101/SC;Crescente;Colisão traseira;1;0;0;0;0;0;1
+06/11/2022;17:06:37;71;Sem vítima;298,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+07/11/2022;15:59:21;217;Sem vítima;311,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+08/11/2022;20:44:19;111;Sem vítima;344,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+11/11/2022;12:20:36;109;Sem vítima;282,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+12/11/2022;12:08:46;65;Sem vítima;344,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+17/11/2022;10:56:33;83;Sem vítima;363,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+20/11/2022;21:06:22;102;Sem vítima;277,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/11/2022;17:32:32;108;Sem vítima;291,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/11/2022;11:51:21;85;Sem vítima;292,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+29/11/2022;05:48:07;13;Sem vítima;298,000;BR-101/SC;Crescente;Colisão traseira;1;0;0;0;0;0;1
+02/12/2022;07:45:00;25;Sem vítima;344,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/12/2022;01:01:11;6;Sem vítima;290,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+07/12/2022;03:29:47;10;Sem vítima;326,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+08/12/2022;03:53:48;9;Sem vítima;367,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+08/12/2022;22:57:34;141;Sem vítima;388,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/12/2022;07:42:56;35;Sem vítima;331,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+11/12/2022;05:00:31;18;Sem vítima;262,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+11/12/2022;05:52:32;22;Sem vítima;351,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+15/12/2022;10:56:01;69;Sem vítima;394,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+16/12/2022;04:57:26;22;Sem vítima;291,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/12/2022;11:27:58;77;Sem vítima;282,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+26/12/2022;04:38:43;12;Sem vítima;456,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+28/12/2022;05:47:11;11;Sem vítima;298,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+29/12/2022;12:53:17;80;Sem vítima;332,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/01/2023;23:00:28;167;Sem vítima;307,290;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+04/01/2023;13:33:28;70;Sem vítima;261,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/01/2023;08:56:40;37;Sem vítima;367,000;BR-101/SC;Crescente;Choque;1;1;0;0;0;0;1
+09/01/2023;18:18:26;98;Sem vítima;382,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+10/01/2023;03:49:23;10;Sem vítima;347,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+10/01/2023;08:21:38;41;Sem vítima;299,370;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+10/01/2023;19:11:47;112;Sem vítima;393,000;BR-101/SC;Crescente;Colisão traseira;1;4;0;0;0;0;1
+10/01/2023;23:13:52;134;Com vítima;350,000;BR-101/SC;Crescente;Queda de moto;1;2;0;0;0;1;3
+11/01/2023;06:42:07;18;Sem vítima;379,000;BR-101/SC;Crescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+11/01/2023;18:15:54;109;Com vítima;316,000;BR-101/SC;Decrescente;Tombamento;1;0;0;1;0;0;2
+12/01/2023;03:24:53;7;Sem vítima;345,000;BR-101/SC;Decrescente;Choque;1;0;0;0;0;0;1
+12/01/2023;16:56:08;122;Sem vítima;372,000;BR-101/SC;Crescente;Choque;1;0;0;0;0;0;1
+12/01/2023;19:57:36;137;Sem vítima;310,000;BR-101/SC;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+13/01/2023;19:33:16;197;Sem vítima;310,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+15/01/2023;09:06:22;23;Sem vítima;357,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+16/01/2023;08:51:48;39;Sem vítima;326,490;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+16/01/2023;18:39:50;120;Sem vítima;274,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+18/01/2023;15:44:06;86;Sem vítima;308,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+18/01/2023;23:21:32;127;Sem vítima;353,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+20/01/2023;10:30:12;108;Sem vítima;312,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/01/2023;17:50:37;110;Sem vítima;363,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/01/2023;07:10:04;26;Sem vítima;269,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+31/01/2023;05:28:06;10;Sem vítima;257,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+31/01/2023;09:45:20;54;Sem vítima;347,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+31/01/2023;12:06:30;81;Sem vítima;263,220;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+31/01/2023;21:12:50;138;Sem vítima;298,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/02/2023;00:51:43;2;Sem vítima;389,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/02/2023;04:53:34;10;Sem vítima;451,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+07/02/2023;11:50:59;74;Sem vítima;445,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/02/2023;16:08:02;117;Sem vítima;410,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+10/02/2023;09:41:47;54;Sem vítima;390,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+15/02/2023;12:21:34;69;Sem vítima;348,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+15/02/2023;15:55:00;96;Sem vítima;404,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/02/2023;08:51:37;26;Sem vítima;310,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/02/2023;14:07:40;50;Sem vítima;318,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/02/2023;17:28:38;72;Sem vítima;441,100;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/02/2023;18:59:36;81;Sem vítima;269,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/02/2023;19:07:09;82;Sem vítima;316,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+21/02/2023;19:20:11;87;Sem vítima;298,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+22/02/2023;15:57:13;93;Sem vítima;370,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+22/02/2023;21:08:14;123;Sem vítima;423,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+22/02/2023;21:32:34;126;Sem vítima;344,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/02/2023;01:15:04;1;Sem vítima;332,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/02/2023;04:03:37;4;Sem vítima;298,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/02/2023;07:20:46;20;Sem vítima;428,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/02/2023;15:47:19;75;Sem vítima;327,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/02/2023;17:15:11;85;Sem vítima;448,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/02/2023;19:05:37;97;Sem vítima;298,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/02/2023;22:24:48;106;Sem vítima;258,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/02/2023;23:25:19;108;Sem vítima;376,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;03:17:18;4;Sem vítima;252,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;04:41:00;10;Sem vítima;336,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;06:25:05;12;Sem vítima;266,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;11:01:16;60;Sem vítima;298,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;11:59:42;63;Sem vítima;345,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;15:36:38;82;Sem vítima;271,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;16:40:35;90;Sem vítima;277,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;17:09:42;94;Sem vítima;403,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;17:10:57;95;Sem vítima;274,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;17:34:38;97;Sem vítima;404,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;17:35:41;98;Sem vítima;417,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;19:16:17;107;Sem vítima;362,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;19:36:12;109;Sem vítima;292,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;20:05:20;110;Sem vítima;403,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;20:47:34;114;Sem vítima;417,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;21:51:39;116;Sem vítima;271,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/02/2023;23:49:42;125;Sem vítima;328,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/02/2023;00:52:52;3;Sem vítima;316,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/02/2023;06:16:07;15;Sem vítima;374,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/02/2023;11:11:13;62;Sem vítima;268,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+28/02/2023;11:49:29;84;Sem vítima;357,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+28/02/2023;14:07:41;101;Com vítima;456,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+28/02/2023;22:14:58;141;Sem vítima;343,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/03/2023;00:33:17;3;Sem vítima;407,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/03/2023;04:47:48;11;Sem vítima;328,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/03/2023;10:12:29;63;Sem vítima;337,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/03/2023;10:30:29;66;Sem vítima;270,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/03/2023;13:08:04;95;Sem vítima;327,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/03/2023;14:40:15;105;Sem vítima;346,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/03/2023;17:09:53;118;Sem vítima;336,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/03/2023;18:40:30;126;Sem vítima;275,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+02/03/2023;00:48:18;2;Sem vítima;268,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+02/03/2023;17:23:41;110;Sem vítima;373,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+02/03/2023;17:47:26;111;Sem vítima;298,350;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+02/03/2023;18:51:06;114;Sem vítima;297,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+02/03/2023;18:57:41;115;Sem vítima;293,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/03/2023;01:30:12;4;Sem vítima;380,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/03/2023;02:41:50;6;Sem vítima;279,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/03/2023;09:15:06;52;Sem vítima;365,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/03/2023;10:43:48;75;Sem vítima;441,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+04/03/2023;04:20:51;8;Sem vítima;354,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+05/03/2023;09:27:29;38;Sem vítima;298,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+05/03/2023;09:58:12;41;Sem vítima;307,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+05/03/2023;10:13:22;44;Sem vítima;298,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+05/03/2023;16:38:17;77;Sem vítima;458,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+05/03/2023;18:17:17;89;Sem vítima;463,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/03/2023;08:11:43;28;Sem vítima;404,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/03/2023;08:43:30;33;Sem vítima;344,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/03/2023;08:56:14;35;Sem vítima;429,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/03/2023;09:31:43;38;Sem vítima;429,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/03/2023;12:39:05;59;Sem vítima;330,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/03/2023;12:44:21;60;Sem vítima;285,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/03/2023;02:45:08;7;Sem vítima;294,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+10/03/2023;07:01:32;19;Sem vítima;370,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+14/04/2023;06:18:47;9;Com vítima;374,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+14/04/2023;14:10:07;88;Sem vítima;335,000;BR-101/SC;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+31/05/2023;20:35:35;118;Sem vítima;368,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/06/2023;17:30:39;103;Sem vítima;300,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/06/2023;19:07:02;126;Sem vítima;453,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+07/06/2023;09:24:46;73;Com vítima;448,000;BR-101/SC;Crescente;Choque;1;0;1;0;0;0;1
+14/06/2023;09:56:09;65;Sem vítima;288,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+14/06/2023;19:33:51;127;Sem vítima;275,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+15/06/2023;02:30:23;5;Sem vítima;410,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/06/2023;14:11:04;108;Sem vítima;353,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+24/06/2023;01:19:00;4;Sem vítima;347,000;BR-101/SC;Crescente;Colisão traseira;1;0;0;0;0;0;1
+16/07/2023;00:32:23;4;Sem vítima;298,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+27/07/2023;13:02:45;124;Sem vítima;257,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+08/08/2023;03:54:24;6;Sem vítima;276,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+09/08/2023;13:36:19;76;Sem vítima;335,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+17/08/2023;04:29:10;10;Com vítima;383,000;BR-101/SC;Crescente;Tombamento;1;0;0;0;0;0;1
+24/08/2023;09:32:22;47;Sem vítima;344,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/08/2023;21:28:18;145;Sem vítima;274,000;BR-101/SC;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+27/08/2023;19:24:43;83;Sem vítima;436,000;BR-101/SC;Decrescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+28/08/2023;10:31:47;92;Sem vítima;378,000;BR-101/SC;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+01/11/2021;23:03:25;310;Com vítima;80,000;BR-290/RS;Decrescente;Tombamento;1;0;0;1;0;0;2
+03/11/2021;02:34:21;12;Sem vítima;367,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+05/11/2021;09:40:27;140;Sem vítima;307,000;BR-386/RS;Crescente;Choque;1;1;0;0;0;0;1
+06/11/2021;13:35:09;119;Sem vítima;9,000;BR-101/RS;Crescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+09/11/2021;16:03:14;213;Sem vítima;243,000;BR-386/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+10/11/2021;14:18:10;203;Sem vítima;434,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+10/11/2021;14:43:06;210;Sem vítima;291,000;BR-386/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+11/11/2021;04:14:57;17;Sem vítima;294,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+12/11/2021;04:27:26;18;Sem vítima;89,000;BR-290/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+12/11/2021;17:59:25;256;Sem vítima;2,000;BR-101/RS;Crescente;Colisão traseira;1;0;0;0;0;0;1
+13/11/2021;08:13:08;77;Sem vítima;216,000;BR-386/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+13/11/2021;08:26:07;81;Sem vítima;60,000;BR-290/RS;Decrescente;Choque;1;0;0;0;0;0;1
+13/11/2021;13:53:33;168;Sem vítima;90,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+13/11/2021;14:00:25;171;Sem vítima;24,000;BR-101/RS;Decrescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+14/11/2021;03:01:30;20;Sem vítima;336,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+14/11/2021;05:44:44;28;Sem vítima;52,000;BR-101/RS;Crescente;Tombamento;1;0;0;0;0;0;1
+15/11/2021;17:01:31;245;Sem vítima;91,000;BR-290/RS;Crescente;Tombamento;1;0;0;0;0;0;1
+15/11/2021;23:03:24;381;Sem vítima;189,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+16/11/2021;06:54:01;45;Sem vítima;76,000;BR-290/RS;Crescente;Engavetamento;1;1;0;0;0;0;1
+17/11/2021;07:20:45;45;Sem vítima;94,000;BR-290/RS;Crescente;Colisão traseira;2;2;0;0;0;0;1
+18/11/2021;10:41:55;105;Sem vítima;68,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+20/11/2021;00:28:57;3;Sem vítima;35,000;BR-290/RS;Decrescente;Choque;1;1;0;0;0;0;1
+22/11/2021;07:46:05;58;Sem vítima;52,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+23/11/2021;16:59:08;220;Sem vítima;202,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+24/11/2021;12:57:03;197;Sem vítima;407,000;BR-386/RS;Decrescente;Colisão traseira;1;0;0;0;0;0;1
+24/11/2021;23:33:48;336;Sem vítima;410,000;BR-386/RS;Crescente;Colisão traseira;1;0;0;0;0;0;1
+25/11/2021;05:58:29;23;Sem vítima;248,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+25/11/2021;15:30:02;213;Sem vítima;305,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+25/11/2021;16:47:44;237;Sem vítima;439,000;BR-386/RS;Crescente;Colisão traseira;1;0;0;0;0;0;1
+26/11/2021;15:31:36;173;Sem vítima;354,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+26/11/2021;17:15:06;190;Com vítima;304,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+26/11/2021;22:23:17;263;Sem vítima;57,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+27/11/2021;09:42:57;66;Com vítima;235,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+29/11/2021;09:43:43;135;Sem vítima;92,270;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+30/11/2021;17:14:58;258;Sem vítima;19,210;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+01/12/2021;14:41:20;166;Sem vítima;419,000;BR-386/RS;Decrescente;Colisão traseira;2;2;0;0;0;0;1
+01/12/2021;16:11:26;188;Sem vítima;329,000;BR-386/RS;Crescente;Colisão transversal;1;0;0;0;0;0;1
+02/12/2021;17:47:20;224;Sem vítima;388,000;BR-386/RS;Decrescente;Colisão transversal;1;4;0;0;0;0;1
+03/12/2021;22:02:45;307;Sem vítima;29,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+04/12/2021;23:18:49;310;Sem vítima;34,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+06/12/2021;05:47:52;49;Sem vítima;284,000;BR-386/RS;Crescente;Choque;1;1;0;0;0;0;1
+06/12/2021;23:48:12;281;Sem vítima;382,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;2;3;0;0;0;0;1
+06/12/2021;23:56:25;282;Sem vítima;278,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+07/12/2021;00:55:48;6;Sem vítima;53,000;BR-101/RS;Decrescente;Acidentes de outra natureza;2;2;0;0;0;0;1
+07/12/2021;06:31:00;47;Sem vítima;202,000;BR-386/RS;Crescente;Choque;1;1;0;0;0;0;1
+07/12/2021;10:59:05;134;Sem vítima;298,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+08/12/2021;00:48:30;6;Sem vítima;47,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+08/12/2021;10:36:31;131;Sem vítima;75,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+12/12/2021;04:59:01;24;Sem vítima;53,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+13/12/2021;02:30:02;19;Sem vítima;62,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+13/12/2021;09:24:26;136;Sem vítima;8,000;BR-101/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+13/12/2021;22:19:12;366;Sem vítima;260,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+14/12/2021;11:16:06;125;Sem vítima;303,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+14/12/2021;14:10:57;141;Sem vítima;227,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+14/12/2021;20:53:26;241;Sem vítima;36,000;BR-101/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+15/12/2021;03:39:51;8;Com vítima;380,000;BR-386/RS;Decrescente;Tombamento;1;0;0;1;0;0;2
+15/12/2021;04:34:57;11;Sem vítima;291,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+15/12/2021;08:27:28;79;Com vítima;393,000;BR-386/RS;Decrescente;Tombamento;1;0;1;0;0;0;1
+16/12/2021;16:57:12;192;Sem vítima;304,000;BR-386/RS;Decrescente;Tombamento;1;0;0;0;0;0;1
+17/12/2021;10:44:06;176;Sem vítima;335,000;BR-386/RS;Decrescente;Colisão traseira;2;2;0;0;0;0;1
+21/12/2021;13:08:25;155;Sem vítima;426,000;BR-386/RS;Crescente;Colisão traseira;1;2;0;0;0;0;1
+27/12/2021;07:33:59;76;Com vítima;95,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;1;0;0;0;1
+30/12/2021;16:02:12;263;Sem vítima;356,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;4;0;0;0;0;1
+08/01/2022;09:45:26;88;Com vítima;235,000;BR-386/RS;Decrescente;Colisão frontal;1;10;2;0;0;0;1
+12/01/2022;13:11:49;172;Sem vítima;341,000;BR-386/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+13/01/2022;16:52:39;238;Sem vítima;22,000;BR-101/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+14/01/2022;00:11:23;3;Sem vítima;349,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+14/01/2022;10:54:11;154;Sem vítima;26,000;BR-290/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+14/01/2022;13:24:17;203;Sem vítima;60,000;BR-290/RS;Crescente;Engavetamento;1;2;0;0;0;0;1
+17/01/2022;15:33:09;264;Sem vítima;10,000;BR-101/RS;Decrescente;Engavetamento;2;0;0;0;0;0;1
+17/01/2022;19:14:04;323;Sem vítima;307,000;BR-386/RS;Crescente;Tombamento;1;0;0;0;0;0;1
+18/01/2022;04:11:28;20;Com vítima;333,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;3;2;0;2
+19/01/2022;07:19:40;42;Sem vítima;394,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+20/01/2022;10:31:49;137;Sem vítima;60,000;BR-290/RS;Decrescente;Choque;1;0;0;0;0;0;1
+21/01/2022;15:25:43;361;Sem vítima;69,000;BR-290/RS;Crescente;Colisão traseira;1;2;0;0;0;0;1
+22/01/2022;23:55:03;318;Sem vítima;23,000;BR-101/RS;Crescente;Colisão traseira;2;2;0;0;0;0;1
+23/01/2022;20:26:06;232;Sem vítima;63,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+27/01/2022;09:44:01;59;Sem vítima;435,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+28/01/2022;17:59:54;302;Sem vítima;89,000;BR-290/RS;Decrescente;Engavetamento;1;5;0;0;0;0;1
+01/02/2022;08:46:10;83;Sem vítima;307,000;BR-386/RS;Crescente;Tombamento;1;0;0;0;0;0;1
+02/02/2022;12:34:13;160;Sem vítima;52,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+03/02/2022;08:58:05;131;Sem vítima;327,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+04/02/2022;12:10:13;158;Sem vítima;292,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+07/02/2022;05:02:32;365;Sem vítima;35,000;BR-101/RS;Decrescente;Choque;1;0;0;0;0;0;1
+08/02/2022;00:05:33;1;Sem vítima;304,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+08/02/2022;17:23:14;227;Sem vítima;426,000;BR-386/RS;Crescente;Colisão traseira;1;3;0;0;0;0;1
+14/02/2022;12:25:55;164;Com vítima;337,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+15/02/2022;14:26:36;174;Sem vítima;435,000;BR-386/RS;Decrescente;Engavetamento;1;0;0;0;0;0;1
+17/02/2022;20:57:49;299;Sem vítima;332,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+21/02/2022;07:49:21;132;Sem vítima;310,000;BR-386/RS;Crescente;Choque;1;2;0;0;0;0;1
+23/02/2022;03:27:00;19;Com vítima;31,000;BR-290/RS;Decrescente;Tombamento;1;0;1;0;0;0;1
+24/02/2022;16:18:28;199;Sem vítima;60,000;BR-290/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+28/02/2022;20:39:27;259;Sem vítima;280,000;BR-386/RS;Decrescente;Colisão frontal;1;2;0;0;0;0;1
+03/03/2022;10:49:31;141;Sem vítima;426,000;BR-386/RS;Decrescente;Choque;1;0;0;0;0;0;1
+06/03/2022;22:31:30;236;Sem vítima;319,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+07/03/2022;11:44:56;147;Sem vítima;13,000;BR-101/RS;Decrescente;Acidentes de outra natureza;2;2;0;0;0;0;1
+08/03/2022;14:31:03;189;Sem vítima;379,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+09/03/2022;09:35:17;101;Com vítima;432,000;BR-386/RS;Decrescente;Colisão traseira;1;1;1;0;0;0;1
+10/03/2022;14:15:56;138;Com vítima;422,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;1;0;0;2
+12/03/2022;07:22:14;51;Sem vítima;27,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+14/03/2022;18:05:48;217;Sem vítima;222,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+14/03/2022;18:28:00;222;Sem vítima;229,000;BR-386/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+15/03/2022;05:51:18;26;Sem vítima;398,000;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+15/03/2022;08:47:48;79;Sem vítima;37,000;BR-290/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+15/03/2022;15:55:29;203;Sem vítima;338,000;BR-386/RS;Decrescente;Colisão frontal;1;2;0;0;0;0;1
+16/03/2022;10:37:15;98;Sem vítima;19,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+17/03/2022;11:49:45;155;Com vítima;73,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;3;1;0;0;0;1
+21/03/2022;05:38:35;25;Com vítima;60,000;BR-290/RS;Crescente;Colisão traseira;1;0;1;0;0;0;1
+29/03/2022;09:29:45;109;Sem vítima;202,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+31/03/2022;08:27:12;75;Sem vítima;416,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;4;0;0;0;0;1
+01/04/2022;07:29:34;46;Sem vítima;221,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+04/04/2022;07:44:58;44;Sem vítima;211,000;BR-386/RS;Decrescente;Colisão transversal;1;2;0;0;0;0;1
+06/04/2022;08:17:02;71;Sem vítima;84,000;BR-101/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+08/04/2022;09:04:28;84;Sem vítima;304,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+11/04/2022;14:07:40;116;Com vítima;37,000;BR-290/RS;Decrescente;Colisão traseira;1;3;1;0;0;0;1
+12/04/2022;03:53:49;16;Sem vítima;27,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;2;0;0;0;0;1
+14/04/2022;20:18:10;239;Sem vítima;425,000;BR-386/RS;Decrescente;Colisão traseira;1;6;0;0;0;0;1
+19/04/2022;17:36:10;226;Com vítima;247,000;BR-386/RS;Decrescente;Colisão transversal;1;1;0;1;0;0;2
+21/04/2022;16:22:42;142;Com vítima;346,000;BR-386/RS;Decrescente;Colisão traseira;1;2;1;0;0;0;1
+25/04/2022;22:39:16;277;Sem vítima;16,000;BR-290/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+26/04/2022;04:17:05;16;Sem vítima;304,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;2;0;0;0;0;1
+29/04/2022;17:44:43;201;Com vítima;355,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;1;0;0;2
+29/04/2022;19:55:22;235;Com vítima;22,000;BR-290/RS;Crescente;Choque;1;1;0;2;0;0;2
+02/05/2022;06:04:41;12;Sem vítima;306,000;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+02/05/2022;13:49:34;100;Sem vítima;21,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+04/05/2022;02:58:14;14;Sem vítima;303,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+05/05/2022;07:31:05;39;Sem vítima;228,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;2;4;0;0;0;0;1
+05/05/2022;15:16:50;196;Sem vítima;6,000;BR-290/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+05/05/2022;15:17:13;197;Sem vítima;53,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+05/05/2022;16:04:40;211;Sem vítima;42,000;BR-101/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+05/05/2022;22:05:44;298;Com vítima;54,000;BR-290/RS;Crescente;Colisão traseira;1;1;1;0;0;0;1
+06/05/2022;07:03:28;37;Sem vítima;374,000;BR-386/RS;Decrescente;Tombamento;1;2;0;0;0;0;1
+06/05/2022;19:51:28;260;Sem vítima;401,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+09/05/2022;03:59:41;20;Sem vítima;46,000;BR-290/RS;Crescente;Choque;1;0;0;0;0;0;1
+09/05/2022;07:58:00;61;Com vítima;362,000;BR-386/RS;Crescente;Colisão traseira;1;1;0;1;0;0;2
+09/05/2022;20:28:22;246;Sem vítima;438,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+10/05/2022;14:59:35;149;Sem vítima;43,000;BR-101/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+10/05/2022;18:37:24;183;Sem vítima;427,000;BR-386/RS;Crescente;Tombamento;1;0;0;0;0;0;1
+11/05/2022;06:13:52;23;Sem vítima;57,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+11/05/2022;13:46:51;152;Sem vítima;345,000;BR-386/RS;Decrescente;Colisão transversal;1;2;0;0;0;0;1
+11/05/2022;20:55:49;234;Sem vítima;428,000;BR-386/RS;Crescente;Atropelamento de animal;1;1;0;0;0;0;1
+13/05/2022;15:49:09;186;Sem vítima;375,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+13/05/2022;17:26:21;204;Sem vítima;345,000;BR-386/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+13/05/2022;17:38:13;207;Sem vítima;345,000;BR-386/RS;Decrescente;Colisão traseira;1;4;0;0;0;0;1
+13/05/2022;18:07:09;214;Sem vítima;64,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+15/05/2022;06:33:57;24;Com vítima;14,000;BR-290/RS;Crescente;Choque;1;0;1;0;0;0;1
+16/05/2022;15:44:08;199;Sem vítima;68,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+16/05/2022;16:10:29;204;Sem vítima;66,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+17/05/2022;05:54:40;15;Sem vítima;75,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+17/05/2022;08:06:59;50;Sem vítima;337,000;BR-386/RS;Decrescente;Colisão transversal;2;3;0;0;0;0;1
+19/05/2022;02:33:32;13;Com vítima;345,000;BR-386/RS;Decrescente;Tombamento;1;0;1;0;0;0;1
+19/05/2022;16:43:26;197;Sem vítima;325,000;BR-386/RS;Decrescente;Colisão transversal;1;2;0;0;0;0;1
+19/05/2022;20:46:21;251;Com vítima;91,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;1;0;0;0;1
+20/05/2022;10:36:53;132;Sem vítima;426,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+20/05/2022;20:46:04;262;Sem vítima;80,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+21/05/2022;11:57:15;118;Sem vítima;83,000;BR-290/RS;Decrescente;Colisão transversal;1;2;0;0;0;0;1
+21/05/2022;13:20:55;132;Sem vítima;79,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+23/05/2022;04:32:30;12;Sem vítima;19,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+23/05/2022;09:12:23;72;Sem vítima;307,000;BR-386/RS;Crescente;Tombamento;1;0;0;0;0;0;1
+23/05/2022;21:32:40;233;Sem vítima;69,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+26/05/2022;02:15:45;5;Sem vítima;29,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+27/05/2022;14:17:05;113;Sem vítima;445,000;BR-386/RS;Decrescente;Colisão transversal;1;2;0;0;0;0;1
+28/05/2022;08:01:21;38;Sem vítima;306,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+29/05/2022;05:07:24;20;Sem vítima;38,000;BR-101/RS;Decrescente;Tombamento;1;2;0;0;0;0;1
+29/05/2022;14:17:03;81;Sem vítima;60,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+29/05/2022;18:10:32;124;Sem vítima;15,000;BR-101/RS;Decrescente;Colisão traseira;1;0;0;0;0;0;1
+30/05/2022;06:16:36;23;Sem vítima;367,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+31/05/2022;06:40:01;26;Com vítima;434,000;BR-386/RS;Decrescente;Colisão traseira;1;1;0;1;0;0;2
+31/05/2022;08:55:40;228;Sem vítima;348,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+31/05/2022;18:46:48;372;Sem vítima;53,000;BR-101/RS;Decrescente;Atropelamento de pedestre;1;0;0;0;0;0;1
+31/05/2022;21:04:45;394;Sem vítima;92,360;BR-290/RS;Decrescente;Colisão transversal;1;2;0;0;0;0;1
+01/06/2022;06:56:33;24;Sem vítima;306,000;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+02/06/2022;23:20:36;216;Sem vítima;346,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+05/06/2022;04:56:36;16;Sem vítima;41,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+06/06/2022;07:24:54;34;Sem vítima;60,000;BR-290/RS;Crescente;Colisão traseira;1;0;0;0;0;0;1
+09/06/2022;01:41:56;13;Sem vítima;52,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+09/06/2022;10:49:06;103;Sem vítima;375,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+09/06/2022;20:06:43;220;Sem vítima;92,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+10/06/2022;07:13:34;251;Sem vítima;60,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+10/06/2022;13:18:59;364;Sem vítima;435,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+10/06/2022;16:57:31;406;Sem vítima;35,000;BR-101/RS;Decrescente;Choque;1;1;0;0;0;0;1
+11/06/2022;03:39:44;20;Sem vítima;307,000;BR-386/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+12/06/2022;16:47:44;115;Sem vítima;60,000;BR-290/RS;Crescente;Choque;1;1;0;0;0;0;1
+12/06/2022;21:23:37;168;Sem vítima;348,160;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+13/06/2022;12:55:27;163;Sem vítima;426,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+13/06/2022;15:49:21;200;Sem vítima;77,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+13/06/2022;16:41:00;213;Sem vítima;404,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+17/06/2022;15:26:05;98;Sem vítima;86,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+20/06/2022;08:15:07;90;Sem vítima;72,000;BR-101/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+20/06/2022;08:30:42;94;Sem vítima;8,000;BR-101/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+23/06/2022;02:09:30;7;Sem vítima;398,000;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+23/06/2022;15:05:12;129;Sem vítima;344,000;BR-386/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+23/06/2022;15:07:01;131;Sem vítima;92,260;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+24/06/2022;05:16:08;20;Sem vítima;16,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+28/06/2022;09:22:25;93;Sem vítima;435,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+28/06/2022;10:08:05;106;Sem vítima;352,000;BR-386/RS;Crescente;Engavetamento;1;1;0;0;0;0;1
+30/06/2022;08:28:17;79;Com vítima;307,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+30/06/2022;16:09:14;179;Sem vítima;431,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+01/07/2022;07:41:33;46;Sem vítima;61,000;BR-290/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+01/07/2022;07:55:48;58;Sem vítima;85,000;BR-290/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+01/07/2022;10:41:26;118;Sem vítima;2,000;BR-290/RS;Crescente;Colisão transversal;1;1;0;0;0;0;1
+01/07/2022;19:36:49;229;Sem vítima;288,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+04/07/2022;23:58:53;279;Sem vítima;322,000;BR-386/RS;Decrescente;Engavetamento;1;1;0;0;0;0;1
+05/07/2022;05:12:55;16;Sem vítima;308,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+05/07/2022;06:09:02;20;Com vítima;307,000;BR-386/RS;Crescente;Tombamento;1;0;1;0;0;0;1
+06/07/2022;06:03:35;16;Sem vítima;417,000;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+06/07/2022;14:43:39;164;Sem vítima;180,000;BR-386/RS;Crescente;Colisão transversal;1;1;0;0;0;0;1
+06/07/2022;18:20:49;201;Sem vítima;19,000;BR-290/RS;Decrescente;Colisão transversal;1;0;0;0;0;0;1
+07/07/2022;13:04:01;144;Sem vítima;308,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+07/07/2022;18:15:17;198;Sem vítima;19,000;BR-290/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+08/07/2022;02:22:38;10;Sem vítima;307,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+08/07/2022;06:19:07;28;Sem vítima;39,000;BR-290/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+08/07/2022;19:00:53;211;Sem vítima;431,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+10/07/2022;03:21:17;12;Sem vítima;43,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+10/07/2022;10:08:02;63;Sem vítima;35,000;BR-101/RS;Crescente;Choque;1;1;0;0;0;0;1
+11/07/2022;22:06:55;283;Sem vítima;92,000;BR-290/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+11/07/2022;22:55:07;287;Sem vítima;395,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+12/07/2022;15:48:44;165;Sem vítima;399,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+12/07/2022;18:29:49;185;Sem vítima;60,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+13/07/2022;07:54:53;56;Sem vítima;406,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+14/07/2022;05:40:48;24;Com vítima;335,000;BR-386/RS;Decrescente;Tombamento;1;0;1;0;0;0;1
+15/07/2022;07:29:40;35;Sem vítima;60,000;BR-290/RS;Crescente;Choque;1;1;0;0;0;0;1
+15/07/2022;14:42:16;135;Sem vítima;215,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+16/07/2022;04:33:24;262;Com vítima;39,000;BR-290/RS;Crescente;Colisão traseira;1;5;1;0;0;0;1
+16/07/2022;21:14:09;416;Sem vítima;395,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+19/07/2022;08:20:34;72;Sem vítima;444,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+19/07/2022;14:12:34;163;Sem vítima;398,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+21/07/2022;09:59:53;111;Sem vítima;343,000;BR-386/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+22/07/2022;20:34:02;280;Sem vítima;12,000;BR-101/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+23/07/2022;01:03:25;6;Sem vítima;388,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+23/07/2022;21:34:10;205;Sem vítima;29,000;BR-290/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+25/07/2022;06:46:05;34;Com vítima;303,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+25/07/2022;23:38:54;285;Sem vítima;387,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+27/07/2022;02:44:35;17;Com vítima;51,000;BR-101/RS;Crescente;Tombamento;1;0;1;0;0;0;1
+28/07/2022;01:41:36;7;Com vítima;56,000;BR-290/RS;Crescente;Tombamento;1;0;1;0;0;0;1
+28/07/2022;06:42:49;27;Com vítima;26,000;BR-101/RS;Crescente;Colisão traseira;1;0;0;1;0;0;2
+28/07/2022;13:27:45;164;Sem vítima;84,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+28/07/2022;15:27:22;197;Sem vítima;288,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+28/07/2022;20:53:34;258;Com vítima;297,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+30/07/2022;00:22:59;3;Sem vítima;367,000;BR-386/RS;Crescente;Atropelamento de animal;1;1;0;0;0;0;1
+30/07/2022;19:23:17;169;Com vítima;13,000;BR-101/RS;Decrescente;Tombamento;1;0;1;0;0;0;1
+01/08/2022;11:00:20;124;Sem vítima;435,000;BR-386/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+02/08/2022;00:15:56;1;Sem vítima;414,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+02/08/2022;05:31:36;13;Sem vítima;59,000;BR-290/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+03/08/2022;08:53:00;84;Com vítima;362,000;BR-386/RS;Crescente;Tombamento;1;0;1;0;0;0;1
+03/08/2022;11:22:22;118;Sem vítima;312,000;BR-386/RS;Decrescente;Colisão traseira;2;2;0;0;0;0;1
+03/08/2022;11:45:23;124;Sem vítima;226,000;BR-386/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+03/08/2022;17:56:46;201;Sem vítima;19,000;BR-290/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+04/08/2022;18:11:02;199;Sem vítima;56,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+04/08/2022;18:57:08;217;Sem vítima;21,000;BR-101/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+05/08/2022;15:52:07;168;Sem vítima;426,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+06/08/2022;17:42:16;147;Sem vítima;329,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;6;0;0;0;0;1
+08/08/2022;04:50:36;15;Sem vítima;2,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+08/08/2022;17:19:10;154;Sem vítima;435,000;BR-386/RS;Crescente;Colisão traseira;1;2;0;0;0;0;1
+09/08/2022;04:53:41;13;Sem vítima;14,000;BR-101/RS;Decrescente;Tombamento;2;0;0;0;0;0;1
+09/08/2022;05:36:40;17;Sem vítima;41,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+09/08/2022;15:41:04;118;Sem vítima;21,000;BR-101/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+10/08/2022;09:24:23;71;Sem vítima;75,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+10/08/2022;18:23:26;218;Sem vítima;216,000;BR-386/RS;Crescente;Choque;1;1;0;0;0;0;1
+11/08/2022;21:15:28;234;Sem vítima;206,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+11/08/2022;22:34:06;244;Sem vítima;430,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+12/08/2022;14:29:55;182;Sem vítima;392,000;BR-386/RS;Decrescente;Colisão transversal;1;1;0;0;0;0;1
+12/08/2022;18:16:30;233;Sem vítima;304,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;2;2;0;0;0;0;1
+13/08/2022;10:16:07;82;Sem vítima;439,000;BR-386/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+15/08/2022;05:04:07;13;Sem vítima;24,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+15/08/2022;19:19:44;221;Com vítima;13,000;BR-101/RS;Crescente;Tombamento;1;0;0;2;0;0;2
+15/08/2022;23:19:35;265;Sem vítima;58,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+16/08/2022;18:20:04;187;Sem vítima;422,000;BR-386/RS;Decrescente;Colisão transversal;1;3;0;0;0;0;1
+17/08/2022;07:53:59;45;Sem vítima;428,000;BR-386/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+18/08/2022;04:15:41;9;Sem vítima;10,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+19/08/2022;07:34:41;35;Sem vítima;419,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+19/08/2022;14:51:47;169;Sem vítima;219,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+19/08/2022;17:57:00;207;Sem vítima;92,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+19/08/2022;21:38:59;254;Sem vítima;86,000;BR-290/RS;Crescente;Capotamento;1;2;0;0;0;0;1
+20/08/2022;00:39:59;2;Sem vítima;24,000;BR-290/RS;Decrescente;Choque;1;2;0;0;0;0;1
+20/08/2022;16:16:20;146;Com vítima;242,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+21/08/2022;01:46:07;7;Sem vítima;33,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+22/08/2022;06:13:23;17;Sem vítima;414,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+22/08/2022;10:30:04;106;Sem vítima;69,000;BR-101/RS;Crescente;Choque;2;0;0;0;0;0;1
+23/08/2022;16:50:48;206;Sem vítima;344,000;BR-386/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+24/08/2022;01:25:44;7;Com vítima;33,000;BR-101/RS;Crescente;Colisão traseira;1;1;0;0;1;0;2
+24/08/2022;07:05:54;28;Sem vítima;19,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+24/08/2022;10:57:48;127;Sem vítima;388,000;BR-386/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+25/08/2022;01:48:23;7;Sem vítima;306,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+25/08/2022;17:12:49;205;Com vítima;22,000;BR-101/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;1;0;0;0;1
+25/08/2022;21:04:42;242;Sem vítima;220,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;2;0;0;0;0;1
+26/08/2022;03:58:29;11;Sem vítima;42,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+26/08/2022;21:30:47;249;Sem vítima;392,000;BR-386/RS;Crescente;Colisão traseira;1;3;0;0;0;0;1
+28/08/2022;22:36:14;196;Sem vítima;48,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+30/08/2022;08:24:46;69;Sem vítima;343,000;BR-386/RS;Crescente;Colisão traseira;2;2;0;0;0;0;1
+31/08/2022;06:27:40;16;Sem vítima;307,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+31/08/2022;11:34:51;127;Sem vítima;19,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+31/08/2022;21:59:39;241;Sem vítima;262,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+01/09/2022;13:55:03;165;Sem vítima;89,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+01/09/2022;17:28:04;203;Sem vítima;1,000;BR-101/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+01/09/2022;22:26:50;255;Com vítima;356,000;BR-386/RS;Decrescente;Colisão traseira;1;1;0;2;0;0;2
+01/09/2022;23:04:55;259;Sem vítima;41,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+03/09/2022;15:28:57;135;Sem vítima;384,000;BR-386/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+04/09/2022;21:28:17;158;Sem vítima;271,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+04/09/2022;21:44:40;161;Com vítima;299,000;BR-386/RS;Decrescente;Colisão transversal;1;1;1;0;0;0;1
+05/09/2022;08:08:25;67;Sem vítima;86,000;BR-290/RS;Decrescente;Engavetamento;1;4;0;0;0;0;1
+05/09/2022;10:08:00;123;Sem vítima;231,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+05/09/2022;22:57:35;280;Sem vítima;15,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+06/09/2022;03:08:38;9;Sem vítima;303,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+06/09/2022;07:12:32;24;Sem vítima;417,000;BR-386/RS;Crescente;Colisão transversal;2;1;0;0;0;0;1
+06/09/2022;11:14:54;112;Sem vítima;394,300;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+06/09/2022;12:05:44;124;Sem vítima;431,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+07/09/2022;17:36:01;114;Com vítima;418,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;2;1;0;0;0;1
+08/09/2022;10:19:31;108;Com vítima;288,100;BR-386/RS;Decrescente;Tombamento;1;0;1;0;0;0;1
+08/09/2022;23:08:18;266;Sem vítima;47,000;BR-101/RS;Decrescente;Colisão lateral no mesmo sentido;1;5;0;0;0;0;1
+09/09/2022;22:33:24;251;Sem vítima;2,000;BR-101/RS;Decrescente;Tombamento;1;0;0;0;0;0;1
+10/09/2022;10:49:20;105;Sem vítima;91,000;BR-290/RS;Decrescente;Choque;1;0;0;0;0;0;1
+12/09/2022;15:00:14;186;Sem vítima;346,000;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+12/09/2022;15:53:41;194;Sem vítima;346,100;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+13/09/2022;05:43:33;14;Com vítima;307,000;BR-386/RS;Crescente;Tombamento;1;0;1;0;0;0;1
+14/09/2022;14:54:17;172;Sem vítima;48,000;BR-101/RS;Decrescente;Choque;1;1;0;0;0;0;1
+14/09/2022;16:54:33;194;Sem vítima;49,000;BR-101/RS;Crescente;Tombamento;1;0;0;0;0;0;1
+15/09/2022;14:08:47;159;Sem vítima;342,000;BR-386/RS;Decrescente;Colisão traseira;1;16;0;0;0;0;1
+15/09/2022;15:59:49;184;Sem vítima;61,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+16/09/2022;23:29:14;272;Sem vítima;12,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;2;0;0;0;0;1
+18/09/2022;17:59:21;130;Com vítima;419,000;BR-386/RS;Decrescente;Choque;1;1;1;0;0;0;1
+19/09/2022;08:03:05;65;Sem vítima;352,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+20/09/2022;20:28:37;222;Sem vítima;32,000;BR-290/RS;Crescente;Choque;1;1;0;0;0;0;1
+22/09/2022;00:06:59;2;Sem vítima;22,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+23/09/2022;19:16:30;247;Com vítima;338,000;BR-386/RS;Decrescente;Colisão traseira;1;3;1;0;0;0;1
+24/09/2022;15:25:19;149;Sem vítima;1,000;BR-101/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+24/09/2022;16:07:22;154;Sem vítima;325,000;BR-386/RS;Decrescente;Colisão transversal;1;3;0;0;0;0;1
+24/09/2022;20:16:06;209;Sem vítima;32,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+26/09/2022;16:09:54;221;Sem vítima;342,000;BR-386/RS;Crescente;Colisão transversal;1;2;0;0;0;0;1
+27/09/2022;09:07:13;117;Sem vítima;417,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+28/09/2022;18:07:10;228;Com vítima;30,000;BR-101/RS;Crescente;Colisão traseira;1;1;1;0;0;0;1
+29/09/2022;07:00:05;44;Sem vítima;19,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+29/09/2022;15:24:38;198;Sem vítima;293,000;BR-386/RS;Crescente;Colisão traseira;1;2;0;0;0;0;1
+30/09/2022;00:56:43;4;Sem vítima;356,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;5;0;0;0;0;1
+30/09/2022;01:51:17;7;Com vítima;85,000;BR-101/RS;Crescente;Colisão traseira;1;1;0;1;0;0;2
+30/09/2022;02:46:21;8;Com vítima;53,000;BR-290/RS;Decrescente;Tombamento;1;0;1;0;0;0;1
+30/09/2022;21:42:43;257;Sem vítima;67,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+03/10/2022;14:41:26;202;Com vítima;325,000;BR-386/RS;Decrescente;Colisão frontal;2;1;0;0;2;0;2
+04/10/2022;10:04:29;151;Sem vítima;426,000;BR-386/RS;Crescente;Colisão traseira;1;2;0;0;0;0;1
+05/10/2022;03:56:07;10;Sem vítima;72,000;BR-101/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+05/10/2022;04:22:28;13;Sem vítima;33,000;BR-101/RS;Crescente;Colisão traseira;1;2;0;0;0;0;1
+05/10/2022;05:09:53;14;Sem vítima;11,000;BR-101/RS;Crescente;Queda de moto;1;2;0;0;0;0;1
+05/10/2022;07:49:33;71;Sem vítima;300,000;BR-386/RS;Decrescente;Colisão traseira;1;3;0;0;0;0;1
+05/10/2022;17:15:22;232;Sem vítima;375,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+06/10/2022;19:56:14;197;Sem vítima;4,000;BR-101/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+06/10/2022;23:18:35;218;Sem vítima;308,000;BR-386/RS;Crescente;Capotamento;1;0;0;0;0;0;1
+07/10/2022;10:19:36;158;Sem vítima;309,000;BR-386/RS;Crescente;Tombamento;1;0;0;0;0;0;1
+07/10/2022;10:51:53;167;Sem vítima;348,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+07/10/2022;18:33:32;275;Sem vítima;60,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+08/10/2022;20:05:44;230;Sem vítima;249,000;BR-386/RS;Crescente;Colisão frontal;1;1;0;0;0;0;1
+09/10/2022;18:53:08;175;Sem vítima;390,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+10/10/2022;14:14:56;202;Sem vítima;35,000;BR-101/RS;Crescente;Colisão traseira;1;3;0;0;0;0;1
+10/10/2022;18:50:49;249;Sem vítima;345,000;BR-386/RS;Crescente;Colisão traseira;1;2;0;0;0;0;1
+11/10/2022;10:46:42;125;Sem vítima;33,000;BR-101/RS;Decrescente;Colisão traseira;2;0;0;0;0;0;1
+11/10/2022;11:29:50;135;Sem vítima;19,000;BR-290/RS;Decrescente;Colisão traseira;1;4;0;0;0;0;1
+11/10/2022;15:37:09;177;Sem vítima;414,000;BR-386/RS;Decrescente;Tombamento;1;0;0;0;0;0;1
+11/10/2022;15:49:59;180;Sem vítima;301,000;BR-386/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+13/10/2022;09:08:08;110;Sem vítima;277,100;BR-386/RS;Decrescente;Tombamento;1;0;0;0;0;0;1
+13/10/2022;18:18:40;216;Sem vítima;22,000;BR-101/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+13/10/2022;20:17:04;235;Sem vítima;391,000;BR-386/RS;Crescente;Capotamento;1;1;0;0;0;0;1
+16/10/2022;19:40:05;151;Sem vítima;281,500;BR-386/RS;Crescente;Colisão transversal;1;1;0;0;0;0;1
+16/10/2022;20:57:51;164;Sem vítima;339,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+17/10/2022;09:09:21;104;Sem vítima;349,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+17/10/2022;10:58:01;131;Com vítima;76,000;BR-290/RS;Crescente;Colisão transversal;1;1;0;1;0;0;2
+17/10/2022;12:10:56;151;Sem vítima;440,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+17/10/2022;12:32:36;157;Sem vítima;317,000;BR-386/RS;Crescente;Colisão traseira;1;3;0;0;0;0;1
+17/10/2022;22:35:31;275;Sem vítima;15,000;BR-101/RS;Crescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+21/10/2022;00:09:30;2;Com vítima;309,000;BR-386/RS;Crescente;Colisão frontal;1;1;0;1;0;0;2
+21/10/2022;10:41:02;146;Sem vítima;18,000;BR-101/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+21/10/2022;11:35:56;163;Sem vítima;397,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+21/10/2022;16:55:57;244;Sem vítima;88,000;BR-290/RS;Decrescente;Tombamento;1;11;0;0;0;0;1
+21/10/2022;22:15:56;329;Sem vítima;3,000;BR-101/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+24/10/2022;22:06:07;281;Sem vítima;42,000;BR-290/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+26/10/2022;16:39:21;237;Sem vítima;35,000;BR-101/RS;Decrescente;Colisão traseira;2;0;0;0;0;0;1
+27/10/2022;01:36:17;6;Sem vítima;259,000;BR-386/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+29/10/2022;01:53:53;11;Sem vítima;35,000;BR-101/RS;Crescente;Choque;1;1;0;0;0;0;1
+30/10/2022;15:54:27;136;Sem vítima;60,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+31/10/2022;05:35:23;16;Sem vítima;417,000;BR-386/RS;Decrescente;Atropelamento de animal;1;1;0;0;0;0;1
+31/10/2022;06:57:45;33;Com vítima;336,000;BR-386/RS;Decrescente;Tombamento;1;0;0;1;0;0;2
+31/10/2022;11:08:14;91;Com vítima;33,000;BR-101/RS;Crescente;Colisão lateral no mesmo sentido;1;0;1;0;0;0;1
+31/10/2022;15:55:05;133;Sem vítima;292,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+02/11/2022;19:29:37;150;Sem vítima;268,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+03/11/2022;02:01:41;3;Sem vítima;42,300;BR-290/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+03/11/2022;10:25:43;128;Com vítima;346,000;BR-386/RS;Crescente;Colisão traseira;1;2;0;1;0;0;2
+03/11/2022;10:52:23;133;Com vítima;411,000;BR-386/RS;Crescente;Colisão traseira;1;4;0;1;0;0;2
+03/11/2022;11:14:51;139;Sem vítima;271,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+04/11/2022;11:14:00;145;Sem vítima;391,000;BR-386/RS;Decrescente;Colisão transversal;1;1;0;0;0;0;1
+04/11/2022;11:39:25;151;Com vítima;375,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;1;0;0;0;1
+04/11/2022;16:46:02;229;Sem vítima;10,000;BR-290/RS;Crescente;Colisão transversal;2;1;0;0;0;0;1
+04/11/2022;21:26:59;285;Sem vítima;289,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+05/11/2022;00:24:40;2;Sem vítima;55,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+07/11/2022;03:22:05;21;Sem vítima;389,000;BR-386/RS;Decrescente;Atropelamento de pedestre;1;1;0;0;0;0;1
+07/11/2022;17:10:25;236;Sem vítima;86,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;2;3;0;0;0;0;1
+07/11/2022;19:16:18;268;Sem vítima;375,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+09/11/2022;08:12:51;61;Com vítima;439,000;BR-386/RS;Crescente;Colisão traseira;1;2;0;1;0;0;2
+10/11/2022;15:25:31;257;Sem vítima;350,000;BR-386/RS;Crescente;Choque;1;2;0;0;0;0;1
+11/11/2022;03:54:25;20;Com vítima;213,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;1;1;0;0;0;1
+12/11/2022;01:42:50;7;Com vítima;331,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+13/11/2022;00:45:17;7;Sem vítima;5,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+14/11/2022;08:01:31;50;Sem vítima;86,000;BR-290/RS;Crescente;Engavetamento;1;3;0;0;0;0;1
+15/11/2022;00:19:18;1;Com vítima;83,000;BR-101/RS;Decrescente;Tombamento;1;0;1;0;0;0;1
+15/11/2022;11:21:03;111;Com vítima;73,000;BR-290/RS;Decrescente;Colisão traseira;1;1;3;0;0;0;1
+15/11/2022;13:45:04;149;Sem vítima;247,000;BR-386/RS;Decrescente;Colisão transversal;1;6;0;0;0;0;1
+15/11/2022;19:57:14;255;Sem vítima;93,000;BR-290/RS;Decrescente;Engavetamento;1;5;0;0;0;0;1
+17/11/2022;08:50:17;116;Com vítima;239,000;BR-386/RS;Crescente;Colisão transversal;1;0;0;5;0;0;2
+17/11/2022;17:26:09;249;Com vítima;67,000;BR-101/RS;Decrescente;Choque;1;2;1;0;0;0;1
+18/11/2022;01:55:33;8;Sem vítima;30,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+18/11/2022;10:33:50;149;Sem vítima;92,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+18/11/2022;18:58:03;295;Sem vítima;22,000;BR-101/RS;Decrescente;Choque;1;1;0;0;0;0;1
+19/11/2022;11:10:08;136;Com vítima;436,000;BR-386/RS;Decrescente;Colisão transversal;1;1;0;1;0;0;2
+21/11/2022;08:47:54;117;Sem vítima;348,000;BR-386/RS;Crescente;Colisão traseira;1;3;0;0;0;0;1
+22/11/2022;07:57:32;56;Sem vítima;353,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+22/11/2022;13:25:00;120;Sem vítima;36,000;BR-290/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+23/11/2022;12:52:22;177;Sem vítima;437,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;2;0;0;0;0;0;1
+23/11/2022;16:49:07;228;Sem vítima;347,000;BR-386/RS;Crescente;Engavetamento;1;4;0;0;0;0;1
+24/11/2022;15:06:20;252;Sem vítima;305,320;BR-386/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+25/11/2022;07:46:26;78;Sem vítima;414,000;BR-386/RS;Crescente;Colisão transversal;1;1;0;0;0;0;1
+25/11/2022;17:18:41;225;Sem vítima;267,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+26/11/2022;00:10:08;1;Sem vítima;215,000;BR-386/RS;Crescente;Colisão traseira;2;8;0;0;0;0;1
+28/11/2022;11:40:28;162;Com vítima;26,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;4;0;0;2
+28/11/2022;12:25:18;164;Com vítima;325,000;BR-386/RS;Crescente;Colisão transversal;1;2;0;10;0;0;2
+28/11/2022;14:04:15;178;Sem vítima;18,000;BR-101/RS;Decrescente;Colisão traseira;1;4;0;0;0;0;1
+29/11/2022;08:16:09;115;Sem vítima;77,000;BR-290/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+30/11/2022;13:27:51;179;Com vítima;345,000;BR-386/RS;Decrescente;Engavetamento;1;3;1;0;0;0;1
+02/12/2022;03:55:06;10;Com vítima;365,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;1;0;0;0;1
+02/12/2022;04:37:59;12;Com vítima;224,000;BR-386/RS;Crescente;Colisão frontal;1;1;0;1;0;0;2
+02/12/2022;12:44:18;174;Sem vítima;296,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+03/12/2022;08:58:37;78;Sem vítima;347,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;4;0;0;0;0;1
+04/12/2022;16:55:55;146;Sem vítima;94,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+06/12/2022;04:53:35;14;Sem vítima;3,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+07/12/2022;17:38:29;243;Sem vítima;53,000;BR-290/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+07/12/2022;22:27:39;296;Sem vítima;347,000;BR-386/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+08/12/2022;00:56:30;3;Sem vítima;52,000;BR-101/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+08/12/2022;19:08:28;328;Sem vítima;85,000;BR-101/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+09/12/2022;13:51:10;197;Sem vítima;307,000;BR-386/RS;Decrescente;Choque;1;1;0;0;0;0;1
+10/12/2022;05:43:52;17;Sem vítima;35,000;BR-101/RS;Decrescente;Choque;1;1;0;0;0;0;1
+12/12/2022;00:31:50;2;Sem vítima;378,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+12/12/2022;00:57:04;4;Sem vítima;299,000;BR-386/RS;Crescente;Tombamento;1;1;0;0;0;0;1
+12/12/2022;05:27:24;24;Sem vítima;45,000;BR-290/RS;Decrescente;Choque;1;0;0;0;0;0;1
+12/12/2022;13:18:00;215;Sem vítima;77,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+12/12/2022;18:48:21;302;Sem vítima;342,000;BR-386/RS;Decrescente;Colisão traseira;2;6;0;0;0;0;1
+14/12/2022;07:13:40;66;Com vítima;290,000;BR-386/RS;Decrescente;Colisão transversal;2;2;0;2;2;0;2
+14/12/2022;18:33:07;261;Sem vítima;348,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+14/12/2022;19:38:21;268;Sem vítima;285,000;BR-386/RS;Decrescente;Colisão traseira;1;5;0;0;0;0;1
+16/12/2022;16:57:38;247;Sem vítima;89,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
+20/12/2022;07:25:26;64;Sem vítima;349,000;BR-386/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+21/12/2022;13:43:40;216;Com vítima;333,000;BR-386/RS;Crescente;Tombamento;1;0;0;0;1;0;2
+22/12/2022;06:29:34;38;Sem vítima;98,000;BR-290/RS;Decrescente;Colisão traseira;1;1;0;0;0;0;1
+22/12/2022;12:07:35;187;Sem vítima;180,000;BR-386/RS;Crescente;Colisão transversal;1;1;0;0;0;0;1
+23/12/2022;08:01:11;60;Com vítima;284,000;BR-386/RS;Decrescente;Colisão frontal;1;3;0;0;3;1;3
+23/12/2022;13:52:40;192;Sem vítima;306,000;BR-386/RS;Decrescente;Colisão traseira;1;2;0;0;0;0;1
+26/12/2022;16:16:20;280;Sem vítima;393,000;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
+26/12/2022;19:07:48;322;Sem vítima;265,000;BR-386/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+29/12/2022;03:11:15;10;Sem vítima;423,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+31/12/2022;03:34:39;32;Sem vítima;53,000;BR-290/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+31/12/2022;06:17:46;57;Sem vítima;60,000;BR-101/RS;Crescente;Colisão traseira;1;0;0;0;0;0;1
+02/01/2023;17:04:28;338;Sem vítima;60,000;BR-290/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+12/01/2023;14:56:32;237;Com vítima;78,000;BR-101/RS;Decrescente;Tombamento;1;0;0;1;0;0;2
+01/02/2023;17:42:59;227;Sem vítima;2,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+03/02/2023;02:36:07;15;Sem vítima;53,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+10/02/2023;13:21:39;184;Com vítima;7,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;1;0;0;2
+27/02/2023;15:14:26;195;Com vítima;30,000;BR-290/RS;Decrescente;Choque;1;0;0;1;0;0;2
+15/03/2023;21:19:48;294;Sem vítima;45,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+16/03/2023;03:01:34;12;Sem vítima;16,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+16/03/2023;06:58:20;41;Sem vítima;83,000;BR-101/RS;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+22/03/2023;09:21:05;121;Sem vítima;9,000;BR-448/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+31/03/2023;15:48:32;192;Com vítima;403,000;BR-386/RS;Crescente;Colisão traseira;1;0;0;0;0;0;1
+04/04/2023;22:12:07;239;Sem vítima;305,000;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+12/04/2023;19:23:47;252;Sem vítima;16,000;BR-101/RS;Decrescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+13/04/2023;21:56:37;502;Sem vítima;97,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+21/04/2023;11:19:03;90;Sem vítima;75,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
+24/04/2023;22:41:19;276;Com vítima;63,000;BR-290/RS;Decrescente;Colisão traseira;1;0;0;1;0;0;2
+28/04/2023;05:35:23;18;Com vítima;37,000;BR-290/RS;Crescente;Tombamento;1;0;1;0;0;0;1
+10/05/2023;09:13:02;114;Sem vítima;300,000;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+22/05/2023;20:56:06;242;Sem vítima;304,000;BR-386/RS;Decrescente;Tombamento;1;1;0;0;0;0;1
+21/06/2023;19:30:55;221;Sem vítima;89,000;BR-290/RS;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
+01/07/2023;06:26:22;42;Sem vítima;19,000;BR-290/RS;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+19/07/2023;21:21:35;270;Sem vítima;1,000;BR-290/RS;Decrescente;Tombamento;1;2;0;0;0;0;1
+23/07/2023;16:35:47;135;Com vítima;397,000;BR-386/RS;Crescente;Choque;1;0;1;0;0;0;1
+24/07/2023;08:08:03;84;Sem vítima;343,000;BR-386/RS;Crescente;Colisão traseira;1;1;0;0;0;0;1
+04/08/2023;11:14:51;143;Sem vítima;180,000;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
+04/08/2023;15:21:27;197;Com vítima;440,900;BR-386/RS;Crescente;Acidentes de outra natureza;1;0;0;0;0;1;3
+08/08/2023;07:49:15;72;Com vítima;220,050;BR-386/RS;Crescente;Colisão lateral no mesmo sentido;1;0;1;0;0;0;1
+17/08/2023;18:36:51;300;Sem vítima;65,000;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+04/09/2023;01:19:43;4;Sem vítima;289,070;BR-386/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1
+04/09/2023;11:12:18;124;Sem vítima;15,800;BR-290/RS;Decrescente;Acidentes de outra natureza;1;1;0;0;0;0;1

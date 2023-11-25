@@ -1,0 +1,878 @@
+data;horario;n_da_ocorrencia;tipo_de_ocorrencia;km;trecho;sentido;tipo_de_acidente;caminhao;ilesos;levemente_feridos;moderadamente_feridos;gravemente_feridos;mortos;3
+22/04/2019;01:56:28;6;Sem vítima;90;BR-290/RS;Leste;Tombamento;1;0;0;0;0;0;1
+02/05/2019;09:26:40;42;Sem vítima;92,48;BR-290/RS;Leste;Choque Defensa;1;2;0;0;0;0;1
+02/05/2019;15:05:57;84;com vítima;75;BR-290/RS;Oeste;Tombamento;1;0;0;1;0;0;2
+07/05/2019;18:28:46;93;Sem vítima;68;BR-290/RS;Leste;Capotamento;1;1;0;0;0;0;1
+08/05/2019;21:15:00;99;Sem vítima;39,37;BR-290/RS;Leste;Saída de pista;1;1;0;0;0;0;1
+10/05/2019;05:39:10;9;Sem vítima;28;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+11/05/2019;20:17:32;76;Sem vítima;41;BR-290/RS;Leste;;1;1;0;0;0;0;1
+11/05/2019;20:58:59;77;com vítima;25;BR-290/RS;Leste;Colisão - Lateral;1;2;5;1;0;0;2
+14/05/2019;10:45:20;27;Sem vítima;94;BR-290/RS;Oeste;Colisão - Traseira;2;3;0;0;0;0;1
+15/05/2019;02:47:42;3;Sem vítima;0,4;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+16/05/2019;15:24:35;99;Sem vítima;29;BR-290/RS;Oeste;;1;1;0;0;0;0;1
+16/05/2019;23:06:13;140;com vítima;1;BR-290/RS;Leste;Choque Defensa;1;0;3;0;0;0;1
+17/05/2019;15:17:00;59;Sem vítima;61,3;BR-290/RS;Oeste;Tombamento;1;1;0;0;0;0;1
+19/05/2019;13:10:26;27;Sem vítima;92,34;BR-290/RS;Oeste;;1;1;0;0;0;0;1
+21/05/2019;05:04:31;4;Sem vítima;66;BR-290/RS;Oeste;Tombamento;1;1;0;0;0;0;1
+22/05/2019;11:46:03;42;com vítima;96;BR-290/RS;Leste;Colisão - Traseira;1;1;1;0;0;0;1
+23/05/2019;18:17:34;81;com vítima;50;BR-290/RS;Oeste;Tombamento;1;0;1;0;0;0;1
+30/05/2019;03:48:51;1;Sem vítima;87;BR-290/RS;Oeste;Capotamento;1;1;0;0;0;0;1
+02/06/2019;03:22:15;12;Sem vítima;76;BR-290/RS;Oeste;Tombamento;1;2;0;0;0;0;1
+03/06/2019;07:21:28;10;Sem vítima;63;BR-290/RS;Oeste;Colisão - Lateral;2;2;0;0;0;0;1
+04/06/2019;12:26:34;53;com vítima;88;BR-290/RS;Leste;Colisão - Traseira;2;1;1;0;0;0;1
+05/06/2019;18:50:18;83;Sem vítima;96;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+06/06/2019;03:56:47;4;Sem vítima;62,17;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+10/06/2019;21:21:26;119;Sem vítima;41;BR-290/RS;Oeste;Tombamento;1;1;0;0;0;0;1
+17/06/2019;15:28:04;96;Sem vítima;92;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+26/06/2019;08:04:57;70;Sem vítima;95;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+27/06/2019;06:42:04;40;Sem vítima;69,3;BR-290/RS;Oeste;Atropelamento de Animal;4;5;0;0;0;0;1
+28/06/2019;02:45:16;31;Sem vítima;62;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+28/06/2019;23:40:42;153;com vítima;36;BR-290/RS;Leste;Tombamento;1;0;1;0;0;0;1
+29/06/2019;01:01:49;4;Sem vítima;36;BR-290/RS;Oeste;Queda de ribanceira;1;3;0;0;0;0;1
+02/08/2019;18:57:50;135;Sem vítima;87;BR-290/RS;Leste;Colisão - Traseira;1;1;0;0;0;0;1
+04/08/2019;04:35:35;5;Sem vítima;25;BR-290/RS;Oeste;Atropelamento de Animal;1;2;0;0;0;0;1
+06/08/2019;23:40:03;178;com vítima;74;BR-290/RS;Leste;Atropelamento de Animal;2;0;0;1;0;0;2
+09/08/2019;08:32:39;94;Sem vítima;95;BR-290/RS;Oeste;Colisão - Traseira;1;4;0;0;0;0;1
+09/08/2019;19:51:59;188;Sem vítima;93;BR-290/RS;Oeste;Colisão - Lateral;1;7;0;0;0;0;1
+10/08/2019;11:14:46;106;Sem vítima;92;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+11/08/2019;19:53:34;91;Sem vítima;72;BR-290/RS;Leste;Outros;1;1;0;0;0;0;1
+12/08/2019;08:57:09;74;Sem vítima;79;BR-290/RS;Leste;;2;1;0;0;0;0;1
+12/08/2019;14:42:44;157;Sem vítima;76,08;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+12/08/2019;17:10:50;191;Sem vítima;94,07;BR-290/RS;Oeste;Choque Defensa;1;1;0;0;0;0;1
+12/08/2019;21:31:39;239;Sem vítima;400;BR-386/RS;Sul;Choque Talude;2;3;0;0;0;0;1
+15/08/2019;13:46:01;79;Sem vítima;82;BR-101/RS;Ambos;Colisão - Lateral;1;1;0;0;0;0;1
+16/08/2019;09:18:10;62;Sem vítima;19;BR-290/RS;Oeste;;1;2;0;0;0;0;1
+16/08/2019;17:08:47;189;com vítima;92;BR-290/RS;Leste;Colisão - Traseira;2;1;1;0;0;0;1
+18/08/2019;04:46:41;39;Sem vítima;48;BR-101/RS;Sul;Choque Defensa;1;1;0;0;0;0;1
+19/08/2019;03:38:57;14;com vítima;52;BR-290/RS;Oeste;Colisão - Traseira;2;0;0;1;0;0;2
+19/08/2019;19:21:48;130;com vítima;242;BR-386/RS;Norte;Colisão - Lateral;1;0;2;0;0;0;1
+21/08/2019;10:27:30;78;Sem vítima;325;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+21/08/2019;18:50:00;196;Sem vítima;94;BR-290/RS;Leste;Colisão - Traseira;2;2;0;0;0;0;1
+01/07/2019;02:35:06;11;Sem vítima;63;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+01/07/2019;16:02:02;103;Sem vítima;92,27;BR-290/RS;Leste;Colisão - Traseira;1;3;0;0;0;0;1
+03/07/2019;06:46:33;48;Sem vítima;68;BR-290/RS;Oeste;Choque com veículo na faixa de rolamento;2;2;0;0;0;0;1
+05/07/2019;03:35:21;44;Sem vítima;23,38;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+05/07/2019;21:17:40;187;Sem vítima;45,11;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+05/07/2019;23:59:27;1;Sem vítima;5,5;BR-290/RS;Leste;Tombamento;1;1;0;0;0;0;1
+09/07/2019;13:24:47;132;com vítima;79;BR-290/RS;Oeste;Colisão - Traseira;1;1;0;0;1;0;2
+09/07/2019;12:00:45;111;Sem vítima;47;BR-290/RS;Leste;Colisão - Traseira;2;2;0;0;0;0;1
+10/07/2019;06:18:01;73;Sem vítima;75;BR-290/RS;Leste;Tombamento;1;1;0;0;0;0;1
+10/07/2019;12:11:37;116;Sem vítima;98;BR-290/RS;Leste;Colisão - Traseira;1;3;0;0;0;0;1
+13/07/2019;02:10:59;28;Sem vítima;10;BR-290/RS;Leste;Choque Defensa;2;1;0;0;0;0;1
+16/07/2019;22:11:55;138;Sem vítima;19;BR-290/RS;Leste;Colisão - Traseira;1;2;0;0;0;0;1
+18/07/2019;09:05:19;103;Sem vítima;75;BR-290/RS;Leste;Colisão - Lateral;1;1;0;0;0;0;1
+20/07/2019;23:21:44;155;Sem vítima;50;BR-290/RS;Oeste;Queda de ribanceira;2;1;0;0;0;0;1
+23/07/2019;10:57:29;117;Sem vítima;92;BR-290/RS;Oeste;Choque Defensa;1;1;0;0;0;0;1
+23/07/2019;19:19:55;178;Sem vítima;52;BR-290/RS;Oeste;Choque com objeto sobre a pista;2;1;0;0;0;0;1
+24/07/2019;12:23:53;115;Sem vítima;98;BR-290/RS;Leste;Tombamento;1;1;0;0;0;0;1
+30/07/2019;14:50:43;134;com vítima;94;BR-290/RS;Leste;Tombamento;1;0;1;0;0;0;1
+30/07/2019;02:24:55;47;Sem vítima;26;BR-290/RS;Leste;Colisão - Traseira;2;2;0;0;0;0;1
+01/09/2019;18:24:52;131;Sem vítima;92;BR-290/RS;Leste;Colisão - Lateral;1;1;0;0;0;0;1
+02/09/2019;18:06:52;153;com vítima;10;BR-448/RS;Sul;Colisão - Lateral;1;0;1;0;0;0;1
+04/09/2019;08:11:31;38;Sem vítima;7,18;BR-448/RS;Norte;Colisão - Traseira;1;4;0;0;0;0;1
+04/09/2019;10:13:51;87;com vítima;30;BR-290/RS;Oeste;Engavetamento;1;2;2;0;0;0;1
+04/09/2019;20:28:59;193;Sem vítima;85;BR-101/RS;Norte;Tombamento;1;1;0;0;0;0;1
+05/09/2019;16:25:32;154;Sem vítima;235;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+06/09/2019;00:23:13;3;com vítima;423;BR-386/RS;Norte;Atropelamento - Morador/Trabalhador/Estudante;1;0;0;0;1;0;2
+06/09/2019;15:11:42;117;com vítima;332;BR-386/RS;Norte;Colisão - Frontal;1;3;2;0;0;1;3
+06/09/2019;17:02:53;138;Sem vítima;361;BR-386/RS;Sul;Colisão - Frontal;1;34;0;0;0;0;1
+06/09/2019;19:15:07;158;Sem vítima;74;BR-290/RS;Leste;Colisão - Traseira;1;4;0;0;0;0;1
+08/09/2019;10:24:58;45;com vítima;310;BR-386/RS;Norte;Colisão - Lateral;1;1;1;0;0;0;1
+09/09/2019;08:18:22;35;Sem vítima;442;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+10/09/2019;08:04:51;36;Sem vítima;45;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+10/09/2019;23:15:54;199;Sem vítima;63;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+11/09/2019;06:03:36;21;Sem vítima;404;BR-386/RS;Sul;Tombamento;1;1;0;0;0;0;1
+11/09/2019;10:46:40;66;Sem vítima;436;BR-386/RS;Sul;Colisão - Transversal;2;2;0;0;0;0;1
+12/09/2019;07:06:28;18;Sem vítima;307;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+12/09/2019;08:26:31;36;Sem vítima;221;BR-386/RS;Sul;Colisão - Traseira;1;6;0;0;0;0;1
+13/09/2019;06:18:04;14;com vítima;349;BR-386/RS;Norte;Colisão - Traseira;1;0;0;0;1;0;2
+13/09/2019;13:46:27;131;Sem vítima;347;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+15/09/2019;16:41:45;132;com vítima;292;BR-386/RS;Norte;Atropelamento - Usuário;1;1;0;0;1;0;2
+15/09/2019;20:08:14;167;com vítima;24;BR-101/RS;Norte;Queda de moto;1;0;1;0;0;0;1
+17/09/2019;00:30:21;2;com vítima;64;BR-290/RS;Oeste;Tombamento;1;0;2;0;0;0;1
+17/09/2019;13:57:28;78;Sem vítima;92;BR-290/RS;Oeste;Colisão - Traseira;2;2;0;0;0;0;1
+17/09/2019;17:48:02;105;Sem vítima;222;BR-386/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+17/09/2019;20:29:41;124;Sem vítima;96;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+18/09/2019;07:32:34;31;Sem vítima;39;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+18/09/2019;21:27:29;185;Sem vítima;32;BR-290/RS;Oeste;Queda de ribanceira;2;1;0;0;0;0;1
+18/09/2019;23:17:31;195;com vítima;362,07;BR-386/RS;Norte;Tombamento;1;0;1;0;0;0;1
+19/09/2019;15:42:51;134;Sem vítima;91;BR-290/RS;Leste;Capotamento;1;1;0;0;0;0;1
+19/09/2019;16:54:41;156;Sem vítima;261;BR-386/RS;Norte;Saída de pista;1;1;0;0;0;0;1
+21/09/2019;03:44:11;15;Sem vítima;69;BR-101/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+22/09/2019;14:42:23;120;Sem vítima;393;BR-386/RS;Sul;Colisão - Traseira;1;1;0;0;0;0;1
+22/09/2019;19:46:16;199;Sem vítima;24;BR-101/RS;Sul;Engavetamento;1;8;0;0;0;0;1
+23/09/2019;02:47:55;10;com vítima;76;BR-290/RS;Oeste;Colisão - Traseira;1;4;1;0;0;0;1
+23/09/2019;09:46:32;78;com vítima;34;BR-101/RS;Norte;Atropelamento - Morador/Trabalhador/Estudante;1;0;0;0;1;0;2
+26/09/2019;14:57:18;124;Sem vítima;352;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+27/09/2019;11:49:21;109;com vítima;69;BR-290/RS;Oeste;Capotamento;1;0;1;0;0;0;1
+27/09/2019;19:12:17;189;Sem vítima;240;BR-386/RS;Sul;Colisão - Traseira;1;11;0;0;0;0;1
+28/09/2019;15:47:48;154;com vítima;20;BR-101/RS;Norte;Colisão - Traseira;1;2;1;0;0;0;1
+30/09/2019;19:45:33;216;Sem vítima;285;BR-386/RS;Sul;Engavetamento;3;5;0;0;0;0;1
+01/10/2019;15:38:37;156;Sem vítima;440;BR-386/RS;Sul;Colisão - Lateral;1;1;0;0;0;0;1
+01/10/2019;21:33:10;227;Sem vítima;91;BR-290/RS;Leste;Colisão - Transversal;1;2;0;0;0;0;1
+01/10/2019;22:36:49;235;com vítima;33;BR-101/RS;Norte;Colisão - Traseira;2;1;1;0;0;0;1
+02/10/2019;05:44:10;10;com vítima;273;BR-386/RS;Norte;Tombamento;-1;0;0;1;0;0;2
+02/10/2019;16:12:27;119;Sem vítima;361;BR-386/RS;Ambos;Queda de ribanceira;1;1;0;0;0;0;1
+03/10/2019;14:42:33;108;Sem vítima;417;BR-386/RS;Norte;Colisão - Lateral;1;1;0;0;0;0;1
+03/10/2019;16:58:57;127;com vítima;80;BR-101/RS;Sul;Tombamento;-1;0;0;1;0;0;2
+04/10/2019;00:12:34;1;Sem vítima;204;BR-386/RS;Norte;Queda de ribanceira;2;1;0;0;0;0;1
+04/10/2019;05:52:08;12;Sem vítima;397;BR-386/RS;Sul;Colisão - Lateral;-1;2;0;0;0;0;1
+04/10/2019;10:51:10;78;Sem vítima;361;BR-386/RS;Norte;Colisão - Lateral;-1;5;0;0;0;0;1
+04/10/2019;15:18:48;121;Sem vítima;408;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+04/10/2019;15:23:12;123;Sem vítima;307;BR-386/RS;Sul;Tombamento;1;1;0;0;0;0;1
+04/10/2019;17:01:15;145;Sem vítima;95,14;BR-290/RS;Leste;Colisão - Lateral;2;2;0;0;0;0;1
+05/10/2019;09:42:47;48;com vítima;99,16;BR-290/RS;Oeste;Tombamento;1;1;1;0;0;0;1
+05/10/2019;16:39:03;113;Sem vítima;435;BR-386/RS;Sul;Queda de ribanceira;1;2;0;0;0;0;1
+06/10/2019;11:12:45;48;com vítima;411;BR-386/RS;Norte;Colisão - Traseira;1;0;1;0;1;0;2
+07/10/2019;09:08:44;68;Sem vítima;20;BR-448/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+07/10/2019;13:11:00;120;com vítima;75;BR-290/RS;Oeste;Atropelamento - Andarilho;1;1;1;0;0;0;1
+07/10/2019;19:40:38;197;Sem vítima;328;BR-386/RS;Norte;Colisão - Traseira;-1;2;0;0;0;0;1
+09/10/2019;19:23:24;211;Sem vítima;249,5;BR-386/RS;Sul;Engavetamento;-2;3;0;0;0;0;1
+10/10/2019;02:11:31;8;Sem vítima;424;BR-386/RS;Norte;Tombamento;-1;2;0;0;0;0;1
+10/10/2019;14:43:05;154;Sem vítima;94;BR-290/RS;Oeste;Colisão - Traseira;-1;2;0;0;0;0;1
+11/10/2019;14:24:32;160;Sem vítima;77;BR-101/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+11/10/2019;17:11:30;228;Sem vítima;372;BR-386/RS;Ambos;;1;2;0;0;0;0;1
+12/10/2019;02:41:35;24;Sem vítima;56;BR-290/RS;Leste;Tombamento;-1;1;0;0;0;0;1
+12/10/2019;19:42:05;280;Sem vítima;57;BR-290/RS;Oeste;Tombamento;1;1;0;0;0;0;1
+12/10/2019;23:10:10;305;com vítima;2;BR-290/RS;Leste;;-1;1;17;2;0;0;2
+14/10/2019;02:50:39;17;Sem vítima;305;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+14/10/2019;11:47:11;93;Sem vítima;38;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+14/10/2019;15:19:00;134;Sem vítima;247;BR-386/RS;Sul;Tombamento;-1;1;0;0;0;0;1
+15/10/2019;14:03:30;112;Sem vítima;22;BR-101/RS;Sul;Colisão - Traseira;-1;2;0;0;0;0;1
+16/10/2019;01:13:48;4;Sem vítima;44;BR-290/RS;Oeste;Queda de ribanceira;-1;1;0;0;0;0;1
+16/10/2019;02:21:36;7;Sem vítima;70;BR-290/RS;Oeste;Queda de ribanceira;1;2;0;0;0;0;1
+16/10/2019;03:53:10;10;com vítima;7;BR-101/RS;Norte;Atropelamento - Usuário;-1;0;1;0;0;1;3
+16/10/2019;08:12:35;39;Sem vítima;344;BR-386/RS;Sul;Colisão - Traseira;3;4;0;0;0;0;1
+16/10/2019;17:03:50;122;Sem vítima;33;BR-101/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+17/10/2019;08:06:29;53;Sem vítima;19,4;BR-290/RS;Leste;Colisão - Lateral;-1;3;0;0;0;0;1
+17/10/2019;08:46:58;60;Sem vítima;94;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+17/10/2019;09:33:20;72;Sem vítima;77;BR-290/RS;Leste;Colisão - Traseira;1;2;0;0;0;0;1
+18/10/2019;19:24:45;199;Sem vítima;404;BR-386/RS;Norte;Colisão - Traseira;1;6;0;0;0;0;1
+21/10/2019;16:40:11;135;Sem vítima;16;BR-290/RS;Oeste;Queda de ribanceira;-1;3;0;0;0;0;1
+22/10/2019;03:35:31;10;Sem vítima;426;BR-386/RS;Norte;Atropelamento de Animal;2;2;0;0;0;0;1
+23/10/2019;08:48:20;75;Sem vítima;76;BR-101/RS;Norte;Queda de ribanceira;1;3;0;0;0;0;1
+23/10/2019;11:22:12;115;Sem vítima;295;BR-386/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+24/10/2019;08:10:15;47;Sem vítima;391;BR-386/RS;Sul;Queda de ribanceira;-1;2;0;0;0;0;1
+24/10/2019;13:45:45;115;Sem vítima;21;BR-448/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+24/10/2019;22:13:12;179;Sem vítima;50;BR-101/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+25/10/2019;16:23:51;153;Sem vítima;426;BR-386/RS;Norte;Colisão - Lateral;-1;3;0;0;0;0;1
+25/10/2019;16:54:04;161;Sem vítima;58;BR-290/RS;Leste;Colisão - Traseira;-1;2;0;0;0;0;1
+26/10/2019;01:22:11;5;Sem vítima;36;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+26/10/2019;06:08:26;26;com vítima;247;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;1;0;2
+26/10/2019;12:16:53;121;Sem vítima;98;BR-290/RS;Leste;Colisão - Traseira;1;4;0;0;0;0;1
+27/10/2019;03:11:58;14;com vítima;39;BR-290/RS;Oeste;Tombamento;1;1;1;1;0;0;2
+27/10/2019;14:55:42;75;Sem vítima;83;BR-101/RS;Sul;Queda de ribanceira;1;3;0;0;0;0;1
+29/10/2019;05:01:57;14;com vítima;17;BR-290/RS;Leste;Queda de ribanceira;1;0;2;0;0;0;1
+29/10/2019;05:33:42;15;com vítima;90;BR-290/RS;Leste;Queda de ribanceira;-1;0;1;0;0;0;1
+29/10/2019;09:33:11;82;Sem vítima;96;BR-290/RS;Oeste;Colisão - Lateral;-1;2;0;0;0;0;1
+30/10/2019;05:05:05;10;com vítima;82;BR-290/RS;Leste;Colisão - Traseira;1;1;0;0;1;1;3
+31/10/2019;04:47:42;9;Sem vítima;75;BR-101/RS;Norte;;1;1;0;0;0;0;1
+31/10/2019;05:12:49;12;Sem vítima;68;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+31/10/2019;11:33:50;88;Sem vítima;297;BR-386/RS;Norte;Colisão - Lateral;2;2;0;0;0;0;1
+31/10/2019;19:00:23;155;Sem vítima;77;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+01/11/2019;07:10:17;22;Sem vítima;305;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+01/11/2019;20:17:21;199;Sem vítima;232;BR-386/RS;Sul;Colisão - Lateral;1;4;0;0;0;0;1
+02/11/2019;07:24:13;43;Sem vítima;429;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+04/11/2019;17:37:23;145;Sem vítima;94;BR-290/RS;Leste;Colisão - Traseira;1;2;0;0;0;0;1
+04/11/2019;21:53:46;173;Sem vítima;5;BR-290/RS;Oeste;Outros;1;2;0;0;0;0;1
+05/11/2019;02:16:41;179;Sem vítima;41;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+05/11/2019;12:20:39;286;Sem vítima;309;BR-386/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+05/11/2019;17:01:40;329;Sem vítima;40;BR-101/RS;Sul;Tombamento;1;1;0;0;0;0;1
+05/11/2019;17:36:41;331;Sem vítima;438;BR-386/RS;Ambos;Choque - Meio Fio;1;3;0;0;0;0;1
+05/11/2019;21:51:43;357;Sem vítima;32;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+06/11/2019;05:10:07;17;com vítima;407;BR-386/RS;Sul;Colisão - Traseira;3;0;0;2;1;0;2
+06/11/2019;14:46:29;141;Sem vítima;435;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+06/11/2019;17:43:41;177;Sem vítima;55;BR-101/RS;Ambos;Queda de ribanceira;1;2;0;0;0;0;1
+07/11/2019;05:55:43;20;com vítima;12;BR-290/RS;Oeste;Queda de ribanceira;1;1;1;0;0;0;1
+07/11/2019;07:46:19;37;Sem vítima;347;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+08/11/2019;05:56:41;33;com vítima;430;BR-386/RS;Norte;Colisão - Frontal;1;5;0;0;1;0;2
+08/11/2019;06:13:54;36;com vítima;23;BR-101/RS;Sul;Colisão - Lateral;1;0;3;0;0;0;1
+08/11/2019;11:31:56;129;Sem vítima;22;BR-290/RS;Leste;Colisão - Traseira;1;4;0;0;0;0;1
+08/11/2019;12:17:44;137;com vítima;346;BR-386/RS;Norte;Colisão - Traseira;1;3;1;0;0;0;1
+08/11/2019;20:44:29;242;com vítima;21;BR-101/RS;Sul;Colisão - Traseira;1;5;1;0;0;0;1
+09/11/2019;01:33:22;9;Sem vítima;40;BR-290/RS;Leste;Choque com veículo na faixa de rolamento;2;1;0;0;0;0;1
+09/11/2019;05:20:38;26;Sem vítima;244;BR-386/RS;Sul;Colisão - Traseira;2;2;0;0;0;0;1
+09/11/2019;13:17:45;137;Sem vítima;22;BR-290/RS;Leste;Saída de pista;1;1;0;0;0;0;1
+10/11/2019;07:43:33;40;Sem vítima;91,24;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+11/11/2019;06:48:19;37;com vítima;21;BR-290/RS;Leste;Colisão - Traseira;1;0;0;1;0;0;2
+11/11/2019;10:39:08;117;Sem vítima;55;BR-101/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+11/11/2019;15:31:40;191;Sem vítima;305;BR-386/RS;Norte;Tombamento;2;1;0;0;0;0;1
+11/11/2019;16:56:27;204;Sem vítima;410;BR-386/RS;Sul;Outros;1;1;0;0;0;0;1
+13/11/2019;08:41:14;68;Sem vítima;95,24;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+13/11/2019;14:15:56;161;Sem vítima;349;BR-386/RS;Sul;Colisão - Traseira;2;3;0;0;0;0;1
+14/11/2019;07:24:31;25;com vítima;437;BR-386/RS;Sul;Colisão - Frontal;1;1;0;2;0;0;2
+14/11/2019;07:32:51;28;Sem vítima;11;BR-290/RS;Leste;Colisão - Traseira;2;5;0;0;0;0;1
+14/11/2019;07:46:36;34;Sem vítima;96;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+17/11/2019;12:03:26;83;Sem vítima;199;BR-386/RS;Norte;Colisão - Traseira;1;4;0;0;0;0;1
+17/11/2019;15:10:42;145;Sem vítima;85;BR-101/RS;Sul;Colisão - Lateral;1;4;0;0;0;0;1
+18/11/2019;06:02:50;22;Sem vítima;92;BR-290/RS;Leste;Colisão - Traseira;1;4;0;0;0;0;1
+18/11/2019;07:47:17;43;Sem vítima;376;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+18/11/2019;09:13:43;81;Sem vítima;19;BR-290/RS;Leste;Colisão - Traseira;1;3;0;0;0;0;1
+18/11/2019;20:32:38;227;Sem vítima;306;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+19/11/2019;01:33:59;9;Sem vítima;26;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+19/11/2019;16:00:55;159;Sem vítima;428;BR-386/RS;Sul;Colisão - Traseira;1;5;0;0;0;0;1
+19/11/2019;21:05:59;207;Sem vítima;16;BR-448/RS;Sul;Colisão - Lateral;2;3;0;0;0;0;1
+19/11/2019;22:35:15;218;com vítima;280;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;1;3
+21/11/2019;10:38:30;96;Sem vítima;15;BR-448/RS;Sul;;1;1;0;0;0;0;1
+21/11/2019;15:02:34;151;Sem vítima;90;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+22/11/2019;00:15:28;3;Sem vítima;48;BR-290/RS;Oeste;Atropelamento de Animal;1;1;0;0;0;0;1
+22/11/2019;07:02:59;28;com vítima;58;BR-290/RS;Oeste;Colisão - Traseira;1;2;1;0;0;0;1
+22/11/2019;15:03:53;161;Sem vítima;316,01;BR-386/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+25/11/2019;12:39:44;128;Sem vítima;415;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+25/11/2019;16:13:27;166;Sem vítima;19;BR-101/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+26/11/2019;15:37:00;129;com vítima;94;BR-290/RS;Leste;Colisão - Lateral;1;3;0;2;0;0;2
+26/11/2019;16:57:20;141;Sem vítima;14;BR-101/RS;Norte;Tombamento;1;1;0;0;0;0;1
+26/11/2019;18:06:33;152;com vítima;21,04;BR-448/RS;Norte;Choque Barreira;1;0;0;1;0;0;2
+27/11/2019;00:03:28;1;Sem vítima;35;BR-101/RS;Sul;Tombamento;1;1;0;0;0;0;1
+27/11/2019;09:49:47;76;Sem vítima;410;BR-386/RS;Norte;Colisão - Traseira;2;3;0;0;0;0;1
+27/11/2019;10:39:16;81;Sem vítima;13;BR-448/RS;Sul;Colisão - Traseira;2;2;0;0;0;0;1
+28/11/2019;07:32:54;47;com vítima;308;BR-386/RS;Sul;Colisão - Traseira;2;1;0;0;0;1;3
+30/11/2019;15:30:36;165;com vítima;28;BR-290/RS;Oeste;Queda de moto;1;0;1;0;0;1;3
+01/12/2019;22:28:30;215;Sem vítima;303;BR-386/RS;Norte;Outros;1;1;0;0;0;0;1
+02/12/2019;08:01:37;50;com vítima;7;BR-101/RS;Sul;Colisão - Traseira;1;1;0;0;1;0;2
+02/12/2019;17:49:54;172;Sem vítima;388;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+03/12/2019;17:24:46;161;Sem vítima;97;BR-290/RS;Leste;Colisão - Traseira;1;2;0;0;0;0;1
+03/12/2019;18:21:50;174;Sem vítima;430;BR-386/RS;Sul;Colisão - Traseira;2;2;0;0;0;0;1
+03/12/2019;23:20:14;206;com vítima;97;BR-290/RS;Leste;Atropelamento - Usuário;1;0;0;0;1;0;2
+04/12/2019;14:55:05;181;com vítima;260;BR-386/RS;Sul;Atropelamento - Morador/Trabalhador/Estudante;1;0;0;1;0;0;2
+05/12/2019;12:20:09;142;Sem vítima;33;BR-101/RS;Ambos;Choque Praça - Cabine;1;1;0;0;0;0;1
+06/12/2019;07:23:05;40;com vítima;440;BR-386/RS;Sul;Colisão - Traseira;1;2;1;0;0;0;1
+06/12/2019;17:35:41;220;Sem vítima;89;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+06/12/2019;21:31:34;288;Sem vítima;94;BR-290/RS;Oeste;Choque Barreira;1;5;0;0;0;0;1
+06/12/2019;22:24:51;296;com vítima;27;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;1;1;0;2
+06/12/2019;22:50:42;301;Sem vítima;182;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+07/12/2019;15:25:35;442;com vítima;88;BR-290/RS;Leste;Queda de moto;1;0;1;0;0;0;1
+08/12/2019;01:25:00;17;com vítima;70;BR-290/RS;Oeste;Tombamento;1;0;0;1;0;0;2
+08/12/2019;22:50:36;230;Sem vítima;271;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+10/12/2019;08:13:26;63;Sem vítima;253;BR-386/RS;Norte;Colisão - Traseira;1;4;0;0;0;0;1
+10/12/2019;11:18:44;134;Sem vítima;402;BR-386/RS;Sul;;1;1;0;0;0;0;1
+11/12/2019;01:47:58;4;Sem vítima;44;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+11/12/2019;07:44:28;8;Sem vítima;95,8;BR-290/RS;Oeste;Colisão - Traseira;1;3;0;0;0;0;1
+11/12/2019;10:47:46;46;Sem vítima;36;BR-101/RS;Sul;Saída de pista;1;2;0;0;0;0;1
+12/12/2019;12:15:06;112;Sem vítima;19,23;BR-290/RS;Leste;Colisão - Traseira;1;40;0;0;0;0;1
+13/12/2019;10:41:54;102;Sem vítima;262;BR-386/RS;Sul;Colisão - Traseira;1;5;0;0;0;0;1
+13/12/2019;17:19:42;190;com vítima;86;BR-101/RS;Sul;Choque Barreira;2;2;1;0;0;0;1
+13/12/2019;18:39:52;207;Sem vítima;346;BR-386/RS;Sul;Colisão - Traseira;1;1;0;0;0;0;1
+13/12/2019;18:49:56;208;Sem vítima;86;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+14/12/2019;21:29:35;204;com vítima;65;BR-290/RS;Leste;Queda de ribanceira;1;3;0;1;0;0;2
+15/12/2019;10:39:43;81;Sem vítima;35;BR-101/RS;Sul;Choque Praça - Cabine;1;1;0;0;0;0;1
+16/12/2019;17:54:58;210;Sem vítima;392;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+16/12/2019;18:03:19;215;Sem vítima;390;BR-386/RS;Sul;Colisão - Lateral;1;4;0;0;0;0;1
+17/12/2019;16:32:48;170;Sem vítima;342;BR-386/RS;Norte;Choque - Poste;1;2;0;0;0;0;1
+18/12/2019;06:31:50;22;Sem vítima;86;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+19/12/2019;21:50:53;222;com vítima;406;BR-386/RS;Norte;Colisão - Traseira;1;2;1;0;0;0;1
+20/12/2019;06:12:18;24;Sem vítima;54;BR-290/RS;Oeste;Colisão - Traseira;1;3;0;0;0;0;1
+21/12/2019;10:21:37;131;com vítima;249;BR-386/RS;Sul;Colisão - Traseira;1;1;0;0;1;0;2
+21/12/2019;15:10:22;204;Sem vítima;35;BR-101/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+23/12/2019;06:45:46;41;com vítima;269;BR-386/RS;Sul;Colisão - Frontal;1;1;0;1;0;0;2
+27/12/2019;08:26:44;83;Sem vítima;52;BR-101/RS;Norte;Tombamento;1;1;0;0;0;0;1
+27/12/2019;12:56:55;189;com vítima;296;BR-386/RS;Sul;Tombamento;1;0;1;0;0;0;1
+29/12/2019;03:01:50;15;com vítima;227;BR-386/RS;Sul;Colisão - Frontal;1;0;2;1;0;1;3
+29/12/2019;20:19:58;307;Sem vítima;87;BR-101/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+30/12/2019;11:00:44;130;Sem vítima;46;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+30/12/2019;13:16:18;173;Sem vítima;226;BR-386/RS;Norte;Colisão - Traseira;1;4;0;0;0;0;1
+02/01/2020;12:12:42;166;com vítima;374;BR-386/RS;Sul;Colisão - Traseira;1;1;0;1;0;0;2
+03/01/2020;05:28:15;22;com vítima;423;BR-386/RS;Norte;Saída de pista;1;0;1;0;0;0;1
+03/01/2020;15:16:33;176;Sem vítima;3;BR-101/RS;Norte;Colisão - Lateral;1;6;0;0;0;0;1
+03/01/2020;16:21:00;193;Sem vítima;33;BR-101/RS;Norte;Choque Praça - Cabine;1;2;0;0;0;0;1
+06/01/2020;20:33:04;274;Sem vítima;7;BR-101/RS;Sul;Queda de ribanceira;1;2;0;0;0;0;1
+06/01/2020;20:57:41;277;Sem vítima;44;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+06/01/2020;23:25:49;290;Sem vítima;77;BR-290/RS;Leste;Colisão - Traseira;1;2;0;0;0;0;1
+08/01/2020;01:37:43;6;Sem vítima;11;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+08/01/2020;13:03:32;128;Sem vítima;350;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+08/01/2020;17:53:40;197;com vítima;363;BR-386/RS;Sul;Capotamento;1;0;1;0;2;0;2
+09/01/2020;09:58:39;92;Sem vítima;424;BR-386/RS;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+09/01/2020;14:04:10;162;com vítima;368;BR-386/RS;Norte;Tombamento;1;0;1;0;0;0;1
+10/01/2020;08:42:27;73;Sem vítima;57,53;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+10/01/2020;20:25:58;243;Sem vítima;257;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+11/01/2020;09:54:19;85;Sem vítima;22;BR-101/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+11/01/2020;23:59:41;1;com vítima;24;BR-290/RS;Leste;Queda de ribanceira;1;3;6;4;1;0;2
+13/01/2020;14:43:04;192;Sem vítima;413;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+14/01/2020;07:24:46;30;Sem vítima;22;BR-448/RS;Sul;Choque Barreira;1;1;0;0;0;0;1
+14/01/2020;17:52:04;202;Sem vítima;180;BR-386/RS;Sul;Tombamento;1;1;0;0;0;0;1
+16/01/2020;16:17:48;174;Sem vítima;35;BR-101/RS;Norte;Choque Praça - Cabine;1;1;0;0;0;0;1
+16/01/2020;17:02:17;179;Sem vítima;53;BR-290/RS;Leste;Colisão - Traseira;1;2;0;0;0;0;1
+17/01/2020;17:40:21;205;Sem vítima;53;BR-290/RS;Oeste;Colisão - Traseira;1;3;0;0;0;0;1
+17/01/2020;17:48:55;206;Sem vítima;344;BR-386/RS;Sul;Engavetamento;1;9;0;0;0;0;1
+18/01/2020;12:14:47;132;Sem vítima;310;BR-386/RS;Norte;Engavetamento;1;5;0;0;0;0;1
+18/01/2020;17:22:55;193;Sem vítima;20;BR-101/RS;Norte;Colisão - Traseira;1;3;0;0;0;0;1
+20/01/2020;11:16:30;131;Sem vítima;1;BR-290/RS;Oeste;;1;2;0;0;0;0;1
+20/01/2020;12:30:52;149;com vítima;335;BR-386/RS;Ambos;Colisão - Lateral;1;1;2;0;0;0;1
+20/01/2020;18:17:16;225;com vítima;417;BR-386/RS;Norte;Capotamento;1;0;1;0;0;0;1
+20/01/2020;23:24:14;272;com vítima;282;BR-386/RS;Sul;Colisão - Lateral;1;2;1;0;0;0;1
+21/01/2020;12:22:20;128;Sem vítima;392;BR-386/RS;Norte;Colisão - Lateral;2;2;0;0;0;0;1
+22/01/2020;17:27:12;175;Sem vítima;92;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+24/01/2020;00:10:57;5;com vítima;54;BR-290/RS;Leste;Capotamento;1;0;0;1;0;0;2
+25/01/2020;23:16:17;238;Sem vítima;80;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+28/01/2020;12:51:44;137;Sem vítima;92;BR-290/RS;Leste;Engavetamento;2;10;0;0;0;0;1
+28/01/2020;23:23:01;246;Sem vítima;240;BR-386/RS;Norte;Atropelamento de Animal;1;1;0;0;0;0;1
+29/01/2020;11:42:02;136;com vítima;22;BR-448/RS;Sul;Engavetamento;1;9;1;3;0;0;2
+29/01/2020;12:10:31;143;Sem vítima;425;BR-386/RS;Norte;Colisão - Lateral;1;4;0;0;0;0;1
+30/01/2020;02:54:05;9;Sem vítima;42;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+31/01/2020;05:08:42;15;Sem vítima;68;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+31/01/2020;15:46:58;209;Sem vítima;60;BR-290/RS;Leste;Colisão - Traseira;1;4;0;0;0;0;1
+31/01/2020;17:24:46;235;Sem vítima;2;BR-290/RS;Oeste;Queda de ribanceira;1;2;0;0;0;0;1
+31/01/2020;18:00:42;251;Sem vítima;2;BR-290/RS;Leste;Queda de ribanceira;1;5;0;0;0;0;1
+01/07/2020;20:30:47;192;Sem vítima;348;BR-386/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+02/07/2020;06:53:56;14;Sem vítima;94;BR-290/RS;Leste;Choque com objeto sobre a pista;1;3;0;0;0;0;1
+10/07/2020;18:47:00;193;Sem vítima;348;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+13/07/2020;08:01:00;55;Sem vítima;92;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+13/07/2020;08:02:00;57;Sem vítima;19;BR-290/RS;Oeste;Choque Defensa;1;1;0;0;0;0;1
+15/07/2020;06:50:17;28;Sem vítima;391;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+25/07/2020;18:05:01;107;Sem vítima;290;BR-386/RS;Sul;Choque com objeto sobre a pista;1;4;0;0;0;0;1
+01/06/2020;04:45:42;11;com vítima;86;BR-290/RS;Oeste;Atropelamento - Usuário;1;1;0;0;1;0;2
+01/06/2020;07:56:16;27;Sem vítima;435;BR-386/RS;Sul;Engavetamento;1;3;0;0;0;0;1
+01/06/2020;13:13:18;107;Sem vítima;77;BR-290/RS;Oeste;Colisão - Traseira;1;5;0;0;0;0;1
+01/06/2020;16:31:09;139;Sem vítima;430;BR-386/RS;Norte;Choque com veículo na faixa de rolamento;1;2;0;0;0;0;1
+01/06/2020;19:17:41;168;Sem vítima;248;BR-386/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+03/06/2020;20:47:56;198;Sem vítima;227;BR-386/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+04/06/2020;04:40:09;6;com vítima;73;BR-101/RS;Sul;Colisão - Traseira;2;1;1;0;0;0;1
+04/06/2020;13:47:55;124;Sem vítima;62;BR-101/RS;Norte;Colisão - Traseira;2;2;0;0;0;0;1
+05/06/2020;05:41:41;7;Sem vítima;316;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+05/06/2020;12:52:53;83;Sem vítima;439;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+05/06/2020;16:38:18;114;Sem vítima;19,21;BR-290/RS;Leste;Colisão - Lateral;1;5;0;0;0;0;1
+05/06/2020;18:04:52;128;com vítima;401;BR-386/RS;Norte;Queda de ribanceira;1;0;1;0;0;0;1
+05/06/2020;18:18:51;133;com vítima;344;BR-386/RS;Sul;Colisão - Lateral;1;1;0;3;0;0;2
+05/06/2020;18:37:15;135;Sem vítima;360;BR-386/RS;Norte;Saída de pista;2;4;0;0;0;0;1
+07/06/2020;01:17:03;6;com vítima;92;BR-290/RS;Leste;Colisão - Traseira;1;1;2;1;0;0;2
+08/06/2020;06:39:59;17;Sem vítima;5;BR-101/RS;Sul;Colisão - Lateral;1;5;0;0;0;0;1
+08/06/2020;10:21:31;86;Sem vítima;22;BR-448/RS;Sul;Colisão - Traseira;2;1;0;0;0;0;1
+08/06/2020;11:09:15;95;Sem vítima;21;BR-448/RS;Sul;Colisão - Traseira;2;2;0;0;0;0;1
+08/06/2020;18:17:35;175;com vítima;442;BR-386/RS;Sul;Colisão - Lateral;2;0;3;0;0;0;1
+08/06/2020;19:15:22;184;Sem vítima;372;BR-386/RS;Sul;Tombamento;1;1;0;0;0;0;1
+10/06/2020;20:15:34;178;Sem vítima;14;BR-290/RS;Oeste;Colisão - Traseira;1;3;0;0;0;0;1
+11/06/2020;02:53:40;18;Sem vítima;27;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+12/06/2020;16:27:55;172;com vítima;370;BR-386/RS;Norte;Colisão - Traseira;1;2;0;1;1;0;2
+13/06/2020;11:50:06;66;Sem vítima;9;BR-101/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+13/06/2020;16:01:25;126;Sem vítima;35;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+14/06/2020;17:03:44;120;Sem vítima;35;BR-101/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+15/06/2020;06:27:46;19;Sem vítima;68,44;BR-290/RS;Leste;Queda de moto;1;2;0;0;0;0;1
+17/06/2020;08:36:56;58;Sem vítima;64;BR-290/RS;Leste;Colisão - Lateral;1;1;0;0;0;0;1
+18/06/2020;13:53:49;126;Sem vítima;255;BR-386/RS;Norte;Choque com veículo na faixa de rolamento;1;3;0;0;0;0;1
+18/06/2020;18:19:08;182;com vítima;306;BR-386/RS;Norte;Tombamento;1;0;0;1;0;0;2
+18/06/2020;18:39:01;186;Sem vítima;91;BR-290/RS;Leste;Colisão - Traseira;1;4;0;0;0;0;1
+20/06/2020;17:51:43;168;Sem vítima;338;BR-386/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+21/06/2020;10:41:49;75;com vítima;91;BR-290/RS;Oeste;Colisão - Traseira;1;4;1;0;0;0;1
+21/06/2020;17:01:18;147;com vítima;298;BR-386/RS;Sul;Colisão - Lateral;1;2;0;1;0;0;2
+22/06/2020;09:59:43;73;Sem vítima;77;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+23/06/2020;08:17:45;35;Sem vítima;267;BR-386/RS;Sul;;1;4;0;0;0;0;1
+23/06/2020;11:28:41;86;Sem vítima;19;BR-290/RS;Leste;Colisão - Traseira;1;6;0;0;0;0;1
+24/06/2020;06:45:10;18;Sem vítima;57;BR-101/RS;Sul;Choque com veículo no acostamento;1;2;0;0;0;0;1
+24/06/2020;09:31:18;61;Sem vítima;60;BR-290/RS;Oeste;Choque Praça - Cabine;1;1;0;0;0;0;1
+24/06/2020;12:23:11;89;com vítima;44;BR-101/RS;Norte;Colisão - Lateral;1;1;0;1;0;0;2
+24/06/2020;14:03:06;114;Sem vítima;335;BR-386/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+24/06/2020;21:42:18;195;com vítima;347;BR-386/RS;Norte;Choque com veículo no acostamento;1;1;0;1;0;0;2
+25/06/2020;11:27:09;84;Sem vítima;75;BR-290/RS;Leste;Colisão - Traseira;1;3;0;0;0;0;1
+25/06/2020;12:01:54;89;Sem vítima;426;BR-386/RS;Sul;Choque com veículo na faixa de rolamento;1;3;0;0;0;0;1
+26/06/2020;01:19:25;7;Sem vítima;40;BR-290/RS;Oeste;Tombamento;1;1;0;0;0;0;1
+26/06/2020;17:13:46;164;Sem vítima;310;BR-386/RS;Ambos;Tombamento;1;1;0;0;0;0;1
+27/06/2020;15:14:14;113;Sem vítima;35;BR-101/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+28/06/2020;07:22:03;17;com vítima;346;BR-386/RS;Norte;Tombamento;1;0;1;0;0;0;1
+28/06/2020;14:05:34;60;Sem vítima;16;BR-290/RS;Leste;Queda de ribanceira;1;2;0;0;0;0;1
+28/06/2020;15:55:05;87;com vítima;87;BR-101/RS;Sul;Colisão - Lateral;1;2;2;0;0;0;1
+28/06/2020;16:02:49;88;Sem vítima;67,31;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+30/06/2020;09:56:18;55;Sem vítima;54;BR-290/RS;Oeste;;1;1;0;0;0;0;1
+30/06/2020;10:31:15;63;Sem vítima;356;BR-386/RS;Sul;Choque com veículo na faixa de rolamento;1;2;0;0;0;0;1
+30/06/2020;12:11:05;79;Sem vítima;257;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+30/06/2020;12:18:49;83;com vítima;23;BR-290/RS;Oeste;Queda de ribanceira;1;0;0;1;1;0;2
+30/06/2020;13:04:18;90;Sem vítima;91;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+30/06/2020;16:18:14;142;Sem vítima;85;BR-101/RS;Norte;Choque Barreira;1;1;0;0;0;0;1
+30/06/2020;20:54:54;185;com vítima;66;BR-101/RS;Sul;Queda de ribanceira;1;0;4;0;0;0;1
+30/06/2020;22:38:45;195;Sem vítima;220;BR-386/RS;Norte;Queda de ribanceira;1;2;0;0;0;0;1
+03/05/2020;17:28:19;107;com vítima;362;BR-386/RS;Norte;Queda de moto;1;0;0;1;0;0;2
+03/05/2020;18:52:02;118;com vítima;403;BR-386/RS;Sul;Tombamento;1;0;1;0;0;0;1
+05/05/2020;03:52:28;10;com vítima;402;BR-386/RS;Sul;Saída de pista;1;0;0;1;0;0;2
+05/05/2020;06:36:08;18;Sem vítima;394;BR-386/RS;Norte;Queda de Carga;1;1;0;0;0;0;1
+05/05/2020;08:42:01;51;Sem vítima;87;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+06/05/2020;10:05:46;71;Sem vítima;95;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+07/05/2020;09:37:59;68;Sem vítima;426;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+07/05/2020;12:13:40;92;Sem vítima;351,26;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+07/05/2020;16:09:54;128;Sem vítima;305;BR-386/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+08/05/2020;12:58:39;106;com vítima;343;BR-386/RS;Sul;Colisão - Lateral;1;1;1;1;0;0;2
+08/05/2020;14:31:28;122;Sem vítima;328;BR-386/RS;Sul;Colisão - Traseira;1;5;0;0;0;0;1
+11/05/2020;07:02:15;14;Sem vítima;35;BR-101/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+11/05/2020;09:14:51;58;Sem vítima;393;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+13/05/2020;08:17:41;25;com vítima;82;BR-101/RS;Ambos;Colisão - Traseira;1;1;1;0;0;0;1
+14/05/2020;16:09:13;141;Sem vítima;19;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+14/05/2020;18:45:48;171;Sem vítima;14;BR-101/RS;Sul;Colisão - Traseira;2;2;0;0;0;0;1
+17/05/2020;00:31:17;6;Sem vítima;96;BR-290/RS;Leste;Queda de ribanceira;1;2;0;0;0;0;1
+17/05/2020;15:08:00;98;Sem vítima;34;BR-101/RS;Norte;Engavetamento;1;3;0;0;0;0;1
+19/05/2020;04:47:25;10;Sem vítima;72;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+21/05/2020;09:41:23;66;Sem vítima;98;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+21/05/2020;15:31:17;121;Sem vítima;389;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+21/05/2020;16:35:12;127;Sem vítima;373;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+21/05/2020;17:07:17;131;Sem vítima;440;BR-386/RS;Sul;Colisão - Frontal;1;2;0;0;0;0;1
+22/05/2020;00:22:15;3;Sem vítima;414;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+23/05/2020;09:14:47;33;com vítima;88;BR-290/RS;Oeste;Choque com veículo no acostamento;1;1;0;1;0;0;2
+25/05/2020;16:20:57;150;com vítima;26;BR-290/RS;Oeste;Colisão - Lateral;1;1;1;0;0;0;1
+26/05/2020;15:49:12;134;com vítima;96;BR-290/RS;Leste;Colisão - Lateral;2;3;1;0;0;0;1
+28/05/2020;07:11:11;24;com vítima;359;BR-386/RS;Norte;Colisão - Frontal;1;0;1;0;0;2;3
+28/05/2020;16:14:31;126;Sem vítima;10;BR-448/RS;Norte;Engavetamento;1;4;0;0;0;0;1
+31/05/2020;17:07:07;93;Sem vítima;423;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+01/04/2020;16:33:18;128;Sem vítima;426;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+03/04/2020;18:19:39;146;Sem vítima;257;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+03/04/2020;20:23:59;165;Sem vítima;43;BR-101/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+04/04/2020;03:02:03;8;Sem vítima;31;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+06/04/2020;09:51:02;51;com vítima;411;BR-386/RS;Norte;Colisão - Traseira;1;1;0;1;0;0;2
+07/04/2020;06:20:33;9;Sem vítima;87;BR-101/RS;Norte;Choque - Poste;1;1;0;0;0;0;1
+10/04/2020;03:04:20;4;Sem vítima;26;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+10/04/2020;23:16:55;107;Sem vítima;417;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+13/04/2020;18:57:11;149;Sem vítima;291;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+15/04/2020;09:02:37;78;Sem vítima;319;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+16/04/2020;08:37:33;63;com vítima;367;BR-386/RS;Norte;Tombamento;1;1;0;2;0;0;2
+17/04/2020;10:00:07;80;Sem vítima;433;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+20/04/2020;20:31:06;194;Sem vítima;41;BR-290/RS;Leste;Tombamento;1;1;0;0;0;0;1
+25/04/2020;17:18:52;145;com vítima;98;BR-290/RS;Oeste;Colisão - Traseira;1;1;1;0;0;0;1
+26/04/2020;12:00:15;62;com vítima;226;BR-386/RS;Sul;Choque com objeto sobre a pista;1;2;1;0;0;0;1
+27/04/2020;08:46:10;44;com vítima;395;BR-386/RS;Sul;Colisão - Frontal;1;1;0;0;0;1;3
+28/04/2020;04:58:37;8;Sem vítima;401;BR-386/RS;Norte;;1;1;0;0;0;0;1
+28/04/2020;22:34:37;177;com vítima;68,18;BR-290/RS;Oeste;Colisão - Transversal;1;1;1;0;0;0;1
+30/04/2020;02:33:56;6;Sem vítima;307;BR-386/RS;Sul;Capotamento;1;1;0;0;0;0;1
+02/03/2020;08:46:07;70;Sem vítima;86;BR-101/RS;Ambos;Colisão - Traseira;1;2;0;0;0;0;1
+03/03/2020;08:26:48;55;com vítima;339;BR-386/RS;Norte;Colisão - Frontal;1;0;0;1;1;0;2
+03/03/2020;17:31:10;169;Sem vítima;41;BR-101/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+06/03/2020;11:33:08;125;Sem vítima;69;BR-290/RS;Oeste;Colisão - Traseira;1;4;0;0;0;0;1
+06/03/2020;12:01:14;136;Sem vítima;216;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+06/03/2020;14:05:17;159;Sem vítima;348;BR-386/RS;Norte;Engavetamento;1;4;0;0;0;0;1
+06/03/2020;14:38:46;165;com vítima;270;BR-386/RS;Sul;Colisão - Transversal;1;2;1;0;0;0;1
+08/03/2020;16:44:36;136;com vítima;30;BR-290/RS;Leste;Engavetamento;2;2;2;1;0;0;2
+09/03/2020;17:51:38;237;Sem vítima;344;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+10/03/2020;11:27:33;134;Sem vítima;45;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+10/03/2020;15:56:41;204;com vítima;43;BR-290/RS;Oeste;Colisão - Traseira;1;2;1;0;0;0;1
+11/03/2020;02:22:37;16;Sem vítima;306;BR-386/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+12/03/2020;11:51:36;107;com vítima;217;BR-386/RS;Sul;Tombamento;1;0;0;1;0;0;2
+12/03/2020;14:57:24;162;com vítima;438;BR-386/RS;Sul;Colisão - Traseira;2;1;0;1;0;0;2
+13/03/2020;07:02:20;34;com vítima;97;BR-290/RS;Leste;Atropelamento - Usuário;1;1;0;1;0;0;2
+13/03/2020;07:47:02;50;Sem vítima;19;BR-290/RS;Leste;Colisão - Traseira;1;5;0;0;0;0;1
+13/03/2020;09:49:20;112;Sem vítima;426;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+14/03/2020;15:08:10;383;Sem vítima;426;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+14/03/2020;20:02:49;478;Sem vítima;185;BR-386/RS;Norte;Colisão - Traseira;1;3;0;0;0;0;1
+16/03/2020;08:37:04;57;com vítima;48;BR-290/RS;Oeste;Tombamento;1;0;1;0;0;0;1
+17/03/2020;05:35:07;10;Sem vítima;305;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+19/03/2020;10:25:01;107;Sem vítima;67;BR-101/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+21/03/2020;07:54:42;36;Sem vítima;334;BR-386/RS;Sul;Tombamento;1;1;0;0;0;0;1
+22/03/2020;19:42:00;76;com vítima;32;BR-290/RS;Oeste;Tombamento;1;0;0;0;0;1;3
+22/03/2020;21:58:02;88;Sem vítima;31;BR-101/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+24/03/2020;14:10:19;128;Sem vítima;97,29;BR-290/RS;Leste;Colisão - Traseira;1;4;0;0;0;0;1
+25/03/2020;18:42:53;167;Sem vítima;210;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+28/03/2020;03:29:56;17;Sem vítima;67;BR-290/RS;Leste;Atropelamento de Animal;1;1;0;0;0;0;1
+28/03/2020;09:58:03;72;Sem vítima;92;BR-290/RS;Oeste;Choque Defensa;1;2;0;0;0;0;1
+30/03/2020;19:33:53;168;Sem vítima;37;BR-101/RS;Norte;Choque com objeto sobre a pista;3;4;0;0;0;0;1
+30/03/2020;21:08:20;182;Sem vítima;192,000;BR-386/RS;Norte;Colisão - Frontal;1;2;0;0;0;0;1
+02/02/2020;14:53:08;141;Sem vítima;45;BR-101/RS;Sul;Colisão - Lateral;3;5;0;0;0;0;1
+02/02/2020;15:08:38;145;Sem vítima;390;BR-386/RS;Norte;Colisão - Lateral;1;5;0;0;0;0;1
+02/02/2020;16:45:45;167;Sem vítima;78,38;BR-290/RS;Oeste;Colisão - Lateral;1;5;0;0;0;0;1
+04/02/2020;05:43:26;15;Sem vítima;426;BR-386/RS;Norte;Colisão - Traseira;2;3;0;0;0;0;1
+05/02/2020;07:21:50;29;Sem vítima;35;BR-101/RS;Sul;Choque Praça - Cabine;1;2;0;0;0;0;1
+05/02/2020;11:31:37;122;Sem vítima;60;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+06/02/2020;01:58:00;5;Sem vítima;230;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+06/02/2020;07:30:13;35;Sem vítima;324;BR-386/RS;Ambos;Colisão - Lateral;2;3;0;0;0;0;1
+06/02/2020;11:49:11;102;Sem vítima;440;BR-386/RS;Norte;Colisão - Traseira;1;5;0;0;0;0;1
+06/02/2020;15:37:35;151;Sem vítima;88;BR-290/RS;Leste;Colisão - Lateral;1;4;0;0;0;0;1
+06/02/2020;16:30:05;169;Sem vítima;295;BR-386/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+07/02/2020;02:23:05;17;Sem vítima;91;BR-290/RS;Oeste;Saída de pista;1;1;0;0;0;0;1
+07/02/2020;09:18:07;101;Sem vítima;262;BR-386/RS;Norte;Colisão - Traseira;1;1;0;0;0;0;1
+07/02/2020;12:02:53;146;Sem vítima;56;BR-290/RS;Oeste;Colisão - Traseira;1;1;0;0;0;0;1
+09/02/2020;01:03:15;8;com vítima;393;BR-386/RS;Sul;Queda de ribanceira;1;0;2;0;0;0;1
+09/02/2020;09:26:33;57;Sem vítima;43;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+11/02/2020;11:03:06;121;Sem vítima;424;BR-386/RS;Norte;Colisão - Lateral;1;1;0;0;0;0;1
+11/02/2020;20:10:45;262;Sem vítima;45;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+12/02/2020;07:32:01;45;Sem vítima;98;BR-290/RS;Ambos;Colisão - Lateral;1;2;0;0;0;0;1
+12/02/2020;16:32:04;186;Sem vítima;78,37;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+12/02/2020;19:26:44;215;com vítima;276;BR-386/RS;Norte;Colisão - Traseira;1;4;1;2;1;0;2
+13/02/2020;10:06:01;94;Sem vítima;386;BR-386/RS;Norte;Colisão - Traseira;2;2;0;0;0;0;1
+14/02/2020;13:37:05;161;com vítima;73;BR-290/RS;Leste;Colisão - Lateral;2;1;1;0;0;0;1
+14/02/2020;18:15:27;242;com vítima;346;BR-386/RS;Sul;Colisão - Lateral;1;0;1;0;0;0;1
+14/02/2020;22:41:19;310;com vítima;92;BR-290/RS;Leste;Colisão - Traseira;1;3;1;0;0;0;1
+15/02/2020;06:37:23;40;Sem vítima;303;BR-386/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+17/02/2020;15:24:55;212;Sem vítima;411;BR-386/RS;Ambos;Colisão - Traseira;2;2;0;0;0;0;1
+17/02/2020;21:39:32;294;Sem vítima;35;BR-101/RS;Sul;Choque Praça - Cabine;1;1;0;0;0;0;1
+18/02/2020;14:01:28;151;Sem vítima;63;BR-101/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+18/02/2020;14:34:46;156;Sem vítima;65;BR-290/RS;Oeste;Queda de ribanceira;1;3;0;0;0;0;1
+19/02/2020;18:03:59;203;Sem vítima;85;BR-290/RS;Leste;Colisão - Traseira;1;4;0;0;0;0;1
+20/02/2020;07:25:33;31;Sem vítima;398;BR-386/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+20/02/2020;08:53:50;73;Sem vítima;446,02;BR-386/RS;Sul;Colisão - Traseira;1;6;0;0;0;0;1
+20/02/2020;21:12:53;309;com vítima;289;BR-386/RS;Norte;Colisão - Lateral;1;2;0;1;0;0;2
+21/02/2020;07:16:01;47;com vítima;438;BR-386/RS;Sul;Colisão - Lateral;1;1;0;1;0;0;2
+21/02/2020;13:53:24;176;Sem vítima;22,47;BR-448/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+21/02/2020;16:06:23;222;Sem vítima;306;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+21/02/2020;18:24:16;268;com vítima;275;BR-386/RS;Norte;Colisão - Traseira;2;7;2;0;1;1;3
+22/02/2020;00:29:54;12;Sem vítima;27;BR-290/RS;Leste;;1;4;0;0;0;0;1
+23/02/2020;07:48:14;37;Sem vítima;19;BR-290/RS;Oeste;Colisão - Traseira;2;3;0;0;0;0;1
+24/02/2020;07:19:22;38;Sem vítima;435;BR-386/RS;Sul;Colisão - Lateral;1;4;0;0;0;0;1
+26/02/2020;04:59:27;31;Sem vítima;446;BR-386/RS;Sul;Choque Barreira;1;1;0;0;0;0;1
+26/02/2020;11:50:32;158;Sem vítima;92;BR-290/RS;Leste;Colisão - Traseira;1;1;0;0;0;0;1
+26/02/2020;18:20:31;260;com vítima;53;BR-290/RS;Oeste;Colisão - Traseira;1;3;2;0;0;0;1
+28/02/2020;11:10:23;98;Sem vítima;191;BR-386/RS;Norte;Colisão - Lateral;2;3;0;0;0;0;1
+02/08/2020;03:40:17;12;Acidente com VITIMA;61,000;BR-290/RS;Oeste;Saída de pista;1;0;0;1;0;0;2
+03/08/2020;07:58:09;37;Acidente sem VITIMA;436,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+04/08/2020;16:14:45;169;Acidente sem VITIMA;86,000;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+05/08/2020;11:19:36;94;Acidente com VITIMA;258,000;BR-386/RS;Norte;Tombamento;1;1;1;0;0;0;1
+07/08/2020;16:31:02;150;Acidente com VITIMA;344,000;BR-386/RS;Norte;Colisão - Traseira;1;1;1;0;0;0;1
+08/08/2020;09:46:57;53;Acidente sem VITIMA;234,000;BR-386/RS;Norte;Colisão - Traseira;1;3;0;0;0;0;1
+10/08/2020;10:07:50;95;Acidente sem VITIMA;30,000;BR-101/RS;Sul;Colisão - Lateral;1;4;0;0;0;0;1
+10/08/2020;17:34:07;208;Acidente sem VITIMA;16,000;BR-448/RS;Norte;Colisão - Traseira;1;6;0;0;0;0;1
+10/08/2020;17:40:42;212;Acidente sem VITIMA;28,000;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+10/08/2020;18:34:09;222;Acidente sem VITIMA;188,000;BR-386/RS;Sul;;1;3;0;0;0;0;1
+14/08/2020;07:17:11;19;Acidente sem VITIMA;232,000;BR-386/RS;Sul;Queda de ribanceira;1;2;0;0;0;0;1
+14/08/2020;22:14:57;219;Acidente com VITIMA FATAL;339,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;2;3
+17/08/2020;20:33:59;197;Acidente sem VITIMA;272,000;BR-386/RS;Sul;Queda de moto;1;2;0;0;0;0;1
+20/08/2020;10:50:00;79;Acidente sem VITIMA;90,000;BR-290/RS;Oeste;Queda de ribanceira;1;2;0;0;0;0;1
+21/08/2020;23:46:57;267;Acidente sem VITIMA;2,000;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+23/08/2020;08:03:33;24;Acidente sem VITIMA;26,000;BR-290/RS;Oeste;Colisão - Lateral;1;4;0;0;0;0;1
+25/08/2020;06:44:04;18;Acidente sem VITIMA;10,000;BR-448/RS;Norte;Queda de moto;1;3;0;0;0;0;1
+25/08/2020;09:11:57;64;Acidente sem VITIMA;388,000;BR-386/RS;Sul;Colisão - Lateral;1;4;0;0;0;0;1
+26/08/2020;19:16:09;209;Acidente sem VITIMA;96,000;BR-290/RS;Oeste;Colisão - Lateral;1;3;0;0;0;0;1
+28/08/2020;14:19:17;135;Acidente sem VITIMA;77,460;BR-290/RS;Leste;Choque Praça - Submarino;1;1;0;0;0;0;1
+28/08/2020;20:05:00;194;Acidente sem VITIMA;0,000;BR-290/RS;Leste;Choque com veículo na faixa de rolamento;1;2;0;0;0;0;1
+29/08/2020;13:46:54;111;Acidente com VITIMA;35,000;BR-101/RS;Sul;Colisão - Traseira;1;1;1;0;0;0;1
+31/08/2020;22:29:41;192;Acidente sem VITIMA;84,000;BR-101/RS;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+02/09/2020;11:24:23;111;Acidente sem VITIMA;307,000;BR-386/RS;Norte;Engavetamento;2;5;0;0;0;0;1
+03/09/2020;14:03:44;102;Acidente sem VITIMA;77,000;BR-290/RS;Oeste;;1;1;0;0;0;0;1
+04/09/2020;19:56:40;391;Acidente com VITIMA;269,000;BR-386/RS;Sul;Colisão - Traseira;1;2;2;0;0;0;1
+06/09/2020;18:24:51;87;Acidente sem VITIMA;60,000;BR-290/RS;Leste;Colisão - Traseira;1;2;0;0;0;0;1
+10/09/2020;06:43:45;20;Acidente sem VITIMA;14,000;BR-290/RS;Leste;Tombamento;1;4;0;0;0;0;1
+10/09/2020;06:54:24;21;Acidente sem VITIMA;91,000;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+12/09/2020;14:42:14;114;Acidente sem VITIMA;35,250;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+13/09/2020;19:29:20;115;Acidente sem VITIMA;252,000;BR-386/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+16/09/2020;15:10:30;97;Acidente com VITIMA;432,000;BR-386/RS;Sul;Colisão - Traseira;2;3;1;0;0;0;1
+17/09/2020;05:46:34;35;Acidente sem VITIMA;57,000;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+17/09/2020;20:40:31;245;Acidente sem VITIMA;75,000;BR-290/RS;Oeste;Tombamento;1;2;0;0;0;0;1
+18/09/2020;08:21:48;51;Acidente sem VITIMA;89,000;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+18/09/2020;12:32:21;112;Acidente sem VITIMA;93,000;BR-290/RS;Leste;Choque com objeto sobre a pista;1;2;0;0;0;0;1
+18/09/2020;17:26:09;199;Acidente sem VITIMA;89,000;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+19/09/2020;09:59:28;81;Acidente sem VITIMA;60,000;BR-290/RS;Leste;Colisão - Traseira;1;3;0;0;0;0;1
+22/09/2020;06:26:38;17;Acidente sem VITIMA;36,000;BR-290/RS;Leste;Queda de ribanceira;1;2;0;0;0;0;1
+23/09/2020;17:08:59;187;Acidente sem VITIMA;77,000;BR-290/RS;Oeste;Choque Praça - Cabine;2;2;0;0;0;0;1
+25/09/2020;07:42:04;31;Acidente com VITIMA;23,000;BR-290/RS;Oeste;Colisão - Lateral;1;1;2;0;0;0;1
+25/09/2020;14:19:42;140;Acidente com VITIMA;433,000;BR-386/RS;Norte;Colisão - Traseira;1;2;2;0;0;0;1
+28/09/2020;09:29:23;70;Acidente com VITIMA;347,000;BR-386/RS;Norte;Colisão - Traseira;1;1;1;0;0;0;1
+29/09/2020;00:53:40;2;Acidente com VITIMA;16,500;BR-101/RS;Norte;Colisão - Traseira;1;2;0;1;0;0;2
+30/09/2020;06:50:35;25;Acidente sem VITIMA;24,390;BR-290/RS;Leste;Queda de ribanceira;1;2;0;0;0;0;1
+30/09/2020;08:20:50;48;Acidente sem VITIMA;360,000;BR-386/RS;Ambos;Queda de ribanceira;1;4;0;0;0;0;1
+01/10/2020;15:32:44;189;Acidente com VITIMA;375,000;BR-386/RS;Sul;Choque com veículo na faixa de rolamento;1;0;1;0;0;0;1
+02/10/2020;11:02:25;90;Acidente sem VITIMA;243,000;BR-386/RS;Sul;Tombamento;1;1;0;0;0;0;1
+02/10/2020;22:06:42;212;Acidente sem VITIMA;431,000;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+03/10/2020;00:56:32;4;Acidente sem VITIMA;10,000;BR-101/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+04/10/2020;16:10:39;79;Acidente sem VITIMA;15,000;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+08/10/2020;06:09:46;10;Acidente com VITIMA;72,000;BR-101/RS;Sul;Colisão - Traseira;2;1;1;0;0;0;1
+10/10/2020;12:18:18;134;Acidente sem VITIMA;345,000;BR-386/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+13/10/2020;16:33:11;197;Acidente com VITIMA;6,000;BR-448/RS;Norte;Choque Barreira;1;0;1;0;0;0;1
+14/10/2020;01:55:24;2;Acidente sem VITIMA;89,000;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;0;1
+14/10/2020;08:34:52;70;Acidente sem VITIMA;84,000;BR-290/RS;Oeste;Choque Defensa;1;2;0;0;0;0;1
+18/10/2020;10:10:55;70;Acidente sem VITIMA;215,000;BR-386/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+19/10/2020;05:47:50;15;Acidente sem VITIMA;44,000;BR-101/RS;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+19/10/2020;10:54:55;116;Acidente sem VITIMA;92,000;BR-290/RS;Leste;Colisão - Lateral;1;5;0;0;0;0;1
+19/10/2020;11:55:19;124;Acidente sem VITIMA;92,000;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+20/10/2020;07:32:49;32;Acidente sem VITIMA;436,000;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+21/10/2020;14:11:14;135;Acidente sem VITIMA;63,000;BR-101/RS;Norte;Colisão - Traseira;1;1;0;0;0;0;1
+21/10/2020;21:02:59;193;Acidente sem VITIMA;39,000;BR-290/RS;Oeste;Colisão - Traseira;2;2;0;0;0;0;1
+22/10/2020;16:25:52;156;Acidente sem VITIMA;28,000;BR-101/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+22/10/2020;18:26:58;175;Acidente sem VITIMA;435,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+22/10/2020;21:34:32;205;Acidente com VITIMA;38,000;BR-290/RS;Oeste;Colisão - Traseira;1;1;0;1;1;0;2
+23/10/2020;07:53:30;46;Acidente sem VITIMA;92,000;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+24/10/2020;14:46:28;136;Acidente sem VITIMA;16,000;BR-290/RS;Leste;Colisão - Transversal;1;3;0;0;0;0;1
+27/10/2020;08:22:17;57;Acidente sem VITIMA;10,000;BR-448/RS;Sul;Saída de pista;1;2;0;0;0;0;1
+29/10/2020;15:03:36;150;Acidente com VITIMA;312,000;BR-386/RS;Sul;Engavetamento;2;2;0;2;0;0;2
+04/11/2020;07:06:02;29;Acidente com VITIMA;436,000;BR-386/RS;Norte;Saída de pista;1;0;0;1;0;0;2
+05/11/2020;08:06:34;45;Acidente sem VITIMA;92,000;BR-290/RS;Ambos;Engavetamento;1;3;0;0;0;0;1
+05/11/2020;08:28:50;61;Acidente sem VITIMA;5,000;BR-290/RS;Oeste;Colisão - Lateral;1;3;0;0;0;0;1
+07/11/2020;07:58:02;42;Atropelamento;433,000;BR-386/RS;Sul;Atropelamento - Andarilho;1;1;0;1;0;0;2
+09/11/2020;02:41:08;12;Acidente sem VITIMA;33,000;BR-290/RS;Oeste;Saída de pista;1;1;0;0;0;0;1
+09/11/2020;23:02:45;224;Acidente sem VITIMA;244,000;BR-386/RS;Norte;Choque Talude;1;2;0;0;0;0;1
+10/11/2020;20:48:09;207;Acidente sem VITIMA;341,000;BR-386/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+11/11/2020;10:51:40;106;Atropelamento Fatal;80,000;BR-290/RS;Oeste;Atropelamento - Morador/Trabalhador/Estudante;1;2;0;0;0;1;3
+11/11/2020;15:11:54;143;Acidente sem VITIMA;51,000;BR-101/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+11/11/2020;17:52:11;173;Acidente sem VITIMA;362,000;BR-386/RS;Sul;Outros;1;2;0;0;0;0;1
+12/11/2020;03:15:45;7;Acidente sem VITIMA;38,000;BR-101/RS;Sul;Queda de ribanceira;1;2;0;0;0;0;1
+14/11/2020;15:01:25;144;Acidente sem VITIMA;70,000;BR-101/RS;Norte;Colisão - Lateral;1;4;0;0;0;0;1
+14/11/2020;11:58:44;99;Acidente sem VITIMA;291,000;BR-386/RS;Norte;Colisão - Transversal;1;2;0;0;0;0;1
+16/11/2020;14:14:30;148;Acidente sem VITIMA;35,000;BR-101/RS;Norte;Colisão - Lateral;1;5;0;0;0;0;1
+16/11/2020;14:18:01;149;Acidente sem VITIMA;16,000;BR-290/RS;Leste;Colisão - Lateral;1;4;0;0;0;0;1
+17/11/2020;02:06:56;5;Acidente com VITIMA;49,000;BR-101/RS;Norte;Saída de pista;1;1;1;0;0;0;1
+19/11/2020;01:04:09;10;Acidente com VITIMA;330,000;BR-386/RS;Sul;Queda de ribanceira;1;0;1;0;0;0;1
+19/11/2020;02:02:15;13;Acidente sem VITIMA;18,000;BR-290/RS;Oeste;Saída de pista;1;1;0;0;0;0;1
+20/11/2020;15:31:39;445;Acidente sem VITIMA;83,000;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+20/11/2020;16:39:47;463;Acidente sem VITIMA;95,000;BR-290/RS;Oeste;Engavetamento;1;4;0;0;0;0;1
+21/11/2020;03:08:13;18;Acidente com VITIMA;410,000;BR-386/RS;Sul;Saída de pista;1;0;0;0;1;0;2
+21/11/2020;21:00:07;216;Acidente com VITIMA;304,000;BR-386/RS;Norte;Queda de ribanceira;1;1;1;0;0;0;1
+22/11/2020;23:12:15;228;Acidente com VITIMA;292,000;BR-386/RS;Sul;Queda de ribanceira;1;0;1;0;0;0;1
+23/11/2020;12:32:12;136;Acidente sem VITIMA;306,000;BR-386/RS;Sul;Colisão - Traseira;1;4;0;0;0;0;1
+23/11/2020;06:31:53;29;Acidente sem VITIMA;95,000;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+24/11/2020;09:52:00;85;Acidente sem VITIMA;417,000;BR-386/RS;Sul;;1;1;0;0;0;0;1
+25/11/2020;10:52:49;134;Acidente com VITIMA FATAL;10,000;BR-290/RS;Leste;Colisão - Frontal;1;0;0;0;0;3;3
+25/11/2020;11:05:00;137;Acidente sem VITIMA;346,000;BR-386/RS;Ambos;Outros;1;1;0;0;0;0;1
+25/11/2020;22:43:00;323;Acidente sem VITIMA;25,100;BR-101/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+26/11/2020;17:16:00;193;Acidente sem VITIMA;21,000;BR-448/RS;Sul;Choque Barreira;1;1;0;0;0;0;1
+26/11/2020;08:27:00;51;Acidente sem VITIMA;96,000;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+27/11/2020;21:00:00;207;Acidente sem VITIMA;345,000;BR-386/RS;Sul;Colisão - Transversal;1;2;0;0;0;0;1
+28/11/2020;01:32:44;10;Acidente sem VITIMA;35,000;BR-290/RS;Leste;Queda de ribanceira;1;2;0;0;0;0;1
+28/11/2020;13:44:17;143;Acidente sem VITIMA;291,000;BR-386/RS;Norte;Saída de pista;1;1;0;0;0;0;1
+28/11/2020;03:36:00;17;Acidente sem VITIMA;39,000;BR-290/RS;Leste;Saída de pista;1;3;0;0;0;0;1
+30/11/2020;13:22:00;149;Acidente sem VITIMA;16,000;BR-101/RS;Norte;Queda de ribanceira;1;2;0;0;0;0;1
+30/11/2020;20:56:57;236;Acidente com VITIMA;48,000;BR-290/RS;Oeste;Colisão - Lateral;1;1;1;0;0;0;1
+30/11/2020;22:35:07;242;Acidente com VITIMA;25,000;BR-290/RS;Leste;Tombamento;1;0;0;2;0;0;2
+01/12/2020;16:30:00;196;Acidente com VITIMA;347,000;BR-386/RS;Norte;Colisão - Traseira;1;1;1;0;0;0;1
+02/12/2020;17:51:00;519;Acidente sem VITIMA;328,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+09/12/2020;18:30:00;210;Acidente com VITIMA;345,000;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;1;0;2
+10/12/2020;16:57:45;253;Acidente sem VITIMA;89,000;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+17/12/2020;04:28:00;16;Acidente sem VITIMA;15,000;BR-290/RS;Oeste;Saída de pista;1;1;0;0;0;0;1
+11/12/2020;07:52:28;59;Acidente sem VITIMA;215,000;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+10/12/2020;09:00:00;86;Acidente sem VITIMA;74,000;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+23/12/2020;04:23:09;16;Acidente sem VITIMA;56,000;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+08/12/2020;15:50:58;227;Acidente sem VITIMA;92,000;BR-290/RS;Leste;Colisão - Lateral;1;3;0;0;0;0;1
+24/12/2020;11:19:00;175;Acidente sem VITIMA;61,000;BR-101/RS;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+20/12/2020;01:12:00;9;Acidente sem VITIMA;358,000;BR-386/RS;Norte;Capotamento;1;1;0;0;0;0;1
+01/12/2020;18:43:00;234;Acidente sem VITIMA;4,000;BR-448/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+15/12/2020;20:03:31;257;Acidente com VITIMA;53,000;BR-290/RS;Leste;Queda de ribanceira;1;1;0;1;0;0;2
+16/12/2020;07:23:00;39;Acidente sem VITIMA;91,000;BR-290/RS;Oeste;Colisão - Lateral;1;3;0;0;0;0;1
+17/12/2020;08:16:00;74;Acidente sem VITIMA;437,000;BR-386/RS;Norte;Colisão - Traseira;1;4;0;0;0;0;1
+23/12/2020;22:52:00;389;Acidente sem VITIMA;4,000;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+03/12/2020;08:32:00;75;Acidente sem VITIMA;289,000;BR-386/RS;Norte;Colisão - Lateral;1;4;0;0;0;0;1
+03/12/2020;09:06:00;83;Acidente sem VITIMA;350,000;BR-386/RS;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+05/12/2020;07:07:00;37;Acidente com VITIMA;339,000;BR-386/RS;Norte;Colisão - Frontal;2;0;0;0;2;0;2
+15/12/2020;13:50:00;181;Acidente com VITIMA;423,000;BR-386/RS;Sul;Queda de ribanceira;1;1;0;1;0;0;2
+21/12/2020;01:45:00;12;Acidente com VITIMA FATAL;68,000;BR-101/RS;Sul;Colisão - Traseira;1;1;0;0;0;1;3
+30/12/2020;13:25:44;222;Acidente com VITIMA;257,000;BR-386/RS;Norte;Colisão - Traseira;1;4;1;0;0;0;1
+02/12/2020;14:03:00;457;Acidente sem VITIMA;290,000;BR-386/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+17/12/2020;06:08:44;24;Acidente sem VITIMA;44,000;BR-101/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+22/12/2020;15:00:00;715;Acidente sem VITIMA;393,000;BR-386/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+28/12/2020;04:56:00;17;Acidente com VITIMA;433,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;1;0;2
+02/12/2020;05:25:25;294;Acidente com VITIMA;3,000;BR-290/RS;Oeste;Tombamento;1;0;1;0;0;0;1
+02/12/2020;19:03:36;541;Acidente sem VITIMA;299,000;BR-386/RS;Norte;Saída de pista;1;1;0;0;0;0;1
+29/12/2020;01:34:00;8;Acidente sem VITIMA;19,000;BR-290/RS;Leste;Colisão - Transversal;1;5;0;0;0;0;1
+04/01/2021;16:23:50;277;Acidente com VITIMA FATAL;43,000;BR-290/RS;Oeste;Saída de pista;1;2;0;0;0;0;1
+06/01/2021;08:58:35;98;Acidente com VITIMA FATAL;1,000;BR-290/RS;Oeste;Queda de ribanceira;1;1;0;0;0;1;3
+07/01/2021;00:03:34;2;Acidente sem VITIMA;47,000;BR-290/RS;Oeste;Queda de ribanceira;1;2;0;0;0;0;1
+07/01/2021;17:15:45;269;Acidente com VITIMA;357,000;BR-386/RS;Norte;Capotamento;1;3;0;0;0;0;1
+07/01/2021;23:00:19;347;Acidente sem VITIMA;30,000;BR-290/RS;Leste;Queda de ribanceira;1;6;0;0;0;0;1
+08/01/2021;03:40:49;15;Acidente sem VITIMA;64,000;BR-101/RS;Sul;Atropelamento de Animal;1;3;0;0;0;0;1
+08/01/2021;17:44:15;252;Acidente COM VITIMA;28,000;BR-290/RS;Leste;Engavetamento;1;1;2;0;0;0;1
+13/01/2021;03:23:26;12;Acidente com VITIMA;27,000;BR-290/RS;Leste;Queda de ribanceira;1;0;1;1;0;0;2
+13/01/2021;18:23:25;232;Acidente com VITIMA;182,000;BR-386/RS;Sul;Queda de moto;1;2;0;0;0;0;1
+13/01/2021;08:49:00;69;Acidente com VITIMA;15,000;BR-101/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+14/01/2021;19:31:45;217;Acidente com VITIMA;353,000;BR-386/RS;Sul;Colisão - Lateral;1;1;0;0;0;0;1
+15/01/2021;15:51:30;222;Acidente com VITIMA;12,000;BR-448/RS;Norte;Queda de moto;1;1;0;0;0;0;1
+15/01/2021;21:33:56;309;Acidente com VITIMA FATAL;92,000;BR-290/RS;Oeste;Queda de moto;1;2;0;0;0;0;1
+18/01/2021;07:50:35;59;Acidente sem VITIMA;353,000;BR-386/RS;Sul;Choque Defensa;1;1;0;0;0;0;1
+19/01/2021;21:22:45;254;Acidente COM VITIMA;23,000;BR-290/RS;Oeste;Colisão - Traseira;1;0;0;1;0;0;2
+23/01/2021;09:46:25;112;Acidente sem VITIMA;75,000;BR-290/RS;Leste;Choque Defensa;1;1;0;0;0;0;1
+27/01/2021;18:22:04;192;Acidente COM VITIMA;10,000;BR-290/RS;Leste;Capotamento;1;0;1;0;0;0;1
+27/01/2021;00:32:21;4;Acidente sem VITIMA;72,000;BR-290/RS;Oeste;Queda de moto;1;1;0;0;0;0;1
+28/01/2021;09:40:46;103;Acidente sem VITIMA;401,000;BR-386/RS;Sul;Queda de moto;1;2;0;0;0;0;1
+29/01/2021;09:34:06;109;Acidente com VITIMA;44,000;BR-101/RS;Norte;Choque com veículo na faixa de rolamento;1;1;0;0;0;0;1
+29/01/2021;03:13:25;17;Acidente sem VITIMA;318,000;BR-386/RS;Sul;Saída de pista;1;5;0;0;0;0;1
+29/01/2021;08:33:09;78;Acidente com VITIMA;13,000;BR-448/RS;Sul;Queda de moto;1;1;0;0;0;0;1
+30/01/2021;22:49:13;289;Acidente sem VITIMA;252,000;BR-386/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+03/02/2021;10:38:16;143;Acidente sem VITIMA;92,000;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+03/02/2021;16:29:47;232;Acidente sem VITIMA;411,000;BR-386/RS;Norte;Colisão - Lateral;1;4;0;0;0;0;1
+05/02/2021;09:31:36;94;Acidente com VITIMA;425,000;BR-386/RS;Sul;Choque Barreira;1;0;1;0;0;0;1
+08/02/2021;08:56:37;88;Acidente sem VITIMA;92,000;BR-290/RS;Oeste;;1;1;0;0;0;0;1
+10/02/2021;15:40:04;195;Acidente com VITIMA;353,000;BR-386/RS;Sul;Engavetamento;2;4;0;1;0;0;2
+10/02/2021;00:20:04;2;Acidente com VITIMA;25,000;BR-290/RS;Leste;Colisão - Traseira;1;1;1;0;0;0;1
+13/02/2021;00:30:41;4;Acidente com VITIMA;284,000;BR-386/RS;Sul;Colisão - Frontal;2;2;0;1;2;0;2
+14/02/2021;18:14:21;204;Acidente sem VITIMA;92,000;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+18/02/2021;19:53:42;256;Acidente sem VITIMA;35,000;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+18/02/2021;08:04:26;67;Acidente sem VITIMA;313,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+19/02/2021;20:46:17;278;Acidente sem VITIMA;19,000;BR-290/RS;Leste;Colisão - Lateral;1;5;0;0;0;0;1
+20/02/2021;11:09:24;113;Acidente com VITIMA;11,000;BR-101/RS;Sul;Colisão - Traseira;1;1;0;2;0;0;2
+22/02/2021;17:47:03;277;Acidente com VITIMA;398,000;BR-386/RS;Sul;;1;1;5;0;0;0;1
+23/02/2021;12:17:07;138;Acidente com VITIMA;261,000;BR-386/RS;Sul;Colisão - Frontal;1;0;1;1;0;0;2
+01/03/2021;05:38:08;13;Acidente sem VITIMA;73,000;BR-101/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+02/03/2021;05:46:05;15;Acidente com VITIMA;308,000;BR-386/RS;Sul;Colisão - Traseira;2;1;1;0;0;0;1
+03/03/2021;14:53:30;180;Acidente sem VITIMA;276,000;BR-386/RS;Sul;Queda de ribanceira;1;2;0;0;0;0;1
+03/03/2021;15:11:56;191;Acidente com VITIMA;290,000;BR-386/RS;Norte;;1;1;0;2;1;0;2
+07/03/2021;07:00:00;12;Acidente com VITIMA;65,000;BR-101/RS;Sul;Colisão - Traseira;1;0;0;0;1;0;2
+08/03/2021;11:11:22;137;Acidente sem VITIMA;44,000;BR-101/RS;Norte;Colisão - Traseira;2;2;0;0;0;0;1
+08/03/2021;22:18:23;272;Acidente sem VITIMA;308,000;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+09/03/2021;08:26:26;61;Acidente sem VITIMA;87,000;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+10/03/2021;14:12:38;156;Acidente sem VITIMA;35,000;BR-101/RS;Norte;Colisão - Traseira;1;2;0;0;0;0;1
+12/03/2021;18:16:35;219;Acidente com VITIMA;332,000;BR-386/RS;Norte;Colisão - Frontal;1;2;0;0;1;0;2
+13/03/2021;11:44:49;111;Acidente com VITIMA FATAL;350,000;BR-386/RS;Norte;Choque Barreira;1;0;0;0;0;1;3
+15/03/2021;14:15:19;156;Acidente sem VITIMA;92,000;BR-290/RS;Leste;;1;1;0;0;0;0;1
+17/03/2021;07:58:23;39;Acidente sem VITIMA;35,000;BR-101/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+20/03/2021;18:28:15;181;Acidente com VITIMA;49,000;BR-101/RS;Sul;Colisão - Transversal;2;2;1;0;0;0;1
+22/03/2021;18:16:14;217;Acidente com VITIMA;432,000;BR-386/RS;Norte;Colisão - Traseira;1;1;1;0;0;0;1
+23/03/2021;15:43:30;152;Acidente sem VITIMA;85,000;BR-290/RS;Leste;Colisão - Traseira;1;5;0;0;0;0;1
+24/03/2021;13:30:42;138;Acidente sem VITIMA;426,000;BR-386/RS;Sul;Choque Praça - Cabine;1;1;0;0;0;0;1
+25/03/2021;21:38:02;224;Acidente com VITIMA;305,000;BR-386/RS;Norte;Colisão - Frontal;1;1;1;0;0;0;1
+26/03/2021;05:12:16;16;Acidente com VITIMA;50,000;BR-101/RS;Sul;Queda de ribanceira;1;0;0;1;0;0;2
+29/03/2021;10:15:53;111;Acidente sem VITIMA;380,000;BR-386/RS;Sul;Colisão - Transversal;1;3;0;0;0;0;1
+04/04/2021;16:01:20;115;Acidente sem VITIMA;256,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+05/04/2021;14:09:35;196;Acidente sem VITIMA;292,000;BR-386/RS;Sul;Queda de ribanceira;1;1;0;0;0;0;1
+05/04/2021;14:54:18;207;Acidente sem VITIMA;348,000;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+06/04/2021;10:38:17;109;Acidente sem VITIMA;275,000;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+06/04/2021;14:20:42;164;Acidente sem VITIMA;327,000;BR-386/RS;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+06/04/2021;16:50:56;199;Acidente com VITIMA;338,000;BR-386/RS;Sul;Colisão - Frontal;1;2;1;0;0;0;1
+06/04/2021;08:06:50;63;Acidente com VITIMA;73,000;BR-290/RS;Oeste;Choque com veículo no acostamento;1;1;0;1;1;0;2
+06/04/2021;09:32:09;90;Acidente sem VITIMA;349,000;BR-386/RS;Sul;Colisão - Traseira;1;4;0;0;0;0;1
+07/04/2021;07:31:42;36;Acidente com VITIMA;332,000;BR-386/RS;Sul;Colisão - Lateral;2;0;1;2;0;0;2
+08/04/2021;19:13:36;254;Acidente com VITIMA;435,000;BR-386/RS;Norte;Colisão - Transversal;1;1;0;1;0;0;2
+10/04/2021;11:45:31;129;Acidente sem VITIMA;226,000;BR-386/RS;Sul;Queda de ribanceira;1;2;0;0;0;0;1
+12/04/2021;09:38:29;103;Acidente sem VITIMA;48,000;BR-290/RS;Leste;Choque com veículo no acostamento;2;2;0;0;0;0;1
+12/04/2021;17:44:15;212;Acidente com VITIMA;185,000;BR-386/RS;Sul;Colisão - Traseira;1;2;1;0;0;0;1
+14/04/2021;07:41:32;57;Acidente sem VITIMA;306,000;BR-386/RS;Sul;Queda de ribanceira;1;2;0;0;0;0;1
+15/04/2021;17:11:36;237;Acidente sem VITIMA;348,000;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+18/04/2021;01:05:48;2;Acidente sem VITIMA;70,000;BR-290/RS;Leste;Colisão - Traseira;1;2;0;0;0;0;1
+20/04/2021;03:13:58;13;Acidente sem VITIMA;333,000;BR-386/RS;Sul;Tombamento;1;1;0;0;0;0;1
+22/04/2021;14:27:17;192;Acidente sem VITIMA;85,000;BR-290/RS;Oeste;Colisão - Frontal;1;3;0;0;0;0;1
+22/04/2021;14:45:13;203;Acidente sem VITIMA;47,000;BR-290/RS;Leste;Saída de pista;1;3;0;0;0;0;1
+22/04/2021;17:17:04;232;Acidente sem VITIMA;351,000;BR-386/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+23/04/2021;10:20:03;164;Acidente sem VITIMA;80,000;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+28/04/2021;09:57:42;131;Acidente sem VITIMA;87,000;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+28/04/2021;16:33:14;238;Acidente sem VITIMA;392,000;BR-386/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+28/04/2021;18:34:45;264;Acidente sem VITIMA;439,000;BR-386/RS;Sul;Colisão - Lateral;1;4;0;0;0;0;1
+28/04/2021;21:37:10;286;Acidente sem VITIMA;84,000;BR-101/RS;Norte;Tombamento;1;1;0;0;0;0;1
+29/04/2021;11:22:02;141;Acidente sem VITIMA;241,000;BR-386/RS;Norte;Colisão - Lateral;1;1;0;0;0;0;1
+29/04/2021;06:29:12;9;Acidente sem VITIMA;304,000;BR-386/RS;Norte;Tombamento;1;1;0;0;0;0;1
+30/04/2021;09:56:00;124;Acidente sem VITIMA;437,000;BR-386/RS;Sul;Colisão - Frontal;1;3;0;0;0;0;1
+02/05/2021;21:00:11;190;Acidente sem VITIMA;19,000;BR-101/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+03/05/2021;16:31:43;259;Acidente sem VITIMA;358,000;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+04/05/2021;13:12:41;194;Acidente sem VITIMA;246,000;BR-386/RS;Sul;;1;3;0;0;0;0;1
+05/05/2021;12:00:05;105;Acidente sem VITIMA;426,000;BR-386/RS;Sul;Choque Praça - Submarino;1;1;0;0;0;0;1
+05/05/2021;19:55:46;168;Acidente sem VITIMA;372,000;BR-386/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+05/05/2021;21:47:38;187;Acidente com VITIMA;344,000;BR-386/RS;Sul;Colisão - Transversal;1;1;1;0;0;0;1
+05/05/2021;22:59:24;200;Acidente sem VITIMA;33,000;BR-290/RS;Oeste;Saída de pista;1;1;0;0;0;0;1
+06/05/2021;10:41:23;107;Acidente sem VITIMA;41,000;BR-290/RS;Oeste;Queda de ribanceira;1;2;0;0;0;0;1
+06/05/2021;14:24:54;149;Acidente com VITIMA;411,000;BR-386/RS;Norte;Colisão - Transversal;1;1;0;1;0;0;2
+10/05/2021;13:45:36;177;Acidente com VITIMA;353,000;BR-386/RS;Norte;Colisão - Lateral;2;1;1;0;0;0;1
+10/05/2021;16:23:02;208;Acidente com VITIMA;356,000;BR-386/RS;Sul;Colisão - Traseira;1;5;1;0;0;0;1
+11/05/2021;06:57:52;18;Acidente sem VITIMA;92,000;BR-290/RS;Oeste;Colisão - Lateral;1;3;0;0;0;0;1
+12/05/2021;09:07:02;101;Acidente com VITIMA;215,000;BR-386/RS;Sul;Colisão - Frontal;1;1;4;1;0;0;2
+12/05/2021;19:20:47;252;Acidente com VITIMA;92,000;BR-290/RS;Leste;Choque Barreira;1;1;0;1;0;0;2
+13/05/2021;07:36:45;29;Acidente sem VITIMA;342,000;BR-386/RS;Norte;Colisão - Lateral;1;4;0;0;0;0;1
+14/05/2021;19:47:09;261;Acidente sem VITIMA;196,000;BR-386/RS;Norte;Colisão - Traseira;1;8;0;0;0;0;1
+17/05/2021;14:41:03;172;Acidente com VITIMA;343,000;BR-386/RS;Sul;Colisão - Frontal;1;3;1;0;1;0;2
+19/05/2021;06:26:38;10;Acidente sem VITIMA;22,000;BR-101/RS;Sul;Colisão - Traseira;2;2;0;0;0;0;1
+19/05/2021;16:49:20;191;Acidente com VITIMA;415,000;BR-386/RS;Norte;Colisão - Traseira;1;2;0;1;0;0;2
+19/05/2021;04:37:44;8;Acidente sem VITIMA;64,000;BR-101/RS;Sul;Choque Barreira;1;1;0;0;0;0;1
+20/05/2021;08:10:25;73;Acidente sem VITIMA;87,000;BR-290/RS;Oeste;Colisão - Traseira;1;3;0;0;0;0;1
+21/05/2021;07:28:24;41;Acidente sem VITIMA;404,000;BR-386/RS;Norte;Queda de ribanceira;1;1;0;0;0;0;1
+21/05/2021;09:38:37;98;Acidente sem VITIMA;262,000;BR-386/RS;Sul;Choque Praça - Cabine;1;3;0;0;0;0;1
+25/05/2021;18:47:06;212;Acidente sem VITIMA;88,000;BR-290/RS;Leste;Engavetamento;1;4;0;0;0;0;1
+26/05/2021;14:01:25;151;Acidente sem VITIMA;8,000;BR-448/RS;Sul;Choque com veículo no acostamento;2;3;0;0;0;0;1
+26/05/2021;14:45:09;161;Acidente com VITIMA;226,000;BR-386/RS;Sul;Queda de ribanceira;1;0;1;1;0;0;2
+26/05/2021;17:20:53;195;Acidente sem VITIMA;437,000;BR-386/RS;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+27/05/2021;09:51:11;104;Acidente sem VITIMA;19,000;BR-290/RS;Leste;Colisão - Traseira;2;2;0;0;0;0;1
+27/05/2021;04:49:02;17;Acidente sem VITIMA;65,000;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+27/05/2021;18:49:59;201;Acidente com VITIMA FATAL;365,000;BR-386/RS;Norte;Colisão - Lateral;1;1;0;1;0;1;3
+29/05/2021;16:15:18;166;Acidente sem VITIMA;22,000;BR-101/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+30/05/2021;18:20:02;139;Acidente sem VITIMA;62,000;BR-101/RS;Sul;Colisão - Lateral;1;5;0;0;0;0;1
+30/05/2021;02:06:51;7;Acidente com VITIMA FATAL;270,000;BR-386/RS;Sul;Colisão - Transversal;1;2;0;1;0;2;3
+31/05/2021;12:29:51;132;Acidente com VITIMA;351,000;BR-386/RS;Sul;Colisão - Lateral;1;1;1;0;0;0;1
+31/05/2021;13:30:05;145;Acidente sem VITIMA;4,000;BR-448/RS;Norte;Choque com veículo no acostamento;1;2;0;0;0;0;1
+31/05/2021;08:30:16;63;Acidente com VITIMA;439,000;BR-386/RS;Sul;Colisão - Lateral;1;4;1;0;0;0;1
+01/06/2021;06:24:42;16;Acidente sem VITIMA;438,000;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+07/06/2021;19:17:03;196;Acidente sem VITIMA;344,000;BR-386/RS;Sul;Queda de moto;1;3;0;0;0;0;1
+09/06/2021;18:00:10;165;Acidente sem VITIMA;89,000;BR-290/RS;Leste;Colisão - Traseira;2;2;0;0;0;0;1
+10/06/2021;10:50:08;85;Acidente sem VITIMA;372,000;BR-386/RS;Norte;Colisão - Lateral;1;1;0;1;1;0;2
+14/06/2021;16:14:41;194;Acidente sem VITIMA;75,000;BR-101/RS;Sul;Queda de Carga;1;1;2;0;0;0;1
+14/06/2021;18:33:25;215;Acidente sem VITIMA;87,000;BR-290/RS;Leste;Engavetamento;1;1;0;0;0;0;1
+15/06/2021;03:23:45;17;Acidente sem VITIMA;28,000;BR-290/RS;Leste;Queda de ribanceira;1;1;0;0;0;0;1
+15/06/2021;18:41:04;225;Acidente sem VITIMA;2,000;BR-290/RS;Leste;Choque com objeto sobre a pista;1;2;0;0;0;0;1
+17/06/2021;11:43:00;123;Acidente sem VITIMA;426,000;BR-386/RS;Norte;Colisão - Traseira;1;1;1;0;0;0;1
+17/06/2021;17:10:55;184;Acidente sem VITIMA;418,000;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+17/06/2021;07:57:43;61;Acidente sem VITIMA;91,000;BR-290/RS;Oeste;Engavetamento;1;2;0;0;0;0;1
+17/06/2021;01:15:28;7;Acidente com VITIMA;38,000;BR-290/RS;Oeste;Saída de pista;1;2;0;0;0;0;1
+18/06/2021;18:27:42;210;Acidente sem VITIMA;86,000;BR-290/RS;Leste;Colisão - Traseira;1;3;0;0;0;0;1
+18/06/2021;07:37:41;48;Acidente sem VITIMA;86,000;BR-290/RS;Leste;Colisão - Lateral;1;0;1;0;0;0;1
+19/06/2021;10:45:04;69;Acidente sem VITIMA;22,000;BR-448/RS;Sul;Choque Defensa;1;1;0;0;0;0;1
+21/06/2021;16:46:25;165;Acidente sem VITIMA;417,000;BR-386/RS;Sul;Queda de Carga;1;4;1;0;0;0;1
+24/06/2021;10:08:36;115;Acidente sem VITIMA;363,000;BR-386/RS;Sul;Queda de ribanceira;1;1;0;1;1;0;2
+24/06/2021;08:34:04;85;Acidente sem VITIMA;350,000;BR-386/RS;Norte;Colisão - Lateral;1;1;0;0;0;0;1
+25/06/2021;13:53:34;136;Acidente sem VITIMA;79,000;BR-290/RS;Leste;Colisão - Traseira;1;1;0;0;1;0;2
+25/06/2021;07:57:44;46;Acidente com VITIMA;444,000;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+27/06/2021;10:08:42;49;Acidente sem VITIMA;75,000;BR-290/RS;Leste;Choque Defensa;1;2;0;0;0;0;1
+28/06/2021;05:17:20;17;Acidente sem VITIMA;445,000;BR-386/RS;Norte;Atropelamento de Animal;1;2;0;0;0;0;1
+28/06/2021;16:54:46;218;Acidente sem VITIMA;78,000;BR-101/RS;Ambos;Saída de pista;2;2;1;0;0;0;1
+28/06/2021;07:42:17;52;Acidente sem VITIMA;426,000;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;1;0;2
+29/06/2021;01:24:36;7;Acidente sem VITIMA;7,000;BR-448/RS;Norte;Queda de moto;1;4;0;0;0;0;1
+30/06/2021;06:56:00;28;Acidente sem VITIMA;225,000;BR-386/RS;Sul;Saída de pista;1;1;0;1;0;0;2
+01/07/2021;04:03:07;18;Acidente com VITIMA;70,000;BR-101/RS;Norte;Tombamento;1;1;0;1;0;0;2
+01/07/2021;19:20:47;196;Acidente sem VITIMA;345,000;BR-386/RS;Sul;Capotamento;1;2;0;0;0;0;1
+01/07/2021;05:33:27;21;Acidente sem VITIMA;415,000;BR-386/RS;Sul;;1;2;0;0;0;0;1
+05/07/2021;08:21:26;59;Acidente sem VITIMA;438,000;BR-386/RS;Sul;Colisão - Lateral;1;5;0;0;0;0;1
+06/07/2021;03:30:59;11;Acidente sem VITIMA;14,000;BR-101/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+06/07/2021;03:47:21;13;Acidente sem VITIMA;37,000;BR-290/RS;Ambos;Saída de pista;1;2;0;0;0;0;1
+07/07/2021;12:45:33;138;Acidente sem VITIMA;62,000;BR-101/RS;Norte;Tombamento;1;2;0;0;0;0;1
+07/07/2021;17:15:48;190;Acidente sem VITIMA;324,000;BR-386/RS;Norte;Colisão - Traseira;1;3;0;0;0;0;1
+09/07/2021;07:13:25;35;Acidente sem VITIMA;347,000;BR-386/RS;Norte;Engavetamento;2;6;0;0;0;0;1
+12/07/2021;12:44:51;152;Acidente sem VITIMA;445,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+12/07/2021;15:37:36;196;Acidente sem VITIMA;53,000;BR-101/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+13/07/2021;18:40:46;224;Acidente com VITIMA;9,000;BR-290/RS;Ambos;Choque com objeto sobre a pista;1;3;2;0;0;0;1
+13/07/2021;23:46:37;258;Acidente com VITIMA;33,000;BR-101/RS;Norte;Colisão - Traseira;1;1;1;0;0;0;1
+14/07/2021;04:59:50;19;Acidente sem VITIMA;413,000;BR-386/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+14/07/2021;22:39:00;238;Acidente sem VITIMA;215,000;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+16/07/2021;15:41:57;191;Acidente com VITIMA;181,000;BR-386/RS;Sul;Colisão - Frontal;1;1;1;0;0;0;1
+16/07/2021;16:45:09;208;Acidente sem VITIMA;352,000;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+16/07/2021;17:35:56;217;Acidente sem VITIMA;233,000;BR-386/RS;Norte;Tombamento;1;3;0;0;0;0;1
+16/07/2021;09:00:26;85;Acidente sem VITIMA;412,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+17/07/2021;10:57:09;89;Acidente sem VITIMA;375,000;BR-386/RS;Norte;Colisão - Lateral;1;5;0;0;0;0;1
+20/07/2021;18:09:04;142;Acidente com VITIMA;248,000;BR-386/RS;Sul;Colisão - Traseira;1;2;2;0;0;0;1
+20/07/2021;18:46:40;152;Acidente com VITIMA;392,000;BR-386/RS;Sul;Colisão - Traseira;1;2;1;0;0;0;1
+20/07/2021;19:12:00;154;Acidente sem VITIMA;25,000;BR-290/RS;Leste;Saída de pista;1;2;0;0;0;0;1
+22/07/2021;10:58:12;140;Acidente sem VITIMA;345,000;BR-386/RS;Norte;Colisão - Lateral;1;3;0;0;0;0;1
+22/07/2021;05:48:42;22;Acidente sem VITIMA;83,000;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+22/07/2021;08:18:02;86;Acidente sem VITIMA;387,000;BR-386/RS;Sul;Colisão - Lateral;1;2;0;0;0;0;1
+23/07/2021;18:12:40;199;Acidente com VITIMA FATAL;219,000;BR-386/RS;Sul;Colisão - Frontal;1;1;0;0;0;4;3
+27/07/2021;17:04:04;195;Acidente com VITIMA;296,000;BR-386/RS;Sul;Tombamento;1;0;0;1;0;0;2
+27/07/2021;05:21:54;6;Acidente com VITIMA FATAL;408,000;BR-386/RS;Norte;Colisão - Frontal;1;1;0;0;0;2;3
+28/07/2021;18:13:08;202;Acidente com VITIMA;342,000;BR-386/RS;Norte;Colisão - Transversal;1;1;0;1;0;0;2
+28/07/2021;06:28:47;31;Acidente sem VITIMA;19,000;BR-290/RS;Leste;;1;2;0;0;0;0;1
+29/07/2021;15:20:09;408;Acidente com VITIMA;222,000;BR-386/RS;Norte;Colisão - Traseira;1;4;3;0;0;0;1
+04/08/2021;15:36:01;165;Acidente sem VITIMA;89,000;BR-290/RS;Leste;;1;2;0;0;0;0;1
+04/08/2021;07:45:12;49;Acidente sem VITIMA;227,000;BR-386/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+05/08/2021;14:42:06;166;Acidente sem VITIMA;327,000;BR-386/RS;Sul;Engavetamento;1;4;0;0;0;0;1
+06/08/2021;18:03:47;225;Acidente com VITIMA;436,000;BR-386/RS;Norte;Colisão - Transversal;1;1;0;1;0;0;2
+06/08/2021;07:58:06;65;Acidente com VITIMA;78,000;BR-290/RS;Oeste;Colisão - Traseira;1;1;1;0;0;0;1
+07/08/2021;05:16:16;19;Acidente sem VITIMA;255,000;BR-386/RS;Sul;Saída de pista;1;1;0;0;0;0;1
+07/08/2021;22:08:17;202;Acidente sem VITIMA;22,000;BR-290/RS;Ambos;Saída de pista;1;1;0;0;0;0;1
+09/08/2021;14:01:35;160;Acidente com VITIMA;17,000;BR-448/RS;Sul;Colisão - Traseira;1;1;1;0;0;0;1
+09/08/2021;16:55:23;195;Acidente sem VITIMA;375,000;BR-386/RS;Sul;Colisão - Lateral;1;3;0;0;0;0;1
+10/08/2021;06:46:30;25;Acidente sem VITIMA;334,000;BR-386/RS;Norte;Choque Defensa;1;1;0;0;0;0;1
+11/08/2021;16:41:24;162;Acidente com VITIMA;86,000;BR-290/RS;Leste;Queda de Carga;1;1;0;1;0;0;2
+12/08/2021;23:17:16;235;Acidente sem VITIMA;36,000;BR-290/RS;Oeste;Saída de pista;1;1;0;0;0;0;1
+12/08/2021;07:49:00;59;Acidente sem VITIMA;425,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+18/08/2021;11:15:13;100;Acidente sem VITIMA;64,000;BR-290/RS;Leste;Colisão - Lateral;1;2;0;0;0;0;1
+18/08/2021;17:18:24;167;Acidente sem VITIMA;402,000;BR-386/RS;Sul;Tombamento;1;2;0;0;0;0;1
+18/08/2021;06:42:03;22;Acidente sem VITIMA;74,000;BR-290/RS;Oeste;Colisão - Traseira;2;2;0;0;0;0;1
+18/08/2021;10:26:11;86;Acidente sem VITIMA;1,000;BR-101/RS;Norte;Saída de pista;1;1;0;0;0;0;1
+19/08/2021;15:36:48;194;Acidente sem VITIMA;327,000;BR-386/RS;Sul;Colisão - Traseira;1;2;0;0;0;0;1
+19/08/2021;08:54:39;78;Acidente com VITIMA;353,000;BR-386/RS;Norte;Colisão - Traseira;1;2;2;0;0;0;1
+21/08/2021;16:33:26;123;Acidente sem VITIMA;19,000;BR-290/RS;Oeste;Colisão - Traseira;1;2;0;0;0;0;1
+23/08/2021;14:33:00;150;Acidente sem VITIMA;302,000;BR-386/RS;Sul;Tombamento;1;2;0;0;0;0;1
+25/08/2021;14:01:39;112;Acidente com VITIMA;440,000;BR-386/RS;Sul;Colisão - Traseira;1;1;2;1;0;0;2
+25/08/2021;23:54:48;217;Acidente com VITIMA;15,000;BR-290/RS;Oeste;Saída de pista;1;0;0;0;1;0;2
+26/08/2021;06:15:45;21;Acidente sem VITIMA;68,000;BR-290/RS;Leste;Saída de pista;1;1;0;0;0;0;1
+26/08/2021;00:53:46;3;Acidente com VITIMA;307,000;BR-386/RS;Norte;Saída de pista;1;1;1;0;0;0;1
+26/08/2021;02:27:05;8;Acidente sem VITIMA;34,000;BR-290/RS;Leste;Saída de pista;1;1;0;0;0;0;1
+29/08/2021;02:08:18;8;Acidente sem VITIMA;35,000;BR-290/RS;Oeste;Capotamento;1;2;0;0;0;0;1
+31/08/2021;09:50:08;108;Acidente sem VITIMA;19,000;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+01/09/2021;13:45:44;203;Acidente sem VITIMA;1,000;BR-290/RS;Oeste;;1;2;0;0;0;0;1
+02/09/2021;05:34:24;29;Acidente sem VITIMA;304,000;BR-386/RS;Norte;Colisão - Lateral;1;2;0;0;0;0;1
+02/09/2021;09:03:35;109;Acidente com VITIMA;294,000;BR-386/RS;Sul;Colisão - Traseira;1;5;1;0;0;0;1
+06/09/2021;12:13:42;148;Acidente com VITIMA FATAL;57,000;BR-101/RS;Sul;Capotamento;1;0;0;1;0;1;3
+07/09/2021;18:40:21;183;Acidente sem VITIMA;277,000;BR-386/RS;Sul;Colisão - Lateral;1;5;0;0;0;0;1
+09/09/2021;16:41:45;168;Acidente com VITIMA;398,000;BR-386/RS;Norte;Tombamento;1;3;1;1;0;0;2
+10/09/2021;15:37:47;193;Acidente sem VITIMA;348,000;BR-386/RS;Norte;Saída de pista;1;2;0;0;0;0;1
+11/09/2021;02:44:28;8;Acidente sem VITIMA;32,000;BR-101/RS;Sul;;1;1;0;0;0;0;1
+13/09/2021;21:58:23;225;Acidente com VITIMA;316,000;BR-386/RS;Norte;Saída de pista;1;0;1;0;0;0;1
+14/09/2021;14:03:37;153;Acidente sem VITIMA;92,000;BR-290/RS;Oeste;Colisão - Lateral;1;2;0;0;0;0;1
+17/09/2021;15:08:27;189;Acidente com VITIMA;417,000;BR-386/RS;Sul;Colisão - Transversal;1;1;0;1;0;0;2
+17/09/2021;15:08:38;190;Acidente sem VITIMA;334,000;BR-386/RS;Norte;Engavetamento;1;13;0;0;0;0;1
+23/09/2021;05:29:10;18;Acidente com VITIMA;343,000;BR-386/RS;Norte;Colisão - Transversal;1;1;1;0;0;0;1
+23/09/2021;10:55:47;139;Acidente com VITIMA;442,000;BR-386/RS;Sul;Colisão - Traseira;1;2;1;0;0;0;1
+28/09/2021;17:02:57;181;Acidente sem VITIMA;349,000;BR-386/RS;Sul;Colisão - Traseira;1;3;0;0;0;0;1
+30/09/2021;02:10:30;237;Acidente sem VITIMA;13,000;BR-101/RS;Norte;Colisão - Lateral;2;2;0;0;0;0;1
+01/10/2021;14:47:08;164;Atropelamento;80,000;BR-101/RS;Sul;Atropelamento - Andarilho;1;2;0;0;0;0;1
+01/10/2021;14:58:16;168;Acidente com VITIMA;92,000;BR-290/RS;Oeste;Atropelamento - Esportista;1;2;0;0;0;0;1
+03/10/2021;17:49:18;107;Atropelamento;383,000;BR-386/RS;Sul;Atropelamento - Usuário;1;0;0;0;0;0;1
+06/10/2021;01:44:10;11;Acidente com VITIMA;216,000;BR-386/RS;Norte;Colisão - Traseira;2;0;0;0;0;0;1
+08/10/2021;16:29:04;206;Acidente com VITIMA FATAL;392,000;BR-386/RS;Norte;Colisão - Transversal;1;1;0;0;0;0;1
+09/10/2021;11:13:19;116;Acidente com VITIMA;52,000;BR-290/RS;Leste;Capotamento;1;3;0;0;0;0;1
+12/10/2021;18:15:34;151;Acidente com VITIMA;390,000;BR-386/RS;Ambos;Saída de pista;1;1;0;1;0;0;2
+13/10/2021;14:45:19;229;Acidente com VITIMA;189,000;BR-386/RS;Norte;Colisão - Frontal;3;2;0;0;0;0;1
+14/10/2021;23:00:31;310;Acidente com VITIMA;414,000;BR-386/RS;Norte;Colisão - Transversal;1;0;0;0;1;0;2
+16/10/2021;21:07:47;162;Acidente com VITIMA;98,000;BR-290/RS;Leste;Colisão - Transversal;1;1;0;0;0;0;1
+20/10/2021;16:35:23;199;Acidente com VITIMA;367,000;BR-386/RS;Norte;Colisão - Traseira;1;9;0;1;0;0;2
+29/10/2021;19:58:55;277;Acidente com VITIMA;274,000;BR-386/RS;Norte;Colisão - Traseira;1;2;0;1;0;1;3
