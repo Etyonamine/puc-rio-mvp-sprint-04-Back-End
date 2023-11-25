@@ -813,7 +813,35 @@ def extrair_ocorrencias():
     con.close()
     print('Gravado com sucesso!')
 
+def extrair_ocorrencias_arq_unico():
+    con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
+    cur = con.cursor()
+    
+    dados = cur.execute(f"SELECT id_conce, id_acidente_tip, dia, mes, qt_caminhao, id_risco FROM acidente_ocorrencia order by id_conce,id_acidente_tip, dia, mes")
+
+    path_arq_insert = "acidente_ocorrencia.csv"
+
+    if os.path.exists(path_arq_insert):
+        os.remove(path_arq_insert)
+
+    linhas = []
+
+    strGravar = 'id_conce; id_acidente_tip; dia; mes; total; id_risco\n'
+    linhas.append(strGravar)        
+    for linha in dados:
+        strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]};{linha[5]}'   
+        linhas.append(f'{strGravar}\n')
+        
+    if len(linhas)>0:
+        # grava todo o conteudo
+        with open(path_arq_insert, 'w') as f:
+            f.writelines(linhas)
+
+     
+    con.close()
+    print('Gravado com sucesso!')
+
 #tratar_dados()
 # gerar_insert_para_bd()
 
-extrair_ocorrencias()
+extrair_ocorrencias_arq_unico()
