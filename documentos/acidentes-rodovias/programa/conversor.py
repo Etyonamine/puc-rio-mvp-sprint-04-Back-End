@@ -2,6 +2,7 @@ from datetime import datetime
 import os
 import pandas as pd
 import sqlite3
+import pandas as pd
 
 class Trecho:    
     def __init__(self,id, descricao):
@@ -258,22 +259,22 @@ def montar_sql_tabela_acidentes(lista, dados_encontrados, codigo_concessionaria)
         
          
         if dado_tabela_sql[0] != "data" and dado_tabela_sql[0].strip() != "":            
-            # if (datetime.strptime(dado_tabela_sql[0], '%d/%m/%Y').date() >= datetime.strptime('01/01/2018', '%d/%m/%Y').date()):
-            
-            # coletando dados
-            #data = dado_tabela_sql[0]
-            dia = dado_tabela_sql[0][0:2]           
-            mes = dado_tabela_sql[0][3:5]            
-            descricao_acidente = dado_tabela_sql[7]
-            id_incidente_tip = recuperar_codigo_tipo_acidente(lista_tipos_acidentes, descricao_acidente)
-            qtd_caminhao = dado_tabela_sql[8]
-  
+            if (datetime.strptime(dado_tabela_sql[0], '%d/%m/%Y').date() >= datetime.strptime('01/01/2018', '%d/%m/%Y').date()):
+                
+                # coletando dados
+                #data = dado_tabela_sql[0]
+                dia = dado_tabela_sql[0][0:2]           
+                mes = dado_tabela_sql[0][3:5]            
+                descricao_acidente = dado_tabela_sql[7]
+                id_incidente_tip = recuperar_codigo_tipo_acidente(lista_tipos_acidentes, descricao_acidente)
+                qtd_caminhao = dado_tabela_sql[8]
 
-            id_risco = dado_tabela_sql[14]
 
-            sql = f"{codigo_concessionaria},{id_incidente_tip},  {dia},{mes},{qtd_caminhao},{id_risco}"
-            
-            lista.append(sql)            
+                id_risco = dado_tabela_sql[14]
+
+                sql = f"{codigo_concessionaria},{id_incidente_tip},  {dia},{mes},{qtd_caminhao},{id_risco}"
+                
+                lista.append(sql)            
 
     return lista
 
@@ -789,21 +790,23 @@ def extrair_ocorrencias():
 
     for i in range(22):
 
-        dados = cur.execute(f"SELECT id_conce, id_acidente_tip, dia, mes, qt_caminhao, id_risco FROM acidente_ocorrencia where id_conce = {ii}")
-
-        path_arq_insert = f"{ii}.csv"
-
-        if os.path.exists(path_arq_insert):
-            os.remove(path_arq_insert)
+        dados = cur.execute(f"SELECT a.id_conce,a.id_acidente_tip, a.dia, a.mes, a.qt_caminhao, a.id_risco ,co.Sigla FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_conce = {ii}")
 
         linhas = []
 
         strGravar = 'id_conce; id_acidente_tip; dia; mes; total; id_risco\n'
         linhas.append(strGravar)        
+
         for linha in dados:
+            path_arq_insert = f"{ii}_{linha[6]}.csv"
+        
             strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]};{linha[5]}'   
             linhas.append(f'{strGravar}\n')
-            
+
+        # exclui antes de gravar     
+        if os.path.exists(path_arq_insert):
+            os.remove(path_arq_insert)
+
         if len(linhas)>0:
             # grava todo o conteudo
             with open(path_arq_insert, 'w') as f:
@@ -841,7 +844,14 @@ def extrair_ocorrencias_arq_unico():
     con.close()
     print('Gravado com sucesso!')
 
-#tratar_dados()
-# gerar_insert_para_bd()
+def abrir_panda_csv():
+    df = pd.read_csv('acidente_ocorrencia.csv', sep='\t')
+    print(df)
 
-extrair_ocorrencias_arq_unico()
+#tratar_dados()
+print('preparar base')
+gerar_insert_para_bd()
+#extrair_ocorrencias_arq_unico()
+#abrir_panda_csv()
+print('extrair base')
+extrair_ocorrencias()
