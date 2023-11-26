@@ -259,22 +259,21 @@ def montar_sql_tabela_acidentes(lista, dados_encontrados, codigo_concessionaria)
         
          
         if dado_tabela_sql[0] != "data" and dado_tabela_sql[0].strip() != "":            
-            if (datetime.strptime(dado_tabela_sql[0], '%d/%m/%Y').date() >= datetime.strptime('01/01/2018', '%d/%m/%Y').date()):
+            #if (datetime.strptime(dado_tabela_sql[0], '%d/%m/%Y').date() >= datetime.strptime('01/01/2018', '%d/%m/%Y').date()):
                 
-                # coletando dados
-                #data = dado_tabela_sql[0]
-                dia = dado_tabela_sql[0][0:2]           
-                mes = dado_tabela_sql[0][3:5]            
-                descricao_acidente = dado_tabela_sql[7]
-                id_incidente_tip = recuperar_codigo_tipo_acidente(lista_tipos_acidentes, descricao_acidente)
-                qtd_caminhao = dado_tabela_sql[8]
+            # coletando dados            
+            dia = dado_tabela_sql[0][0:2]           
+            mes = dado_tabela_sql[0][3:5]            
+            descricao_acidente = dado_tabela_sql[7]
+            id_incidente_tip = recuperar_codigo_tipo_acidente(lista_tipos_acidentes, descricao_acidente)
+            qtd_caminhao = dado_tabela_sql[8]
 
 
-                id_risco = dado_tabela_sql[14]
+            id_risco = dado_tabela_sql[14]
 
-                sql = f"{codigo_concessionaria},{id_incidente_tip},  {dia},{mes},{qtd_caminhao},{id_risco}"
-                
-                lista.append(sql)            
+            sql = f"{codigo_concessionaria},{id_incidente_tip},  {dia},{mes},{qtd_caminhao},{id_risco}"
+            
+            lista.append(sql)            
 
     return lista
 
@@ -794,13 +793,13 @@ def extrair_ocorrencias():
 
         linhas = []
 
-        strGravar = 'id_conce; id_acidente_tip; dia; mes; total; id_risco\n'
+        strGravar = 'id_acidente_tip; dia; mes; total; id_risco\n'
         linhas.append(strGravar)        
 
         for linha in dados:
             path_arq_insert = f"{ii}_{linha[6]}.csv"
         
-            strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]};{linha[5]}'   
+            strGravar = f'{linha[1]};{linha[2]};{linha[3]};{linha[4]};{linha[5]}'   
             linhas.append(f'{strGravar}\n')
 
         # exclui antes de gravar     
