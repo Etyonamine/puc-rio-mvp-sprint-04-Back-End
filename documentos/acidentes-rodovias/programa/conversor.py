@@ -789,7 +789,7 @@ def extrair_ocorrencias():
 
     for i in range(22):
 
-        dados = cur.execute(f"SELECT a.id_conce,a.id_acidente_tip, a.dia, a.mes, a.qt_caminhao, a.id_risco ,co.Sigla FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_conce = {ii}")
+        dados = cur.execute(f"SELECT a.id_acidente_tip, a.dia, a.mes,   a.id_risco ,co.Sigla FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_conce = {ii}")
 
         linhas = []
 
@@ -797,9 +797,9 @@ def extrair_ocorrencias():
         linhas.append(strGravar)        
 
         for linha in dados:
-            path_arq_insert = f"{ii}_{linha[6]}.csv"
+            path_arq_insert = f"{ii}_{linha[4]}.csv"
         
-            strGravar = f'{linha[1]};{linha[2]};{linha[3]};{linha[4]};{linha[5]}'   
+            strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]}'   
             linhas.append(f'{strGravar}\n')
 
         # exclui antes de gravar     
@@ -848,8 +848,8 @@ def abrir_panda_csv():
     print(df)
 
 #tratar_dados()
-print('preparar base')
-gerar_insert_para_bd()
+#print('preparar base')
+#gerar_insert_para_bd()
 #extrair_ocorrencias_arq_unico()
 #abrir_panda_csv()
 print('extrair base')
