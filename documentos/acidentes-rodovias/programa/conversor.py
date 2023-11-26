@@ -793,13 +793,13 @@ def extrair_ocorrencias():
 
         linhas = []
 
-        strGravar = 'id_acidente_tip; dia; mes; total; id_risco\n'
+        strGravar = 'id_acidente_tip;dia;mes;id_risco\n'
         linhas.append(strGravar)        
 
         for linha in dados:
             path_arq_insert = f"{ii}_{linha[4]}.csv"
         
-            strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]}'   
+            strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]}'   
             linhas.append(f'{strGravar}\n')
 
         # exclui antes de gravar     
