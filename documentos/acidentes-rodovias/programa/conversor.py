@@ -793,7 +793,7 @@ def extrair_ocorrencias():
 
         linhas = []
 
-        strGravar = 'id_acidente_tip;dia;mes;qt_acidentes,id_risco\n'
+        strGravar = 'id_acidente_tip;dia;mes;qt_acidentes;id_risco\n'
         linhas.append(strGravar)        
 
         for linha in dados:

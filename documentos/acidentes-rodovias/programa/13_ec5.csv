@@ -1,4 +1,4 @@
-id_acidente_tip;dia;mes;qt_acidentes,id_risco
+id_acidente_tip;dia;mes;qt_acidentes;id_risco
 13;9;7;2;1
 24;10;7;1;1
 29;10;7;1;1
