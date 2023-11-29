@@ -63,13 +63,13 @@ def layout_customizado(dados, icon):
 
             linha = ''
             linha = str(info[0])
-            linha = linha + ';' + str(info[1])      
-            linha = linha + ';' + str(info[2])       
+            """ linha = linha + ';' + str(info[1])      
+            linha = linha + ';' + str(info[2])        
             linha = linha + ';' + str(info[3])       
             linha = linha + ';' + str(info[4])       
             linha = linha + ';' + str(info[5])       
             linha = linha + ';' + str(info[6])       
-            linha = linha + ';' + str(info[7])                      
+            linha = linha + ';' + str(info[7]) """                     
             linha = linha + ';' + str(info[10])  
             linha = linha + ';' + str(info[18])      
             linha = linha + ';' + str(info[19])      
@@ -789,17 +789,17 @@ def extrair_ocorrencias():
 
     for i in range(22):
 
-        dados = cur.execute(f"SELECT a.dia, a.mes, a.qt_caminhao,  a.id_acidente_tip, a.id_risco ,co.Sigla FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_conce = {ii}")
+        dados = cur.execute(f"SELECT a.dia, a.mes, sum(a.qt_caminhao), a.id_risco ,co.Sigla FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_acidente_tip  = 13 and a.id_conce = {ii} group by  a.dia, a.mes,co.Sigla,a.id_risco")
 
         linhas = []
 
-        strGravar = 'dia;mes;qt_acidentes;id_acidente_tip;id_risco\n'
+        strGravar = 'dia;mes;qt_acidentes;id_risco\n'
         linhas.append(strGravar)        
 
         for linha in dados:
-            path_arq_insert = f"{ii}_{linha[5]}.csv"
+            path_arq_insert = f"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\info\{ii}_{linha[4]}.csv"
         
-            strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]}'   
+            strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]}'   
             linhas.append(f'{strGravar}\n')
 
         # exclui antes de gravar     
@@ -850,7 +850,7 @@ def abrir_panda_csv():
 #tratar_dados()
 #print('preparar base')
 #gerar_insert_para_bd()
-#extrair_ocorrencias_arq_unico()
+
 #abrir_panda_csv()
 print('extrair base')
 extrair_ocorrencias()

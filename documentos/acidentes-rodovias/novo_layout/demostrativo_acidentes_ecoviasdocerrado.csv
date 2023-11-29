@@ -1,484 +1,484 @@
-data;horario;n_da_ocorrencia;tipo_de_ocorrencia;km;trecho;sentido;tipo_de_acidente;caminhao;ilesos;levemente_feridos;moderadamente_feridos;gravemente_feridos;mortos;3
-03/09/2020;08:12:47;65;ac02 - Acidente com vítima;751;BR-365/MG;Leste;Choque - Defensa metálica;1;1;1;;;;1
-10/09/2020;22:32:13;267;ac03 - Acidente com vítima ilesa;706,499;BR-365/MG;Leste;Tombamento;1;1;;;;;1
-12/09/2020;11:11:40;126;ac03 - Acidente com vítima ilesa;647;BR-365/MG;Leste;Colisão lateral no mesmo sentido;1;2;;;;;1
-16/09/2020;04:12:49;29;ac02 - Acidente com vítima;646;BR-365/MG;Oeste;Tombamento;1;0;1;;;;1
-17/09/2020;14:23:22;180;ac02 - Acidente com vítima;646;BR-365/MG;Oeste;Atropelamento - Sem Informação;1;0;;;1;;2
-17/09/2020;19:45:29;278;ac02 - Acidente com vítima;627;BR-365/MG;Leste;Colisão lateral no mesmo sentido;1;1;1;;;;1
-18/09/2020;10:52:00;126;ac03 - Acidente com vítima ilesa;756;BR-365/MG;Leste;Tombamento;1;1;;;;;1
-21/09/2020;14:27:32;178;ac03 - Acidente com vítima ilesa;171;BR-364/GO;Leste;Saida de Pista;1;1;;;;;1
-21/09/2020;14:41:16;181;ac03 - Acidente com vítima ilesa;652,5;BR-365/MG;Leste;Choque - Outros;1;1;;;;;1
-28/09/2020;17:56:55;254;ac03 - Acidente com vítima ilesa;765,98;BR-365/MG;Oeste;Choque - Meio fio;1;2;;;;;1
-29/09/2020;16:16:56;225;ac03 - Acidente com vítima ilesa;676,17;BR-365/MG;Oeste;Choque - Elemento de Drenagem;1;1;;;;;1
-01/10/2020;08:28:47;72;ac02 - Acidente com vítima;685,2;BR-365/MG;Leste;Tombamento;1;0;;1;;;2
-01/10/2020;15:50:04;183;ac02 - Acidente com vítima;682;BR-365/MG;Leste;Tombamento;1;0;;;1;;2
-02/10/2020;15:50:15;247;ac03 - Acidente com vítima ilesa;704,6;BR-365/MG;Leste;Colisão Traseira;1;4;;;;;1
-02/10/2020;17:44:47;288;ac03 - Acidente com vítima ilesa;647,7;BR-365/MG;Leste;Choque - Cancela de Pedagio;1;1;;;;;1
-03/10/2020;06:04:12;50;ac03 - Acidente com vítima ilesa;633;BR-365/MG;Leste;Colisão lateral no mesmo sentido;1;3;;;;;1
-05/10/2020;15:44:49;191;ac03 - Acidente com vítima ilesa;718;BR-365/MG;Oeste;Colisão Traseira;2;2;;;;;1
-07/10/2020;13:27:13;180;ac03 - Acidente com vítima ilesa;645,6;BR-365/MG;Oeste;Colisão Traseira;2;2;;;;;1
-08/10/2020;00:37:46;4;ac02 - Acidente com vítima;662;BR-365/MG;Leste;Tombamento;1;0;1;;;;1
-08/10/2020;19:51:52;260;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Leste;Colisão Traseira;2;1;;;;;1
-11/10/2020;19:50:03;191;ac03 - Acidente com vítima ilesa;59,25;BR-364/GO;Leste;Choque - Meio fio;1;1;;;;;1
-12/10/2020;20:30:49;267;ac02 - Acidente com vítima;706;BR-365/MG;Oeste;Colisão Transversal;1;2;;4;;;2
-13/10/2020;14:04:18;160;ac02 - Acidente com vítima;173;BR-364/GO;Leste;Tombamento;1;0;1;;;;1
-13/10/2020;19:04:39;241;ac03 - Acidente com vítima ilesa;791,5;BR-365/MG;Oeste;Atropelamento de Animal;1;1;;;;;1
-17/10/2020;05:09:17;33;ac01 - Acidente com vitima fatal;687;BR-365/MG;Leste;Atropelamento - Pedestre;1;0;;;;1;3
-18/10/2020;21:04:22;225;ac02 - Acidente com vítima;93,12;BR-364/GO;Oeste;Colisão Traseira;1;2;1;;;;1
-19/10/2020;06:54:04;41;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-20/10/2020;23:02:52;213;ac02 - Acidente com vítima;705;BR-365/MG;Leste;Colisão Traseira;2;1;1;;;;1
-22/10/2020;18:41:02;244;ac02 - Acidente com vítima;16,2;BR-364/GO;Leste;Capotamento;1;0;1;;;;1
-23/10/2020;00:04:06;1;ac02 - Acidente com vítima;675,2;BR-365/MG;Oeste;Capotamento;2;2;2;;;;1
-27/10/2020;21:24:03;276;ac02 - Acidente com vítima;14,2;BR-364/GO;Leste;Tombamento;1;0;1;;;;1
-28/10/2020;12:11:55;143;ac03 - Acidente com vítima ilesa;704;BR-365/MG;Leste;Colisão Traseira;1;6;;;;;1
-29/10/2020;07:30:40;45;ac03 - Acidente com vítima ilesa;667,6;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;4;4;;;;;1
-31/10/2020;22:21:01;280;ac01 - Acidente com vitima fatal;637;BR-365/MG;Leste;Colisão Traseira;1;1;5;1;2;1;3
-04/11/2020;18:13:47;234;ac02 - Acidente com vítima;764;BR-365/MG;Leste;Colisão Traseira;1;1;2;;;;1
-06/11/2020;23:36:05;301;ac03 - Acidente com vítima ilesa;148,75;BR-364/GO;Leste;Choque - Sinalização;1;1;;;;;1
-09/11/2020;20:09:29;262;ac02 - Acidente com vítima;652,3;BR-365/MG;Oeste;Colisão Traseira;1;1;;1;;;2
-14/11/2020;03:48:59;27;ac02 - Acidente com vítima;796;BR-365/MG;Oeste;Colisão lateral no sentido contrário;1;1;1;;;;1
-14/11/2020;14:22:25;141;ac03 - Acidente com vítima ilesa;645,6;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;1;2;;;;;1
-14/11/2020;19:21:08;203;ac02 - Acidente com vítima;704,35;BR-365/MG;Oeste;Colisão Traseira;1;6;;1;;;2
-16/11/2020;16:36:51;227;ac03 - Acidente com vítima ilesa;93,12;BR-364/GO;Leste;Colisão Traseira;1;3;;;;;1
-16/11/2020;19:55:17;282;ac03 - Acidente com vítima ilesa;697;BR-365/MG;Leste;Colisão Traseira;2;3;;;;;1
-17/11/2020;19:26:46;242;ac03 - Acidente com vítima ilesa;660,8;BR-365/MG;Oeste;Atropelamento de Animal;1;1;;;;;1
-19/11/2020;07:40:17;52;ac03 - Acidente com vítima ilesa;704,35;BR-365/MG;Oeste;Choque - Sinalização;1;4;;;;;1
-20/11/2020;10:49:25;135;ac03 - Acidente com vítima ilesa;171;BR-364/GO;Oeste;Choque - Sinalização;1;1;;;;;1
-22/11/2020;20:43:41;220;ac02 - Acidente com vítima;772,8;BR-365/MG;Oeste;Colisão Frontal;1;1;1;;;;1
-25/11/2020;15:14:47;181;ac02 - Acidente com vítima;111;BR-364/GO;Oeste;Colisão lateral no sentido contrário;1;1;;1;;;2
-26/11/2020;02:18:48;13;ac02 - Acidente com vítima;89;BR-364/GO;Leste;Colisão Transversal;2;3;1;;;;1
-26/11/2020;16:28:56;206;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-27/11/2020;14:01:53;154;ac03 - Acidente com vítima ilesa;732,78;BR-365/MG;Leste;Colisão lateral no sentido contrário;1;4;;;;;1
-27/11/2020;16:59:49;198;ac03 - Acidente com vítima ilesa;709;BR-365/MG;Leste;Engavetamento;2;5;;;;;1
-28/11/2020;05:30:44;32;ac03 - Acidente com vítima ilesa;154,75;BR-364/GO;Oeste;Atropelamento de Animal;1;1;;;;;1
-28/11/2020;15:50:08;196;ac02 - Acidente com vítima;821;BR-365/MG;Leste;Colisão lateral no sentido contrário;1;2;1;;;;1
-05/12/2020;21:37:38;275;ac02 - Acidente com vítima;630;BR-365/MG;Leste;Objeto lançado contra veículo;1;1;1;;;;1
-06/12/2020;18:06:14;202;ac02 - Acidente com vítima;801;BR-365/MG;Leste;Capotamento;1;1;2;;;;1
-06/12/2020;18:12:02;203;ac02 - Acidente com vítima;782,5;BR-365/MG;Leste;Capotamento;1;0;1;;;;1
-07/12/2020;15:08:04;183;ac03 - Acidente com vítima ilesa;739,3;BR-365/MG;Leste;Choque - Defensa metálica;1;1;;;;;1
-11/12/2020;21:42:32;264;ac02 - Acidente com vítima;684;BR-365/MG;Leste;Colisão Traseira;1;0;1;;;;1
-17/12/2020;07:32:40;58;ac02 - Acidente com vítima;824;BR-365/MG;Oeste;Tombamento;1;0;1;;;;1
-17/12/2020;11:14:55;141;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Oeste;Colisão Traseira;1;5;;;;;1
-17/12/2020;16:48:45;227;ac03 - Acidente com vítima ilesa;754;BR-365/MG;Leste;Engavetamento;1;4;;;;;1
-20/12/2020;16:21:30;200;ac02 - Acidente com vítima;723;BR-365/MG;Oeste;Capotamento;1;0;1;;;;1
-23/12/2020;14:21:12;215;ac03 - Acidente com vítima ilesa;130;BR-364/GO;Oeste;Colisão lateral no sentido contrário;1;3;;;;;1
-27/12/2020;11:26:14;69;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Oeste;Colisão Traseira;1;2;;;;;1
-04/01/2021;09:40:03;85;ac02 - Acidente com vítima;813;BR-365/MG;Oeste;Engavetamento;1;4;1;;;;1
-08/01/2021;12:29:29;142;ac03 - Acidente com vítima ilesa;704;BR-365/MG;Leste;Choque - Outros;1;1;;;;;1
-17/01/2021;10:10:16;67;ac02 - Acidente com vítima;665,5;BR-365/MG;Oeste;Tombamento;1;0;1;;;;1
-22/01/2021;18:22:46;250;ac02 - Acidente com vítima;149;BR-364/GO;Leste;Capotamento;1;0;;2;;;2
-22/01/2021;18:24:40;253;ac03 - Acidente com vítima ilesa;93;BR-364/GO;Leste;Colisão Traseira;1;1;;;;;1
-24/01/2021;07:26:59;43;ac02 - Acidente com vítima;704,35;BR-365/MG;Oeste;Choque - Veiculo parado na pista;2;1;2;;;;1
-31/01/2021;16:55:46;170;ac02 - Acidente com vítima;772,2;BR-365/MG;Leste;Capotamento;1;0;1;;;;1
-03/02/2021;00:26:23;1;ac02 - Acidente com vítima;2;BR-364/GO;Oeste;Choque - Defensa metálica;1;1;1;;;;1
-03/02/2021;22:02:00;293;ac02 - Acidente com vítima;705,5;BR-365/MG;Leste;Colisão Traseira;2;1;1;;;;1
-06/02/2021;10:37:53;91;ac02 - Acidente com vítima;637;BR-365/MG;Oeste;Colisão Transversal;1;2;1;1;;;2
-08/02/2021;10:37:26;101;ac02 - Acidente com vítima;701;BR-365/MG;Leste;Colisão Traseira;2;2;1;1;;;2
-08/02/2021;12:02:34;118;ac03 - Acidente com vítima ilesa;749,5;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-12/02/2021;00:27:11;6;ac03 - Acidente com vítima ilesa;637;BR-365/MG;Leste;Colisão Traseira;1;3;;;;;1
-12/02/2021;16:17:36;213;ac02 - Acidente com vítima;706;BR-365/MG;Oeste;Colisão Traseira;1;1;2;;;;1
-13/02/2021;13:51:31;157;ac03 - Acidente com vítima ilesa;665;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;1;3;;;;;1
-18/02/2021;12:22:34;141;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Leste;Colisão Traseira;1;4;;;;;1
-19/02/2021;07:02:00;35;ac03 - Acidente com vítima ilesa;641;BR-365/MG;Leste;Choque - Veiculo parado no acostamento;1;3;;;;;1
-19/02/2021;09:02:43;78;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Oeste;Colisão Traseira;1;7;;;;;1
-19/02/2021;23:10:09;327;ac02 - Acidente com vítima;637,5;BR-365/MG;Leste;Colisão Traseira;2;1;1;;;;1
-20/02/2021;07:12:56;36;ac03 - Acidente com vítima ilesa;168,5;BR-364/GO;Leste;Colisão Transversal;2;3;;;;;1
-22/02/2021;06:28:52;33;ac03 - Acidente com vítima ilesa;637;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-22/02/2021;23:06:00;254;ac03 - Acidente com vítima ilesa;153;BR-364/GO;Leste;Tombamento;1;1;;;;;1
-23/02/2021;16:18:13;255;ac02 - Acidente com vítima;89;BR-364/GO;Leste;Colisão lateral no sentido contrário;1;1;1;;;;1
-23/02/2021;17:26:54;279;ac02 - Acidente com vítima;77,3;BR-364/GO;Leste;Tombamento;1;0;1;;;;1
-25/02/2021;13:12:07;129;ac03 - Acidente com vítima ilesa;116;BR-364/GO;Leste;Choque - Sinalização;1;1;;;;;1
-26/02/2021;18:39:53;240;ac03 - Acidente com vítima ilesa;74;BR-364/GO;Oeste;Tombamento;1;1;;;;;1
-28/02/2021;00:36:44;5;ac02 - Acidente com vítima;59,25;BR-364/GO;Oeste;Colisão Traseira;2;1;;;1;;2
-02/03/2021;12:06:39;162;ac03 - Acidente com vítima ilesa;670,15;BR-365/MG;Oeste;Tombamento;1;2;;;;;1
-02/03/2021;21:40:00;287;ac03 - Acidente com vítima ilesa;101;BR-364/GO;Oeste;Colisão lateral no sentido contrário;1;2;;;;;1
-03/03/2021;14:51:26;221;ac03 - Acidente com vítima ilesa;756;BR-365/MG;Leste;Choque - Meio fio;1;1;;;;;1
-04/03/2021;09:32:44;92;ac03 - Acidente com vítima ilesa;681;BR-365/MG;Leste;Colisão Traseira;1;2;;;;;1
-08/03/2021;00:51:34;2;ac01 - Acidente com vitima fatal;647,4;BR-365/MG;Leste;Choque - Veiculo parado no acostamento;1;9;2;;;1;3
-12/03/2021;05:55:59;24;ac03 - Acidente com vítima ilesa;757;BR-365/MG;Oeste;Choque - Meio fio;1;1;;;;;1
-12/03/2021;16:04:41;205;ac02 - Acidente com vítima;62;BR-364/GO;Leste;Colisão Traseira;1;1;;1;;;2
-12/03/2021;22:54:34;330;ac03 - Acidente com vítima ilesa;653,3;BR-365/MG;Leste;Choque - Talude ou Barranco;1;2;;;;;1
-14/03/2021;17:35:36;183;ac03 - Acidente com vítima ilesa;779;BR-365/MG;Oeste;Choque - Outros;1;1;;;;;1
-14/03/2021;22:52:46;252;ac02 - Acidente com vítima;694,3;BR-365/MG;Leste;Colisão Traseira;2;1;1;;;;1
-16/03/2021;13:38:47;180;ac03 - Acidente com vítima ilesa;637,5;BR-365/MG;Oeste;Choque - Meio fio;1;1;;;;;1
-17/03/2021;00:01:50;1;ac02 - Acidente com vítima;706,6;BR-365/MG;Leste;Colisão lateral no mesmo sentido;2;0;2;;;;1
-17/03/2021;09:10:51;104;ac03 - Acidente com vítima ilesa;753;BR-365/MG;Leste;Choque - Sinalização;1;1;;;;;1
-17/03/2021;14:22:56;201;ac02 - Acidente com vítima;664,9;BR-365/MG;Oeste;Colisão Transversal;1;1;1;;;;1
-18/03/2021;02:33:38;13;ac03 - Acidente com vítima ilesa;749;BR-365/MG;Leste;Choque - Sinalização;1;1;;;;;1
-22/03/2021;11:04:51;133;ac02 - Acidente com vítima;75;BR-364/GO;Oeste;Tombamento;1;0;1;;;;1
-23/03/2021;14:17:14;177;ac02 - Acidente com vítima;5;BR-364/GO;Leste;Capotamento;1;0;1;;;;1
-24/03/2021;19:15:18;312;ac03 - Acidente com vítima ilesa;757;BR-365/MG;Oeste;Choque - Sinalização;1;1;;;;;1
-25/03/2021;09:44:17;101;ac02 - Acidente com vítima;160,3;BR-364/GO;Leste;Colisão Traseira;2;1;1;;;;1
-25/03/2021;10:20:58;118;ac02 - Acidente com vítima;89;BR-364/GO;Oeste;Colisão Transversal;1;0;2;;;;1
-25/03/2021;20:21:28;320;ac02 - Acidente com vítima;628,7;BR-365/MG;Leste;Colisão Traseira;1;2;1;;;;1
-27/03/2021;22:08:41;324;ac03 - Acidente com vítima ilesa;626,6;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-01/04/2021;18:19:47;297;ac03 - Acidente com vítima ilesa;704,35;BR-365/MG;Leste;Colisão Traseira;1;2;;;;;1
-03/04/2021;06:25:52;18;ac02 - Acidente com vítima;773;BR-365/MG;Oeste;Colisão Transversal;1;3;1;1;;;2
-04/04/2021;13:42:19;103;ac02 - Acidente com vítima;83,4;BR-364/GO;Leste;Colisão lateral no mesmo sentido;1;1;;1;;;2
-06/04/2021;14:52:14;223;ac03 - Acidente com vítima ilesa;147,5;BR-364/GO;Oeste;Choque - Sinalização;1;1;;;;;1
-06/04/2021;15:11:28;233;ac02 - Acidente com vítima;154,5;BR-364/GO;Oeste;Tombamento;1;0;1;;;;1
-10/04/2021;14:33:41;214;ac03 - Acidente com vítima ilesa;659;BR-365/MG;Leste;Choque - Veiculo parado no acostamento;1;2;;;;;1
-12/04/2021;19:07:58;311;ac03 - Acidente com vítima ilesa;729;BR-365/MG;Leste;Choque - Elemento de Drenagem;1;1;;;;;1
-13/04/2021;06:40:45;40;ac03 - Acidente com vítima ilesa;627,3;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-17/04/2021;22:38:05;339;ac02 - Acidente com vítima;4;BR-364/GO;Oeste;Colisão Traseira;1;1;2;;;;1
-18/04/2021;20:19:57;305;ac02 - Acidente com vítima;96,5;BR-364/GO;Oeste;Colisão lateral no sentido contrário;1;1;;;1;;2
-22/04/2021;17:45:17;354;ac02 - Acidente com vítima;673,5;BR-365/MG;Oeste;Atropelamento de Animal;1;2;1;;;;1
-23/04/2021;21:41:56;392;ac02 - Acidente com vítima;719,2;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;1;0;1;;;;1
-26/04/2021;04:47:30;35;ac03 - Acidente com vítima ilesa;689,4;BR-365/MG;Leste;Atropelamento de Animal;1;1;;;;;1
-27/04/2021;15:27:37;269;ac02 - Acidente com vítima;794;BR-365/MG;Leste;Engavetamento;1;1;1;;;;1
-29/04/2021;19:03:41;354;ac01 - Acidente com vitima fatal;719;BR-365/MG;Oeste;Colisão Traseira;1;1;;;;2;3
-30/04/2021;14:02:57;245;ac02 - Acidente com vítima;630;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;1;2;2;;;;1
-02/05/2021;14:27:58;143;ac02 - Acidente com vítima;91,1;BR-364/GO;Leste;Tombamento;1;0;;1;;;2
-05/05/2021;08:47:58;79;ac03 - Acidente com vítima ilesa;168,4;BR-364/GO;Leste;Colisão Traseira;2;3;;;;;1
-07/05/2021;16:40:44;254;ac03 - Acidente com vítima ilesa;81,8;BR-364/GO;Oeste;Tombamento;1;1;;;;;1
-08/05/2021;07:06:07;40;ac03 - Acidente com vítima ilesa;637,62;BR-365/MG;Oeste;Colisão Traseira;1;5;;;;;1
-09/05/2021;13:32:28;152;ac02 - Acidente com vítima;154;BR-364/GO;Leste;Tombamento;1;0;1;;;;1
-09/05/2021;22:11:57;303;ac02 - Acidente com vítima;764,2;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;1;0;1;;;;1
-09/05/2021;22:27:37;306;ac02 - Acidente com vítima;637;BR-365/MG;Oeste;Colisão Traseira;1;1;;1;;;2
-13/05/2021;15:29:50;241;ac02 - Acidente com vítima;139,7;BR-364/GO;Leste;Tombamento;1;0;2;;;;1
-13/05/2021;20:49:58;341;ac03 - Acidente com vítima ilesa;21;BR-364/GO;Leste;Colisão lateral no mesmo sentido;1;1;;;;;1
-14/05/2021;17:12:21;259;ac02 - Acidente com vítima;160,3;BR-364/GO;Leste;Colisão Transversal;1;2;;1;;;2
-14/05/2021;18:52:33;292;ac02 - Acidente com vítima;639;BR-365/MG;Oeste;Capotamento;1;3;1;;;;1
-16/05/2021;06:58:44;27;ac02 - Acidente com vítima;626,6;BR-365/MG;Leste;Colisão Transversal;1;1;1;;;;1
-17/05/2021;23:36:23;365;ac02 - Acidente com vítima;706;BR-365/MG;Oeste;Tombamento;1;0;1;;;;1
-18/05/2021;03:41:47;19;ac03 - Acidente com vítima ilesa;708;BR-365/MG;Leste;Tombamento;1;0;;;;;1
-20/05/2021;22:27:38;394;ac02 - Acidente com vítima;706;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;2;1;1;;;;1
-24/05/2021;10:20:50;125;ac02 - Acidente com vítima;89,09;BR-364/GO;Leste;Colisão Transversal;2;1;1;;;;1
-26/05/2021;12:34:28;175;ac02 - Acidente com vítima;811;BR-365/MG;Leste;Choque - Meio fio;1;0;1;;;;1
-26/05/2021;17:33:59;273;ac02 - Acidente com vítima;751;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;1;2;1;;;;1
-30/05/2021;20:58:57;276;ac02 - Acidente com vítima;706,5;BR-365/MG;Leste;Choque - Elemento de Drenagem;1;0;1;;1;;2
-01/06/2021;05:34:14;30;ac02 - Acidente com vítima;787,9;BR-365/MG;Oeste;Tombamento;1;0;;;1;;2
-02/06/2021;15:22:45;204;ac03 - Acidente com vítima ilesa;160;BR-364/GO;Leste;Choque - Meio fio;1;1;;;;;1
-10/06/2021;14:15:54;161;ac02 - Acidente com vítima;697,55;BR-365/MG;Oeste;Tombamento;1;1;;1;;;2
-11/06/2021;14:38:13;175;ac03 - Acidente com vítima ilesa;704,35;BR-365/MG;Oeste;Choque - Elemento de Drenagem;1;1;;;;;1
-16/06/2021;07:15:25;33;ac02 - Acidente com vítima;832,6;BR-365/MG;Leste;Colisão Traseira;1;1;1;;;;1
-17/06/2021;15:36:40;212;ac02 - Acidente com vítima;707,38;BR-365/MG;Oeste;Colisão Traseira;1;16;;1;;;2
-19/06/2021;05:25:28;33;ac03 - Acidente com vítima ilesa;49,6;BR-364/GO;Leste;Atropelamento de Animal;1;2;;;;;1
-20/06/2021;19:53:22;237;ac02 - Acidente com vítima;9,4;BR-364/GO;Leste;Colisão Frontal;1;1;;;1;;2
-23/06/2021;09:28:11;105;ac03 - Acidente com vítima ilesa;681;BR-365/MG;Leste;Colisão Traseira;1;3;;;;;1
-23/06/2021;14:37:01;228;ac02 - Acidente com vítima;753;BR-365/MG;Leste;Colisão Traseira;1;1;1;;;;1
-27/06/2021;02:57:39;11;ac02 - Acidente com vítima;649;BR-365/MG;Oeste;Tombamento;1;0;2;;;;1
-02/07/2021;16:22:21;265;ac03 - Acidente com vítima ilesa;182;BR-364/GO;Oeste;Colisão Traseira;1;1;;;;;1
-09/07/2021;03:31:20;11;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Oeste;Colisão Transversal;2;2;;;;;1
-12/07/2021;20:20:13;331;ac03 - Acidente com vítima ilesa;730,5;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-13/07/2021;13:33:40;171;ac03 - Acidente com vítima ilesa;786,8;BR-365/MG;Leste;Colisão Traseira;2;3;;;;;1
-15/07/2021;00:18:43;3;ac03 - Acidente com vítima ilesa;687;BR-365/MG;Oeste;Choque - Defensa metálica;1;1;;;;;1
-16/07/2021;12:39:59;199;ac03 - Acidente com vítima ilesa;785,5;BR-365/MG;Leste;Colisão lateral no mesmo sentido;1;2;;;;;1
-16/07/2021;13:08:36;212;ac02 - Acidente com vítima;660,05;BR-365/MG;Oeste;Choque - Sinalização;1;0;1;;;;1
-17/07/2021;18:43:41;308;ac02 - Acidente com vítima;767,9;BR-365/MG;Oeste;Colisão Transversal;1;1;;1;;;2
-20/07/2021;17:20:06;256;ac01 - Acidente com vitima fatal;116,3;BR-364/GO;Leste;Colisão Frontal;1;1;;;;1;3
-21/07/2021;12:29:36;170;ac02 - Acidente com vítima;647;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;2;1;1;;;;1
-23/07/2021;19:51:41;316;ac03 - Acidente com vítima ilesa;6;BR-364/GO;Oeste;Choque - Sinalização;1;1;;;;;1
-25/07/2021;15:42:00;166;ac03 - Acidente com vítima ilesa;93,12;BR-364/GO;Leste;Colisão Traseira;2;2;;;;;1
-27/07/2021;09:36:50;121;ac03 - Acidente com vítima ilesa;784,2;BR-365/MG;Leste;Tombamento;1;1;;;;;1
-27/07/2021;19:21:29;290;ac01 - Acidente com vitima fatal;78;BR-364/GO;Leste;Colisão Frontal;1;2;;;1;1;3
-29/07/2021;23:21:32;330;ac02 - Acidente com vítima;643;BR-365/MG;Oeste;Colisão Traseira;1;1;1;;;;1
-02/08/2021;03:07:25;14;ac03 - Acidente com vítima ilesa;753,5;BR-365/MG;Leste;Choque - Defensa metálica;1;2;;;;;1
-03/08/2021;16:33:52;210;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Leste;Colisão lateral no mesmo sentido;1;4;;;;;1
-04/08/2021;07:55:08;79;ac03 - Acidente com vítima ilesa;160,1;BR-364/GO;Leste;Colisão Traseira;1;2;;;;;1
-04/08/2021;11:57:24;160;ac02 - Acidente com vítima;53,59;BR-364/GO;Leste;Colisão lateral no mesmo sentido;1;0;;1;;;2
-05/08/2021;07:28:47;50;ac02 - Acidente com vítima;685,75;BR-365/MG;Leste;Tombamento;1;0;1;;;;1
-05/08/2021;07:43:05;53;ac02 - Acidente com vítima;626,7;BR-365/MG;Leste;Colisão lateral no mesmo sentido;1;2;1;;;;1
-06/08/2021;00:14:11;2;ac02 - Acidente com vítima;27,5;BR-364/GO;Oeste;Colisão lateral no sentido contrário;1;0;1;;;;1
-06/08/2021;18:42:18;286;ac01 - Acidente com vitima fatal;793,8;BR-365/MG;Leste;Colisão Traseira;1;2;;;;2;3
-11/08/2021;05:22:43;33;ac03 - Acidente com vítima ilesa;634;BR-365/MG;Leste;Colisão lateral no mesmo sentido;2;2;;;;;1
-12/08/2021;02:29:35;14;ac02 - Acidente com vítima;706;BR-365/MG;Leste;Tombamento;1;0;2;;;;1
-14/08/2021;23:48:19;350;ac03 - Acidente com vítima ilesa;129,5;BR-364/GO;Oeste;Atropelamento de Animal;1;1;;;;;1
-23/08/2021;14:49:58;211;ac02 - Acidente com vítima;870;BR-365/MG;Leste;Colisão Frontal;2;1;1;;;;1
-30/08/2021;09:14:33;80;ac03 - Acidente com vítima ilesa;704,4;BR-365/MG;Leste;Colisão Traseira;1;3;;;;;1
-30/08/2021;11:45:24;145;ac02 - Acidente com vítima;706;BR-365/MG;Oeste;Tombamento;1;0;;1;;;2
-01/09/2021;17:58:47;269;ac03 - Acidente com vítima ilesa;88,95;BR-364/GO;Leste;Colisão Transversal;1;3;;;;;1
-02/09/2021;20:32:12;291;ac02 - Acidente com vítima;89;BR-364/GO;Leste;Colisão Transversal;1;3;;1;;;2
-02/09/2021;22:29:18;318;ac02 - Acidente com vítima;657,7;BR-365/MG;Oeste;Colisão lateral no mesmo sentido;1;1;1;;;;1
-04/09/2021;02:12:07;16;ac03 - Acidente com vítima ilesa;827,4;BR-365/MG;Leste;Tombamento;1;1;;;;;1
-04/09/2021;03:25:50;28;ac02 - Acidente com vítima;706;BR-365/MG;Oeste;Tombamento;1;1;1;;;;1
-04/09/2021;06:21:17;45;ac03 - Acidente com vítima ilesa;633;BR-365/MG;Leste;Colisão Traseira;1;2;;;;;1
-08/09/2021;21:35:56;337;ac02 - Acidente com vítima;19;BR-364/GO;Leste;Choque - Talude ou Barranco;1;0;3;;;;1
-10/09/2021;15:51:12;207;ac03 - Acidente com vítima ilesa;729,7;BR-365/MG;Leste;Choque - Elemento de Drenagem;1;2;;;;;1
-10/09/2021;16:20:43;216;ac03 - Acidente com vítima ilesa;704,35;BR-365/MG;Leste;Choque na praça ? submarino;1;1;;;;;1
-13/09/2021;15:55:43;241;ac02 - Acidente com vítima;664,75;BR-365/MG;Oeste;Colisão Traseira;2;1;;;1;;2
-14/09/2021;14:21:26;191;ac03 - Acidente com vítima ilesa;67,65;BR-364/GO;Leste;Tombamento;1;2;;;;;1
-14/09/2021;16:10:04;223;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Leste;Choque - Elemento de Drenagem;1;1;;;;;1
-14/09/2021;16:23:06;227;ac03 - Acidente com vítima ilesa;706;BR-365/MG;Leste;Choque - Sinalização;1;0;;;;;1
-16/09/2021;21:00:57;392;ac03 - Acidente com vítima ilesa;16;BR-364/GO;Leste;Colisão lateral no mesmo sentido;1;3;;;;;1
-17/09/2021;10:08:16;166;ac01 - Acidente com vitima fatal;670;BR-365/MG;Oeste;Engavetamento;7;7;;5;1;1;3
-23/09/2021;13:53:20;227;ac03 - Acidente com vítima ilesa;649,8;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-23/09/2021;16:42:10;273;ac03 - Acidente com vítima ilesa;5;BR-364/GO;Leste;Colisão Traseira;2;2;;;;;1
-05/10/2021;23:26:17;372;ac03 - Acidente com vítima ilesa;120;BR-364/GO;Oeste;Tombamento;1;1;;;;;1
-06/10/2021;21:36:40;387;ac02 - Acidente com vítima;147;BR-364/GO;Leste;Choque - New jersey;1;0;1;;;;1
-07/10/2021;13:14:14;216;ac03 - Acidente com vítima ilesa;779,6;BR-365/MG;Oeste;Colisão Traseira;1;2;;;;;1
-12/10/2021;19:44:53;259;ac02 - Acidente com vítima;706,5;BR-365/MG;Leste;Atropelamento - Pedestre;1;0;;;1;;2
-14/10/2021;21:25:06;256;ac03 - Acidente com vítima ilesa;710;BR-365/MG;Leste;Colisão lateral no mesmo sentido;2;1;;;;;1
-16/10/2021;05:04:05;22;ac03 - Acidente com vítima ilesa;100,5;BR-364/GO;Leste;Atropelamento de Animal;1;3;;;;;1
-18/10/2021;12:54:36;183;ac03 - Acidente com vítima ilesa;706,5;BR-365/MG;Oeste;Colisão Traseira;2;2;;;;;1
-19/10/2021;16:26:17;240;ac03 - Acidente com vítima ilesa;709,5;BR-365/MG;Oeste;Colisão lateral no sentido contrário;1;2;;;;;1
-23/10/2021;11:46:30;153;ac03 - Acidente com vítima ilesa;650;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-24/10/2021;05:52:13;37;ac02 - Acidente com vítima;661,6;BR-365/MG;Leste;Choque - Sinalização;1;0;1;;;;1
-25/10/2021;11:07:59;136;ac03 - Acidente com vítima ilesa;749,9;BR-365/MG;Oeste;Tombamento;1;1;;;;;1
-28/10/2021;13:33:57;193;ac03 - Acidente com vítima ilesa;649,5;BR-365/MG;Oeste;Engavetamento;2;5;;;;;1
-30/10/2021;14:05:41;198;ac02 - Acidente com vítima;156,55;BR-364/GO;Leste;Engavetamento;1;3;1;;;;1
-31/10/2021;14:53:20;177;ac01 - Acidente com vitima fatal;727,007;BR-365/MG;Leste;Colisão Frontal;1;1;;;;5;3
-31/10/2021;15:28:05;182;ac03 - Acidente com vítima ilesa;725,5;BR-365/MG;Oeste;Colisão Traseira;1;2;;;;;1
-10/11/2021;13:01:00;182;Sem vítima;40,400;BR-364/MG;Crescente;Choque;1;1;0;0;0;0;1
-13/11/2021;16:51:00;250;Sem vítima;765,980;BR-365/MG;Decrescente;Colisão traseira;1;3;0;0;0;0;1
-14/11/2021;11:13:00;121;Sem vítima;166,650;BR-364/MG;Crescente;Colisão lateral no mesmo sentido;2;4;0;0;0;0;1
-24/11/2021;15:39:00;272;Com vítima;718,300;BR-365/MG;Decrescente;Tombamento;1;1;1;0;0;0;1
-24/11/2021;16:05:00;281;Sem vítima;186,630;BR-364/MG;Crescente;Tombamento;1;1;0;0;0;0;1
-25/11/2021;13:50:00;233;Sem vítima;32,950;BR-364/MG;Crescente;Choque;1;1;0;0;0;0;1
-25/11/2021;19:24:00;348;Sem vítima;651,800;BR-365/MG;Crescente;Choque;1;1;0;0;0;0;1
-27/11/2021;05:38:00;33;Sem vítima;706,000;BR-365/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-28/11/2021;05:29:00;30;Sem vítima;787,500;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-07/12/2021;08:13:00;70;Com vítima;182,220;BR-364/MG;Decrescente;Tombamento;1;0;1;0;0;0;1
-11/12/2021;09:20:00;92;Sem vítima;627,070;BR-365/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-12/12/2021;22:51:00;271;Sem vítima;706,000;BR-365/MG;Crescente;Tombamento;1;1;0;0;0;0;1
-14/12/2021;08:25:00;72;Sem vítima;171,540;BR-364/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-14/12/2021;12:08:00;158;Sem vítima;136,600;BR-364/MG;Decrescente;Colisão traseira;2;2;0;0;0;0;1
-16/12/2021;00:09:00;1;Sem vítima;659,000;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-23/12/2021;03:22:00;21;Sem vítima;684,000;BR-365/MG;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-28/12/2021;10:47:00;137;Sem vítima;645,400;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-07/01/2022;03:48:00;12;Com vítima;739,400;BR-365/MG;Decrescente;Choque;1;0;1;0;0;0;1
-12/01/2022;16:52:00;286;Sem vítima;20,000;BR-364/MG;Decrescente;Choque;1;1;0;0;0;0;1
-19/01/2022;10:06:00;123;Com vítima;689,000;BR-365/MG;Decrescente;Colisão traseira;1;1;0;0;1;0;2
-22/01/2022;23:07:00;295;Sem vítima;751,000;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-26/01/2022;10:52:00;135;Com vítima;160,180;BR-364/MG;Decrescente;Colisão traseira;1;3;1;0;0;0;1
-30/01/2022;23:31:00;285;Sem vítima;726,800;BR-365/MG;Crescente;Capotamento;1;1;0;0;0;0;1
-02/02/2022;11:37:00;156;Com vítima;750,800;BR-365/MG;Crescente;Engavetamento;1;1;0;1;0;0;2
-03/02/2022;06:51:00;49;Sem vítima;673,000;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-08/02/2022;08:08:00;50;Sem vítima;736,750;BR-365/MG;Crescente;Engavetamento;1;4;0;0;0;0;1
-09/02/2022;13:31:00;249;Sem vítima;764,000;BR-365/MG;Crescente;Choque;1;1;0;0;0;0;1
-14/02/2022;11:44:00;170;Sem vítima;156,550;BR-364/MG;Crescente;Colisão traseira;1;3;0;0;0;0;1
-15/02/2022;15:23:00;247;Sem vítima;179,850;BR-364/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-18/02/2022;13:05:00;210;Sem vítima;752,940;BR-365/MG;Decrescente;Colisão frontal;1;3;0;0;0;0;1
-18/02/2022;16:54:00;299;Sem vítima;751,000;BR-365/MG;Decrescente;Colisão traseira;1;3;0;0;0;0;1
-21/02/2022;19:38:00;348;Com vítima;735,000;BR-365/MG;Crescente;Colisão traseira;1;1;1;0;0;0;1
-24/02/2022;09:30:00;109;Com vítima;706,700;BR-365/MG;Decrescente;Tombamento;1;0;1;0;0;0;1
-28/02/2022;01:26:00;14;Sem vítima;706,000;BR-365/MG;Decrescente;Choque;1;2;0;0;0;0;1
-02/03/2022;16:39:00;287;Com vítima;152,000;BR-364/MG;Crescente;Colisão traseira;1;2;0;4;0;0;2
-08/03/2022;03:15:00;25;Sem vítima;688,000;BR-365/MG;Crescente;Atropelamento de animal;1;1;0;0;0;0;1
-12/03/2022;03:15:00;24;Sem vítima;706,000;BR-365/MG;Crescente;Choque;1;2;0;0;0;0;1
-16/03/2022;17:16:00;247;Com vítima;20,050;BR-364/MG;Crescente;Colisão lateral no mesmo sentido;2;1;1;0;0;0;1
-18/03/2022;15:39:00;235;Com vítima;655,600;BR-365/MG;Decrescente;Engavetamento;1;3;4;0;0;0;1
-18/03/2022;19:20:00;297;Sem vítima;645,000;BR-365/MG;Decrescente;Colisão traseira;1;2;0;0;0;0;1
-25/03/2022;01:59:00;15;Com vítima;650,470;BR-365/MG;Crescente;Choque;1;0;1;0;0;0;1
-29/03/2022;08:33:00;85;Sem vítima;706,000;BR-365/MG;Crescente;Tombamento;1;1;0;0;0;0;1
-31/03/2022;11:44:00;134;Sem vítima;126,300;BR-364/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-01/04/2022;10:42:00;132;Sem vítima;706,000;BR-365/MG;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
-04/04/2022;08:55:00;83;Sem vítima;53,850;BR-364/MG;Crescente;Colisão transversal;1;3;0;0;0;0;1
-12/04/2022;11:54:00;197;Sem vítima;827,210;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-21/04/2022;11:46:00;180;Sem vítima;667,300;BR-365/MG;Crescente;Colisão traseira;1;3;0;0;0;0;1
-29/04/2022;23:04:00;412;Sem vítima;113,070;BR-364/MG;Crescente;Colisão transversal;1;2;0;0;0;0;1
-04/05/2022;10:05:00;101;Sem vítima;645,500;BR-365/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-04/05/2022;13:32:00;157;Sem vítima;644,810;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-05/05/2022;16:24:00;259;Sem vítima;720,200;BR-365/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-15/05/2022;18:10:00;204;Sem vítima;706,000;BR-365/MG;Crescente;Tombamento;1;1;0;0;0;0;1
-25/05/2022;19:42:00;274;Com vítima;183,000;BR-364/MG;Crescente;Colisão lateral no mesmo sentido;1;1;1;0;0;0;1
-30/05/2022;18:57:00;277;Sem vítima;645,600;BR-365/MG;Crescente;Choque;1;1;0;0;0;0;1
-05/06/2022;19:32:00;240;Sem vítima;77,600;BR-364/MG;Decrescente;Colisão transversal;1;0;0;0;0;0;1
-23/06/2022;13:45:00;203;Sem vítima;675,800;BR-365/MG;Decrescente;Choque;2;4;0;0;0;0;1
-23/06/2022;19:41:00;320;Com vítima;89,000;BR-364/MG;Decrescente;Colisão transversal;1;1;0;2;0;0;2
-30/06/2022;17:14:00;238;Sem vítima;631,599;BR-365/MG;Decrescente;Engavetamento;1;3;0;0;0;0;1
-08/07/2022;21:06:00;300;Sem vítima;645,600;BR-365/MG;Decrescente;Colisão lateral no mesmo sentido;1;4;0;0;0;0;1
-13/07/2022;08:18:00;49;Com vítima;745,550;BR-365/MG;Decrescente;Engavetamento;2;5;5;0;0;0;1
-14/07/2022;14:14:00;194;Sem vítima;651,000;BR-365/MG;Decrescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
-18/07/2022;14:58:00;207;Sem vítima;645,600;BR-365/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-20/07/2022;08:22:00;66;Sem vítima;153,098;BR-364/MG;Decrescente;Colisão traseira;2;2;0;0;0;0;1
-03/08/2022;06:16:00;37;Com vítima;668,300;BR-365/MG;Decrescente;Colisão traseira;1;1;1;0;0;0;1
-10/08/2022;12:20:00;137;Sem vítima;704,350;BR-365/MG;Crescente;Colisão traseira;1;2;0;0;0;0;1
-10/08/2022;16:52:00;204;Sem vítima;765,980;BR-365/MG;Decrescente;Choque;1;2;0;0;0;0;1
-12/08/2022;01:16:00;8;Com vítima;706,700;BR-365/MG;Decrescente;Tombamento;1;0;1;0;0;0;1
-21/08/2022;20:19:00;290;Sem vítima;689,900;BR-365/MG;Decrescente;Choque;1;2;0;0;0;0;1
-24/08/2022;20:44:00;307;Com vítima;794,930;BR-365/MG;Decrescente;Atropelamento de animal;1;0;1;0;0;0;1
-26/08/2022;03:34:00;23;Com vítima;91,500;BR-364/MG;Crescente;Tombamento;1;0;0;1;0;0;2
-13/09/2022;13:04:00;208;Com vítima;677,900;BR-365/MG;Crescente;Choque;1;0;1;0;0;0;1
-22/09/2022;07:46:00;79;Com vítima;739,600;BR-365/MG;Crescente;Colisão traseira;1;0;4;0;0;0;1
-23/09/2022;23:28:00;347;Com vítima;681,000;BR-365/MG;Crescente;Colisão traseira;1;1;0;1;0;0;2
-27/09/2022;12:09:00;165;Sem vítima;701,000;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-27/09/2022;13:22:00;188;Com vítima;756,900;BR-365/MG;Decrescente;Tombamento;1;1;1;0;0;0;1
-27/09/2022;19:42:00;303;Sem vítima;670,000;BR-365/MG;Decrescente;Acidentes de outra natureza;1;2;0;0;0;0;1
-06/10/2022;10:18:00;144;Sem vítima;83,700;BR-364/MG;Crescente;Colisão lateral no mesmo sentido;1;3;0;0;0;0;1
-07/10/2022;21:16:00;345;Sem vítima;705,600;BR-365/MG;Crescente;Colisão traseira;1;1;0;0;0;0;1
-09/10/2022;20:43:00;304;Sem vítima;123,330;BR-364/MG;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
-11/10/2022;21:10:00;355;Sem vítima;706,500;BR-365/MG;Crescente;Colisão lateral no mesmo sentido;1;6;0;0;0;0;1
-16/10/2022;03:43:00;28;Sem vítima;706,500;BR-365/MG;Crescente;Tombamento;1;1;0;0;0;0;1
-20/10/2022;15:53:00;298;Com vítima;737,570;BR-365/MG;Decrescente;Colisão frontal;1;5;1;0;0;0;1
-21/10/2022;04:23:00;20;Com vítima;706,500;BR-365/MG;Crescente;Colisão transversal;1;1;0;0;0;1;3
-22/10/2022;02:32:00;26;Sem vítima;689,420;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-29/10/2022;08:06:00;71;Sem vítima;642,920;BR-365/MG;Crescente;Choque;1;3;0;0;0;0;1
-31/10/2022;10:03:00;133;Sem vítima;742,000;BR-365/MG;Crescente;Colisão traseira;1;4;0;0;0;0;1
-15/11/2022;12:04:00;171;Sem vítima;704,400;BR-365/MG;Decrescente;Colisão traseira;1;3;0;0;0;0;1
-29/11/2022;17:07:00;256;Sem vítima;706,770;BR-365/MG;Crescente;Colisão traseira;1;0;0;0;0;0;1
-29/11/2022;21:59:00;321;Com vítima;635,000;BR-365/MG;Decrescente;Colisão traseira;1;0;0;0;1;0;2
-12/12/2022;11:37:00;214;Com vítima;657,680;BR-365/MG;Crescente;Engavetamento;2;2;0;1;0;0;2
-19/12/2022;09:05:00;121;Sem vítima;1,000;BR-364/MG;Crescente;Choque;1;2;0;0;0;0;1
-22/12/2022;12:29:00;256;Sem vítima;648,000;BR-365/MG;Crescente;Colisão lateral em sentido contrário;1;2;0;0;0;0;1
-23/12/2022;13:30:00;217;Sem vítima;704,350;BR-365/MG;Decrescente;Colisão traseira;1;0;0;0;0;0;1
-24/12/2022;07:00:00;71;Sem vítima;43,500;BR-364/MG;Crescente;Choque;1;2;0;0;0;0;1
-04/01/2023;14:38:00;221;Sem vítima;867,000;BR-365/MG;Decrescente;Colisão lateral no mesmo sentido;1;2;0;0;0;0;1
-09/01/2023;07:40:00;75;Com vítima;632,000;BR-365/MG;Crescente;Choque;2;1;0;0;1;0;2
-09/01/2023;16:21:00;343;Sem vítima;704,350;BR-365/MG;Crescente;Colisão traseira;1;4;0;0;0;0;1
-11/01/2023;04:12:00;38;Com vítima;706,000;BR-365/MG;Decrescente;Choque;1;0;0;1;0;0;2
-11/01/2023;16:51:00;310;Sem vítima;772,000;BR-365/MG;Decrescente;Engavetamento;1;5;0;0;0;0;1
-13/01/2023;02:43:00;26;Sem vítima;709,600;BR-365/MG;Decrescente;Choque;1;2;0;0;0;0;1
-20/01/2023;06:11:00;30;Com vítima;855,500;BR-365/MG;Crescente;Colisão traseira;1;2;0;1;0;0;2
-21/01/2023;07:23:00;46;Sem vítima;706,500;BR-365/MG;Decrescente;Tombamento;1;1;0;0;0;0;1
-21/01/2023;16:22:00;261;Sem vítima;701,000;BR-365/MG;Crescente;Choque;1;0;0;0;0;0;1
-30/01/2023;14:49:00;252;Com vítima;775,500;BR-365/MG;Decrescente;Colisão frontal;1;1;0;0;0;1;3
-30/01/2023;17:14:00;299;Com vítima;749,600;BR-365/MG;Crescente;Tombamento;1;1;1;0;0;0;1
-04/02/2023;14:34:00;223;Sem vítima;638,900;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-13/02/2023;17:15:00;266;Com vítima;682,400;BR-365/MG;Decrescente;Colisão traseira;1;1;0;1;0;0;2
-15/02/2023;10:07:00;132;Sem vítima;724,100;BR-365/MG;Crescente;Acidentes de outra natureza;1;3;0;0;0;0;1
-22/02/2023;08:43:00;76;Com vítima;728,500;BR-365/MG;Crescente;Colisão lateral no mesmo sentido;1;1;0;0;0;0;1
-24/02/2023;17:53:00;311;Sem vítima;756,680;BR-365/MG;Decrescente;Choque;1;2;0;0;0;0;1
-06/03/2023;10:47:00;131;Sem vítima;703,900;BR-365/MG;Decrescente;Colisão traseira;2;2;0;0;0;0;1
-18/03/2023;00:00:00;1;Sem vítima;836,700;BR-365/MG;Crescente;Choque;1;1;0;0;0;0;1
-22/03/2023;10:52:00;135;Sem vítima;736,801;BR-365/MG;Crescente;Choque;1;2;0;0;0;0;1
-28/03/2023;12:49:00;169;Sem vítima;706,000;BR-365/MG;Decrescente;Colisão transversal;1;0;0;0;0;0;1
-30/03/2023;07:11:00;59;Sem vítima;645,600;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-30/03/2023;22:10:00;408;Sem vítima;842,561;BR-365/MG;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-31/03/2023;15:47:00;282;Com vítima;779,500;BR-365/MG;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-05/04/2023;18:39:00;326;Sem vítima;631,170;BR-365/MG;Decrescente;Colisão lateral no mesmo sentido;1;0;0;0;0;0;1
-16/04/2023;20:43:00;270;Sem vítima;795,000;BR-365/MG;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-24/04/2023;09:55:00;89;Com vítima;749,350;BR-365/MG;Crescente;Tombamento;1;0;1;0;0;0;1
-03/05/2023;16:15:00;249;Sem vítima;133,500;BR-364/MG;Decrescente;Choque;1;1;0;0;0;0;1
-09/05/2023;14:45:00;286;Com vítima;179,900;BR-364/MG;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-10/05/2023;03:51:00;20;Sem vítima;756,000;BR-365/MG;Crescente;Choque;1;1;0;0;0;0;1
-31/05/2023;00:25:00;1;Sem vítima;629,420;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-31/05/2023;00:37:00;6;Sem vítima;629,520;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-07/06/2023;18:57:00;345;Sem vítima;706,950;BR-365/MG;Crescente;Tombamento;1;1;0;0;0;0;1
-12/06/2023;05:26:00;29;Sem vítima;706,500;BR-365/MG;Crescente;Colisão transversal;1;1;0;0;0;0;1
-17/06/2023;22:09:00;297;Sem vítima;706,500;BR-365/MG;Crescente;Tombamento;1;1;0;0;0;0;1
-21/06/2023;02:54:00;19;Sem vítima;706,500;BR-365/MG;Decrescente;Tombamento;1;0;0;0;0;0;1
-28/06/2023;18:00:00;253;Com vítima;845,800;BR-365/MG;Crescente;Colisão frontal;1;1;0;0;0;0;1
-08/07/2023;02:55:00;19;Sem vítima;653,000;BR-365/MG;Decrescente;Choque;1;1;0;0;0;0;1
-10/07/2023;16:14:00;229;Com vítima;9,500;BR-364/MG;Decrescente;Colisão traseira;1;0;1;0;0;0;1
-10/07/2023;17:16:00;250;Sem vítima;92,840;BR-364/MG;Crescente;Colisão traseira;1;0;0;0;0;0;1
-24/07/2023;09:35:00;134;Sem vítima;82,000;BR-364/MG;Crescente;Colisão traseira;1;0;0;0;0;0;1
-18/08/2023;12:28:00;150;Com vítima;644,900;BR-365/MG;Crescente;Colisão transversal;1;1;0;0;0;0;1
-30/08/2023;16:58:00;260;Sem vítima;61,900;BR-364/MG;Decrescente;Tombamento;1;1;0;0;0;0;1
-30/06/2023;04:30:00;79;Com vítima;323,000;BR-116/SP;Crescente;Tombamento;1;0;2;0;0;0;1
-30/06/2023;10:53:00;282;Com vítima;251,000;BR-116/SP;Decrescente;Tombamento;1;0;2;0;0;0;1
-30/06/2023;14:18:00;383;Com vítima;313,000;BR-116/SP;Crescente;Colisão traseira;1;0;0;0;0;0;1
-07/07/2023;07:11:00;114;Com vítima;145,000;BR-116/SP;Decrescente;Colisão traseira;1;2;0;0;0;0;1
-14/07/2023;05:09:00;69;Com vítima;292,000;BR-116/SP;Decrescente;Tombamento;1;0;2;0;0;0;1
-17/07/2023;00:00:00;41;Sem vítima;51,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-17/07/2023;12:55:00;272;Sem vítima;182,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-19/07/2023;07:17:00;112;Sem vítima;315,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-20/07/2023;17:31:00;438;Sem vítima;100,000;BR-116/SP;Crescente;Engavetamento;1;2;0;0;0;0;1
-21/07/2023;18:19:00;394;Sem vítima;145,000;BR-116/SP;Decrescente;Colisão traseira;1;2;0;0;0;0;1
-22/07/2023;15:46:00;387;Sem vítima;155,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-23/07/2023;20:44:00;493;Com vítima;205,000;BR-116/SP;Decrescente;Tombamento;1;0;1;0;0;0;1
-23/07/2023;22:08:00;523;Sem vítima;205,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-24/07/2023;02:37:00;38;Sem vítima;158,000;BR-116/SP;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
-24/07/2023;18:12:00;484;Com vítima;228,000;BR-116/SP;Decrescente;Engavetamento;1;1;0;0;0;0;1
-24/07/2023;21:29:00;571;Sem vítima;270,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-26/07/2023;12:36:00;275;Com vítima;155,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-27/07/2023;05:42:00;47;Com vítima;213,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-27/07/2023;19:06:00;514;Sem vítima;151,000;BR-116/SP;Crescente;Acidentes de outra natureza;1;0;0;0;0;0;1
-27/07/2023;23:36:00;605;Sem vítima;116,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-28/07/2023;09:34:00;190;Sem vítima;312,000;BR-116/SP;Decrescente;Choque;1;0;0;0;0;0;1
-28/07/2023;09:44:00;218;Sem vítima;285,000;BR-116/SP;Crescente;Colisão traseira;1;0;0;0;0;0;1
-28/07/2023;11:29:00;287;Com vítima;278,000;BR-116/SP;Crescente;Colisão frontal;1;1;0;0;0;0;1
-02/08/2023;08:07:00;140;Com vítima;331,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-02/08/2023;20:56:00;531;Sem vítima;266,000;BR-116/SP;Crescente;Colisão traseira;2;0;0;0;0;0;1
-03/08/2023;07:21:00;123;Sem vítima;230,000;BR-116/SP;Decrescente;Choque;1;0;0;0;0;0;1
-04/08/2023;03:28:00;41;Sem vítima;86,000;BR-116/SP;Crescente;Choque;1;1;0;0;0;0;1
-05/08/2023;05:14:00;63;Sem vítima;72,000;BR-116/SP;Crescente;Colisão traseira;1;0;0;0;0;0;1
-05/08/2023;05:29:00;67;Com vítima;167,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;1;0;0;2
-05/08/2023;14:34:00;322;Sem vítima;207,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-08/08/2023;02:44:00;56;Sem vítima;209,000;BR-116/SP;Crescente;Choque;1;1;0;0;0;0;1
-08/08/2023;03:12:00;60;Sem vítima;111,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-08/08/2023;14:52:00;327;Sem vítima;524,000;BR-101/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-08/08/2023;15:05:00;332;Sem vítima;28,000;BR-101/SP;Crescente;Acidentes de outra natureza;1;1;0;0;0;0;1
-08/08/2023;15:41:00;343;Sem vítima;208,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-09/08/2023;21:11:00;486;Sem vítima;210,000;BR-116/SP;Crescente;Colisão traseira;1;2;0;0;0;0;1
-10/08/2023;08:47:00;196;Sem vítima;147,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-10/08/2023;12:12:00;316;Sem vítima;182,000;BR-116/SP;Decrescente;Colisão traseira;2;2;0;0;0;0;1
-10/08/2023;16:27:00;432;Sem vítima;302,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-11/08/2023;14:55:00;388;Sem vítima;28,000;BR-116/SP;Crescente;Choque;1;1;0;0;0;0;1
-11/08/2023;15:32:00;405;Sem vítima;232,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-11/08/2023;16:31:00;432;Sem vítima;187,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-12/08/2023;16:31:00;348;Sem vítima;18,000;BR-116/SP;Crescente;Tombamento;1;1;0;0;0;0;1
-14/08/2023;00:00:00;381;Com vítima;50,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-14/08/2023;23:00:00;483;Sem vítima;221,000;BR-116/SP;Crescente;Choque;1;1;0;0;0;0;1
-15/08/2023;04:34:00;53;Sem vítima;452,000;BR-101/SP;Crescente;Choque;1;1;0;0;0;0;1
-15/08/2023;06:22:00;80;Sem vítima;231,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-15/08/2023;07:36:00;140;Sem vítima;26,000;BR-116/SP;Crescente;Colisão traseira;1;2;0;0;0;0;1
-16/08/2023;00:00:00;601;Com vítima;144,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-16/08/2023;08:50:00;173;Sem vítima;247,000;BR-116/SP;Decrescente;Colisão traseira;1;2;0;0;0;0;1
-16/08/2023;13:27:00;329;Com vítima;290,000;BR-116/SP;Decrescente;Choque;2;4;0;0;0;0;1
-16/08/2023;21:53:00;569;Sem vítima;226,000;BR-116/SP;Crescente;Colisão traseira;1;0;0;0;0;0;1
-17/08/2023;20:47:00;500;Com vítima;160,000;BR-116/SP;Crescente;Tombamento;1;0;0;0;1;0;2
-18/08/2023;09:23:00;211;Com vítima;275,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-18/08/2023;13:06:00;310;Sem vítima;291,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-23/08/2023;00:00:00;442;Sem vítima;113,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-24/08/2023;01:50:00;40;Com vítima;61,000;BR-116/SP;Crescente;Choque;1;0;1;0;0;0;1
-24/08/2023;08:20:00;194;Sem vítima;219,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-24/08/2023;18:19:00;579;Sem vítima;301,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-24/08/2023;18:51:00;602;Sem vítima;320,000;BR-116/SP;Crescente;Colisão traseira;1;2;0;0;0;0;1
-25/08/2023;04:25:00;67;Sem vítima;199,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-25/08/2023;12:19:00;338;Sem vítima;155,000;BR-116/SP;Crescente;Engavetamento;1;1;0;0;0;0;1
-25/08/2023;13:28:00;375;Sem vítima;184,000;BR-116/SP;Crescente;Choque;1;1;0;0;0;0;1
-25/08/2023;18:27:00;539;Com vítima;205,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-27/08/2023;06:32:00;46;Sem vítima;238,000;BR-116/SP;Crescente;Choque;1;1;0;0;0;0;1
-27/08/2023;15:07:00;251;Sem vítima;51,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-29/08/2023;14:23:00;338;Sem vítima;299,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-29/08/2023;15:37:00;378;Com vítima;53,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-30/08/2023;14:47:00;379;Sem vítima;108,000;BR-116/SP;Decrescente;Colisão traseira;1;0;0;0;0;0;1
-31/08/2023;01:47:00;35;Sem vítima;144,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-31/08/2023;05:37:00;79;Sem vítima;26,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-31/08/2023;07:52:00;164;Sem vítima;258,000;BR-116/SP;Decrescente;Engavetamento;1;1;0;0;0;0;1
-31/08/2023;14:00:00;373;Com vítima;111,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-31/08/2023;16:06:00;441;Sem vítima;315,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-01/09/2023;00:00:00;38;Com vítima;2,000;BR-116/SP;Decrescente;Acidentes de outra natureza;1;0;0;1;0;0;2
-01/09/2023;02:52:00;42;Sem vítima;53,000;BR-116/SP;Decrescente;Acidentes de outra natureza;1;0;0;0;0;0;1
-01/09/2023;07:26:00;145;Com vítima;143,000;BR-116/SP;Decrescente;Engavetamento;1;1;0;0;0;0;1
-01/09/2023;09:38:00;232;Sem vítima;275,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-01/09/2023;10:43:00;275;Sem vítima;110,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-02/09/2023;09:09:00;182;Sem vítima;145,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-02/09/2023;19:05:00;548;Com vítima;311,000;BR-116/SP;Crescente;Choque;1;0;0;0;0;0;1
-03/09/2023;22:15:00;563;Sem vítima;4,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-04/09/2023;09:11:00;228;Sem vítima;51,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-04/09/2023;12:03:00;352;Sem vítima;213,000;BR-116/SP;Crescente;Choque;1;1;0;0;0;0;1
-04/09/2023;12:13:00;358;Sem vítima;151,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-04/09/2023;12:15:00;359;Sem vítima;17,000;BR-116/SP;Decrescente;Tombamento;1;1;0;0;0;0;1
-04/09/2023;17:04:00;546;Sem vítima;105,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-04/09/2023;17:16:00;556;Sem vítima;279,000;BR-116/SP;Crescente;Colisão traseira;1;0;0;0;0;0;1
-04/09/2023;18:42:00;606;Com vítima;532,000;BR-101/SP;Crescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-04/09/2023;23:36:00;713;Com vítima;121,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-05/09/2023;15:48:00;429;Sem vítima;151,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-05/09/2023;18:05:00;517;Sem vítima;244,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-06/09/2023;11:15:00;269;Com vítima;233,000;BR-116/SP;Decrescente;Engavetamento;1;1;0;0;0;0;1
-06/09/2023;11:29:00;274;Sem vítima;235,000;BR-116/SP;Decrescente;Engavetamento;1;1;0;0;0;0;1
-06/09/2023;15:01:00;396;Sem vítima;583,000;BR-101/SP;Crescente;Choque;1;0;0;0;0;0;1
-07/09/2023;00:55:00;33;Sem vítima;289,000;BR-116/SP;Decrescente;Tombamento;1;1;0;0;0;0;1
-07/09/2023;04:29:00;78;Sem vítima;246,000;BR-116/SP;Decrescente;Colisão traseira;1;1;0;0;0;0;1
-07/09/2023;09:28:00;230;Sem vítima;165,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-08/09/2023;03:33:00;57;Sem vítima;6,000;BR-116/SP;Crescente;Choque;1;1;0;0;0;0;1
-08/09/2023;11:50:00;283;Sem vítima;60,000;BR-116/SP;Crescente;Tombamento;1;1;0;0;0;0;1
-08/09/2023;16:29:00;423;Sem vítima;188,000;BR-116/SP;Decrescente;Choque;1;0;0;0;0;0;1
-08/09/2023;16:44:00;433;Sem vítima;154,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-08/09/2023;17:31:00;460;Com vítima;47,000;BR-116/SP;Crescente;Choque;1;0;1;0;1;0;2
-09/09/2023;21:04:00;537;Com vítima;253,000;BR-116/SP;Decrescente;Colisão traseira;1;0;0;0;0;0;1
-10/09/2023;02:19:00;46;Sem vítima;230,000;BR-116/SP;Decrescente;Choque;1;0;0;0;0;0;1
-10/09/2023;08:07:00;137;Sem vítima;195,000;BR-116/SP;Decrescente;Colisão traseira;1;0;0;0;0;0;1
-11/09/2023;12:46:00;297;Sem vítima;156,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-11/09/2023;21:10:00;550;Com vítima;226,000;BR-116/SP;Crescente;Tombamento;1;0;0;0;0;0;1
-12/09/2023;14:43:00;434;Sem vítima;110,000;BR-116/SP;Crescente;Choque;1;0;0;0;0;0;1
-13/09/2023;02:06:00;38;Com vítima;47,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-13/09/2023;14:45:00;415;Sem vítima;155,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;0;0;0;0;0;1
-13/09/2023;21:03:00;612;Sem vítima;154,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-14/09/2023;09:05:00;218;Sem vítima;229,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-14/09/2023;16:36:00;451;Com vítima;422,000;BR-101/SP;Crescente;Colisão frontal;1;1;0;0;0;0;1
-14/09/2023;17:19:00;470;Sem vítima;102,000;BR-116/SP;Crescente;Choque;1;0;0;0;0;0;1
-15/09/2023;03:20:00;47;Sem vítima;232,000;BR-116/SP;Decrescente;Choque;1;1;0;0;0;0;1
-15/09/2023;04:04:00;51;Sem vítima;144,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-15/09/2023;07:04:00;99;Sem vítima;132,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-15/09/2023;10:58:00;257;Sem vítima;431,000;BR-101/SP;Crescente;Choque;1;1;0;0;0;0;1
-17/09/2023;20:26:00;489;Sem vítima;199,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-18/09/2023;00:33:00;30;Com vítima;308,000;BR-116/SP;Crescente;Colisão traseira;1;1;0;0;0;0;1
-18/09/2023;19:50:00;649;Sem vítima;227,000;BR-116/SP;Crescente;Choque;1;0;0;0;0;0;1
-19/09/2023;20:37:00;600;Com vítima;244,000;BR-116/SP;Crescente;Colisão traseira;1;2;0;0;0;0;1
-19/09/2023;21:19:00;610;Sem vítima;209,000;BR-116/SP;Crescente;Colisão traseira;1;2;0;0;0;0;1
-20/09/2023;08:47:00;179;Sem vítima;86,000;BR-116/SP;Decrescente;Colisão lateral em sentido contrário;1;2;0;0;0;0;1
-21/09/2023;05:46:00;74;Sem vítima;214,000;BR-116/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
-21/09/2023;10:07:00;279;Sem vítima;525,000;BR-101/SP;Crescente;Colisão lateral em sentido contrário;1;1;0;0;0;0;1
+data;caminhao;ilesos;levemente_feridos;moderadamente_feridos;gravemente_feridos;mortos;3
+03/09/2020;1;1;1;;;;1
+10/09/2020;1;1;;;;;1
+12/09/2020;1;2;;;;;1
+16/09/2020;1;0;1;;;;1
+17/09/2020;1;0;;;1;;2
+17/09/2020;1;1;1;;;;1
+18/09/2020;1;1;;;;;1
+21/09/2020;1;1;;;;;1
+21/09/2020;1;1;;;;;1
+28/09/2020;1;2;;;;;1
+29/09/2020;1;1;;;;;1
+01/10/2020;1;0;;1;;;2
+01/10/2020;1;0;;;1;;2
+02/10/2020;1;4;;;;;1
+02/10/2020;1;1;;;;;1
+03/10/2020;1;3;;;;;1
+05/10/2020;2;2;;;;;1
+07/10/2020;2;2;;;;;1
+08/10/2020;1;0;1;;;;1
+08/10/2020;2;1;;;;;1
+11/10/2020;1;1;;;;;1
+12/10/2020;1;2;;4;;;2
+13/10/2020;1;0;1;;;;1
+13/10/2020;1;1;;;;;1
+17/10/2020;1;0;;;;1;3
+18/10/2020;1;2;1;;;;1
+19/10/2020;1;1;;;;;1
+20/10/2020;2;1;1;;;;1
+22/10/2020;1;0;1;;;;1
+23/10/2020;2;2;2;;;;1
+27/10/2020;1;0;1;;;;1
+28/10/2020;1;6;;;;;1
+29/10/2020;4;4;;;;;1
+31/10/2020;1;1;5;1;2;1;3
+04/11/2020;1;1;2;;;;1
+06/11/2020;1;1;;;;;1
+09/11/2020;1;1;;1;;;2
+14/11/2020;1;1;1;;;;1
+14/11/2020;1;2;;;;;1
+14/11/2020;1;6;;1;;;2
+16/11/2020;1;3;;;;;1
+16/11/2020;2;3;;;;;1
+17/11/2020;1;1;;;;;1
+19/11/2020;1;4;;;;;1
+20/11/2020;1;1;;;;;1
+22/11/2020;1;1;1;;;;1
+25/11/2020;1;1;;1;;;2
+26/11/2020;2;3;1;;;;1
+26/11/2020;1;1;;;;;1
+27/11/2020;1;4;;;;;1
+27/11/2020;2;5;;;;;1
+28/11/2020;1;1;;;;;1
+28/11/2020;1;2;1;;;;1
+05/12/2020;1;1;1;;;;1
+06/12/2020;1;1;2;;;;1
+06/12/2020;1;0;1;;;;1
+07/12/2020;1;1;;;;;1
+11/12/2020;1;0;1;;;;1
+17/12/2020;1;0;1;;;;1
+17/12/2020;1;5;;;;;1
+17/12/2020;1;4;;;;;1
+20/12/2020;1;0;1;;;;1
+23/12/2020;1;3;;;;;1
+27/12/2020;1;2;;;;;1
+04/01/2021;1;4;1;;;;1
+08/01/2021;1;1;;;;;1
+17/01/2021;1;0;1;;;;1
+22/01/2021;1;0;;2;;;2
+22/01/2021;1;1;;;;;1
+24/01/2021;2;1;2;;;;1
+31/01/2021;1;0;1;;;;1
+03/02/2021;1;1;1;;;;1
+03/02/2021;2;1;1;;;;1
+06/02/2021;1;2;1;1;;;2
+08/02/2021;2;2;1;1;;;2
+08/02/2021;1;1;;;;;1
+12/02/2021;1;3;;;;;1
+12/02/2021;1;1;2;;;;1
+13/02/2021;1;3;;;;;1
+18/02/2021;1;4;;;;;1
+19/02/2021;1;3;;;;;1
+19/02/2021;1;7;;;;;1
+19/02/2021;2;1;1;;;;1
+20/02/2021;2;3;;;;;1
+22/02/2021;1;1;;;;;1
+22/02/2021;1;1;;;;;1
+23/02/2021;1;1;1;;;;1
+23/02/2021;1;0;1;;;;1
+25/02/2021;1;1;;;;;1
+26/02/2021;1;1;;;;;1
+28/02/2021;2;1;;;1;;2
+02/03/2021;1;2;;;;;1
+02/03/2021;1;2;;;;;1
+03/03/2021;1;1;;;;;1
+04/03/2021;1;2;;;;;1
+08/03/2021;1;9;2;;;1;3
+12/03/2021;1;1;;;;;1
+12/03/2021;1;1;;1;;;2
+12/03/2021;1;2;;;;;1
+14/03/2021;1;1;;;;;1
+14/03/2021;2;1;1;;;;1
+16/03/2021;1;1;;;;;1
+17/03/2021;2;0;2;;;;1
+17/03/2021;1;1;;;;;1
+17/03/2021;1;1;1;;;;1
+18/03/2021;1;1;;;;;1
+22/03/2021;1;0;1;;;;1
+23/03/2021;1;0;1;;;;1
+24/03/2021;1;1;;;;;1
+25/03/2021;2;1;1;;;;1
+25/03/2021;1;0;2;;;;1
+25/03/2021;1;2;1;;;;1
+27/03/2021;1;1;;;;;1
+01/04/2021;1;2;;;;;1
+03/04/2021;1;3;1;1;;;2
+04/04/2021;1;1;;1;;;2
+06/04/2021;1;1;;;;;1
+06/04/2021;1;0;1;;;;1
+10/04/2021;1;2;;;;;1
+12/04/2021;1;1;;;;;1
+13/04/2021;1;1;;;;;1
+17/04/2021;1;1;2;;;;1
+18/04/2021;1;1;;;1;;2
+22/04/2021;1;2;1;;;;1
+23/04/2021;1;0;1;;;;1
+26/04/2021;1;1;;;;;1
+27/04/2021;1;1;1;;;;1
+29/04/2021;1;1;;;;2;3
+30/04/2021;1;2;2;;;;1
+02/05/2021;1;0;;1;;;2
+05/05/2021;2;3;;;;;1
+07/05/2021;1;1;;;;;1
+08/05/2021;1;5;;;;;1
+09/05/2021;1;0;1;;;;1
+09/05/2021;1;0;1;;;;1
+09/05/2021;1;1;;1;;;2
+13/05/2021;1;0;2;;;;1
+13/05/2021;1;1;;;;;1
+14/05/2021;1;2;;1;;;2
+14/05/2021;1;3;1;;;;1
+16/05/2021;1;1;1;;;;1
+17/05/2021;1;0;1;;;;1
+18/05/2021;1;0;;;;;1
+20/05/2021;2;1;1;;;;1
+24/05/2021;2;1;1;;;;1
+26/05/2021;1;0;1;;;;1
+26/05/2021;1;2;1;;;;1
+30/05/2021;1;0;1;;1;;2
+01/06/2021;1;0;;;1;;2
+02/06/2021;1;1;;;;;1
+10/06/2021;1;1;;1;;;2
+11/06/2021;1;1;;;;;1
+16/06/2021;1;1;1;;;;1
+17/06/2021;1;16;;1;;;2
+19/06/2021;1;2;;;;;1
+20/06/2021;1;1;;;1;;2
+23/06/2021;1;3;;;;;1
+23/06/2021;1;1;1;;;;1
+27/06/2021;1;0;2;;;;1
+02/07/2021;1;1;;;;;1
+09/07/2021;2;2;;;;;1
+12/07/2021;1;1;;;;;1
+13/07/2021;2;3;;;;;1
+15/07/2021;1;1;;;;;1
+16/07/2021;1;2;;;;;1
+16/07/2021;1;0;1;;;;1
+17/07/2021;1;1;;1;;;2
+20/07/2021;1;1;;;;1;3
+21/07/2021;2;1;1;;;;1
+23/07/2021;1;1;;;;;1
+25/07/2021;2;2;;;;;1
+27/07/2021;1;1;;;;;1
+27/07/2021;1;2;;;1;1;3
+29/07/2021;1;1;1;;;;1
+02/08/2021;1;2;;;;;1
+03/08/2021;1;4;;;;;1
+04/08/2021;1;2;;;;;1
+04/08/2021;1;0;;1;;;2
+05/08/2021;1;0;1;;;;1
+05/08/2021;1;2;1;;;;1
+06/08/2021;1;0;1;;;;1
+06/08/2021;1;2;;;;2;3
+11/08/2021;2;2;;;;;1
+12/08/2021;1;0;2;;;;1
+14/08/2021;1;1;;;;;1
+23/08/2021;2;1;1;;;;1
+30/08/2021;1;3;;;;;1
+30/08/2021;1;0;;1;;;2
+01/09/2021;1;3;;;;;1
+02/09/2021;1;3;;1;;;2
+02/09/2021;1;1;1;;;;1
+04/09/2021;1;1;;;;;1
+04/09/2021;1;1;1;;;;1
+04/09/2021;1;2;;;;;1
+08/09/2021;1;0;3;;;;1
+10/09/2021;1;2;;;;;1
+10/09/2021;1;1;;;;;1
+13/09/2021;2;1;;;1;;2
+14/09/2021;1;2;;;;;1
+14/09/2021;1;1;;;;;1
+14/09/2021;1;0;;;;;1
+16/09/2021;1;3;;;;;1
+17/09/2021;7;7;;5;1;1;3
+23/09/2021;1;1;;;;;1
+23/09/2021;2;2;;;;;1
+05/10/2021;1;1;;;;;1
+06/10/2021;1;0;1;;;;1
+07/10/2021;1;2;;;;;1
+12/10/2021;1;0;;;1;;2
+14/10/2021;2;1;;;;;1
+16/10/2021;1;3;;;;;1
+18/10/2021;2;2;;;;;1
+19/10/2021;1;2;;;;;1
+23/10/2021;1;1;;;;;1
+24/10/2021;1;0;1;;;;1
+25/10/2021;1;1;;;;;1
+28/10/2021;2;5;;;;;1
+30/10/2021;1;3;1;;;;1
+31/10/2021;1;1;;;;5;3
+31/10/2021;1;2;;;;;1
+10/11/2021;1;1;0;0;0;0;1
+13/11/2021;1;3;0;0;0;0;1
+14/11/2021;2;4;0;0;0;0;1
+24/11/2021;1;1;1;0;0;0;1
+24/11/2021;1;1;0;0;0;0;1
+25/11/2021;1;1;0;0;0;0;1
+25/11/2021;1;1;0;0;0;0;1
+27/11/2021;1;2;0;0;0;0;1
+28/11/2021;1;1;0;0;0;0;1
+07/12/2021;1;0;1;0;0;0;1
+11/12/2021;1;2;0;0;0;0;1
+12/12/2021;1;1;0;0;0;0;1
+14/12/2021;1;2;0;0;0;0;1
+14/12/2021;2;2;0;0;0;0;1
+16/12/2021;1;1;0;0;0;0;1
+23/12/2021;1;1;0;0;0;0;1
+28/12/2021;1;1;0;0;0;0;1
+07/01/2022;1;0;1;0;0;0;1
+12/01/2022;1;1;0;0;0;0;1
+19/01/2022;1;1;0;0;1;0;2
+22/01/2022;1;1;0;0;0;0;1
+26/01/2022;1;3;1;0;0;0;1
+30/01/2022;1;1;0;0;0;0;1
+02/02/2022;1;1;0;1;0;0;2
+03/02/2022;1;1;0;0;0;0;1
+08/02/2022;1;4;0;0;0;0;1
+09/02/2022;1;1;0;0;0;0;1
+14/02/2022;1;3;0;0;0;0;1
+15/02/2022;1;2;0;0;0;0;1
+18/02/2022;1;3;0;0;0;0;1
+18/02/2022;1;3;0;0;0;0;1
+21/02/2022;1;1;1;0;0;0;1
+24/02/2022;1;0;1;0;0;0;1
+28/02/2022;1;2;0;0;0;0;1
+02/03/2022;1;2;0;4;0;0;2
+08/03/2022;1;1;0;0;0;0;1
+12/03/2022;1;2;0;0;0;0;1
+16/03/2022;2;1;1;0;0;0;1
+18/03/2022;1;3;4;0;0;0;1
+18/03/2022;1;2;0;0;0;0;1
+25/03/2022;1;0;1;0;0;0;1
+29/03/2022;1;1;0;0;0;0;1
+31/03/2022;1;2;0;0;0;0;1
+01/04/2022;1;3;0;0;0;0;1
+04/04/2022;1;3;0;0;0;0;1
+12/04/2022;1;1;0;0;0;0;1
+21/04/2022;1;3;0;0;0;0;1
+29/04/2022;1;2;0;0;0;0;1
+04/05/2022;1;2;0;0;0;0;1
+04/05/2022;1;1;0;0;0;0;1
+05/05/2022;1;2;0;0;0;0;1
+15/05/2022;1;1;0;0;0;0;1
+25/05/2022;1;1;1;0;0;0;1
+30/05/2022;1;1;0;0;0;0;1
+05/06/2022;1;0;0;0;0;0;1
+23/06/2022;2;4;0;0;0;0;1
+23/06/2022;1;1;0;2;0;0;2
+30/06/2022;1;3;0;0;0;0;1
+08/07/2022;1;4;0;0;0;0;1
+13/07/2022;2;5;5;0;0;0;1
+14/07/2022;1;3;0;0;0;0;1
+18/07/2022;1;2;0;0;0;0;1
+20/07/2022;2;2;0;0;0;0;1
+03/08/2022;1;1;1;0;0;0;1
+10/08/2022;1;2;0;0;0;0;1
+10/08/2022;1;2;0;0;0;0;1
+12/08/2022;1;0;1;0;0;0;1
+21/08/2022;1;2;0;0;0;0;1
+24/08/2022;1;0;1;0;0;0;1
+26/08/2022;1;0;0;1;0;0;2
+13/09/2022;1;0;1;0;0;0;1
+22/09/2022;1;0;4;0;0;0;1
+23/09/2022;1;1;0;1;0;0;2
+27/09/2022;1;1;0;0;0;0;1
+27/09/2022;1;1;1;0;0;0;1
+27/09/2022;1;2;0;0;0;0;1
+06/10/2022;1;3;0;0;0;0;1
+07/10/2022;1;1;0;0;0;0;1
+09/10/2022;1;1;0;0;0;0;1
+11/10/2022;1;6;0;0;0;0;1
+16/10/2022;1;1;0;0;0;0;1
+20/10/2022;1;5;1;0;0;0;1
+21/10/2022;1;1;0;0;0;1;3
+22/10/2022;1;1;0;0;0;0;1
+29/10/2022;1;3;0;0;0;0;1
+31/10/2022;1;4;0;0;0;0;1
+15/11/2022;1;3;0;0;0;0;1
+29/11/2022;1;0;0;0;0;0;1
+29/11/2022;1;0;0;0;1;0;2
+12/12/2022;2;2;0;1;0;0;2
+19/12/2022;1;2;0;0;0;0;1
+22/12/2022;1;2;0;0;0;0;1
+23/12/2022;1;0;0;0;0;0;1
+24/12/2022;1;2;0;0;0;0;1
+04/01/2023;1;2;0;0;0;0;1
+09/01/2023;2;1;0;0;1;0;2
+09/01/2023;1;4;0;0;0;0;1
+11/01/2023;1;0;0;1;0;0;2
+11/01/2023;1;5;0;0;0;0;1
+13/01/2023;1;2;0;0;0;0;1
+20/01/2023;1;2;0;1;0;0;2
+21/01/2023;1;1;0;0;0;0;1
+21/01/2023;1;0;0;0;0;0;1
+30/01/2023;1;1;0;0;0;1;3
+30/01/2023;1;1;1;0;0;0;1
+04/02/2023;1;1;0;0;0;0;1
+13/02/2023;1;1;0;1;0;0;2
+15/02/2023;1;3;0;0;0;0;1
+22/02/2023;1;1;0;0;0;0;1
+24/02/2023;1;2;0;0;0;0;1
+06/03/2023;2;2;0;0;0;0;1
+18/03/2023;1;1;0;0;0;0;1
+22/03/2023;1;2;0;0;0;0;1
+28/03/2023;1;0;0;0;0;0;1
+30/03/2023;1;1;0;0;0;0;1
+30/03/2023;1;1;0;0;0;0;1
+31/03/2023;1;1;0;0;0;0;1
+05/04/2023;1;0;0;0;0;0;1
+16/04/2023;1;1;0;0;0;0;1
+24/04/2023;1;0;1;0;0;0;1
+03/05/2023;1;1;0;0;0;0;1
+09/05/2023;1;1;0;0;0;0;1
+10/05/2023;1;1;0;0;0;0;1
+31/05/2023;1;1;0;0;0;0;1
+31/05/2023;1;1;0;0;0;0;1
+07/06/2023;1;1;0;0;0;0;1
+12/06/2023;1;1;0;0;0;0;1
+17/06/2023;1;1;0;0;0;0;1
+21/06/2023;1;0;0;0;0;0;1
+28/06/2023;1;1;0;0;0;0;1
+08/07/2023;1;1;0;0;0;0;1
+10/07/2023;1;0;1;0;0;0;1
+10/07/2023;1;0;0;0;0;0;1
+24/07/2023;1;0;0;0;0;0;1
+18/08/2023;1;1;0;0;0;0;1
+30/08/2023;1;1;0;0;0;0;1
+30/06/2023;1;0;2;0;0;0;1
+30/06/2023;1;0;2;0;0;0;1
+30/06/2023;1;0;0;0;0;0;1
+07/07/2023;1;2;0;0;0;0;1
+14/07/2023;1;0;2;0;0;0;1
+17/07/2023;1;1;0;0;0;0;1
+17/07/2023;1;1;0;0;0;0;1
+19/07/2023;1;0;0;0;0;0;1
+20/07/2023;1;2;0;0;0;0;1
+21/07/2023;1;2;0;0;0;0;1
+22/07/2023;1;1;0;0;0;0;1
+23/07/2023;1;0;1;0;0;0;1
+23/07/2023;1;1;0;0;0;0;1
+24/07/2023;1;0;0;0;0;0;1
+24/07/2023;1;1;0;0;0;0;1
+24/07/2023;1;1;0;0;0;0;1
+26/07/2023;1;1;0;0;0;0;1
+27/07/2023;1;1;0;0;0;0;1
+27/07/2023;1;0;0;0;0;0;1
+27/07/2023;1;1;0;0;0;0;1
+28/07/2023;1;0;0;0;0;0;1
+28/07/2023;1;0;0;0;0;0;1
+28/07/2023;1;1;0;0;0;0;1
+02/08/2023;1;0;0;0;0;0;1
+02/08/2023;2;0;0;0;0;0;1
+03/08/2023;1;0;0;0;0;0;1
+04/08/2023;1;1;0;0;0;0;1
+05/08/2023;1;0;0;0;0;0;1
+05/08/2023;1;1;0;1;0;0;2
+05/08/2023;1;1;0;0;0;0;1
+08/08/2023;1;1;0;0;0;0;1
+08/08/2023;1;1;0;0;0;0;1
+08/08/2023;1;1;0;0;0;0;1
+08/08/2023;1;1;0;0;0;0;1
+08/08/2023;1;1;0;0;0;0;1
+09/08/2023;1;2;0;0;0;0;1
+10/08/2023;1;1;0;0;0;0;1
+10/08/2023;2;2;0;0;0;0;1
+10/08/2023;1;1;0;0;0;0;1
+11/08/2023;1;1;0;0;0;0;1
+11/08/2023;1;1;0;0;0;0;1
+11/08/2023;1;1;0;0;0;0;1
+12/08/2023;1;1;0;0;0;0;1
+14/08/2023;1;1;0;0;0;0;1
+14/08/2023;1;1;0;0;0;0;1
+15/08/2023;1;1;0;0;0;0;1
+15/08/2023;1;1;0;0;0;0;1
+15/08/2023;1;2;0;0;0;0;1
+16/08/2023;1;0;0;0;0;0;1
+16/08/2023;1;2;0;0;0;0;1
+16/08/2023;2;4;0;0;0;0;1
+16/08/2023;1;0;0;0;0;0;1
+17/08/2023;1;0;0;0;1;0;2
+18/08/2023;1;1;0;0;0;0;1
+18/08/2023;1;0;0;0;0;0;1
+23/08/2023;1;1;0;0;0;0;1
+24/08/2023;1;0;1;0;0;0;1
+24/08/2023;1;1;0;0;0;0;1
+24/08/2023;1;1;0;0;0;0;1
+24/08/2023;1;2;0;0;0;0;1
+25/08/2023;1;1;0;0;0;0;1
+25/08/2023;1;1;0;0;0;0;1
+25/08/2023;1;1;0;0;0;0;1
+25/08/2023;1;1;0;0;0;0;1
+27/08/2023;1;1;0;0;0;0;1
+27/08/2023;1;1;0;0;0;0;1
+29/08/2023;1;1;0;0;0;0;1
+29/08/2023;1;1;0;0;0;0;1
+30/08/2023;1;0;0;0;0;0;1
+31/08/2023;1;1;0;0;0;0;1
+31/08/2023;1;1;0;0;0;0;1
+31/08/2023;1;1;0;0;0;0;1
+31/08/2023;1;0;0;0;0;0;1
+31/08/2023;1;1;0;0;0;0;1
+01/09/2023;1;0;0;1;0;0;2
+01/09/2023;1;0;0;0;0;0;1
+01/09/2023;1;1;0;0;0;0;1
+01/09/2023;1;1;0;0;0;0;1
+01/09/2023;1;1;0;0;0;0;1
+02/09/2023;1;1;0;0;0;0;1
+02/09/2023;1;0;0;0;0;0;1
+03/09/2023;1;1;0;0;0;0;1
+04/09/2023;1;1;0;0;0;0;1
+04/09/2023;1;1;0;0;0;0;1
+04/09/2023;1;1;0;0;0;0;1
+04/09/2023;1;1;0;0;0;0;1
+04/09/2023;1;1;0;0;0;0;1
+04/09/2023;1;0;0;0;0;0;1
+04/09/2023;1;0;0;0;0;0;1
+04/09/2023;1;1;0;0;0;0;1
+05/09/2023;1;1;0;0;0;0;1
+05/09/2023;1;1;0;0;0;0;1
+06/09/2023;1;1;0;0;0;0;1
+06/09/2023;1;1;0;0;0;0;1
+06/09/2023;1;0;0;0;0;0;1
+07/09/2023;1;1;0;0;0;0;1
+07/09/2023;1;1;0;0;0;0;1
+07/09/2023;1;1;0;0;0;0;1
+08/09/2023;1;1;0;0;0;0;1
+08/09/2023;1;1;0;0;0;0;1
+08/09/2023;1;0;0;0;0;0;1
+08/09/2023;1;1;0;0;0;0;1
+08/09/2023;1;0;1;0;1;0;2
+09/09/2023;1;0;0;0;0;0;1
+10/09/2023;1;0;0;0;0;0;1
+10/09/2023;1;0;0;0;0;0;1
+11/09/2023;1;0;0;0;0;0;1
+11/09/2023;1;0;0;0;0;0;1
+12/09/2023;1;0;0;0;0;0;1
+13/09/2023;1;0;0;0;0;0;1
+13/09/2023;1;0;0;0;0;0;1
+13/09/2023;1;1;0;0;0;0;1
+14/09/2023;1;1;0;0;0;0;1
+14/09/2023;1;1;0;0;0;0;1
+14/09/2023;1;0;0;0;0;0;1
+15/09/2023;1;1;0;0;0;0;1
+15/09/2023;1;1;0;0;0;0;1
+15/09/2023;1;1;0;0;0;0;1
+15/09/2023;1;1;0;0;0;0;1
+17/09/2023;1;1;0;0;0;0;1
+18/09/2023;1;1;0;0;0;0;1
+18/09/2023;1;0;0;0;0;0;1
+19/09/2023;1;2;0;0;0;0;1
+19/09/2023;1;2;0;0;0;0;1
+20/09/2023;1;2;0;0;0;0;1
+21/09/2023;1;1;0;0;0;0;1
+21/09/2023;1;1;0;0;0;0;1
