@@ -789,11 +789,11 @@ def extrair_ocorrencias():
 
     for i in range(22):
 
-        dados = cur.execute(f"SELECT a.id_acidente_tip, a.dia, a.mes, a.qt_caminhao,  a.id_risco ,co.Sigla FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_conce = {ii}")
+        dados = cur.execute(f"SELECT a.dia, a.mes, a.qt_caminhao,  a.id_acidente_tip, a.id_risco ,co.Sigla FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_conce = {ii}")
 
         linhas = []
 
-        strGravar = 'id_acidente_tip;dia;mes;qt_acidentes;id_risco\n'
+        strGravar = 'dia;mes;qt_acidentes;id_acidente_tip;id_risco\n'
         linhas.append(strGravar)        
 
         for linha in dados:
