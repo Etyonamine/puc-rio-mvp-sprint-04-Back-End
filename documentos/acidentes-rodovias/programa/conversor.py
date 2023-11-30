@@ -781,6 +781,36 @@ def apagar_registro_ocorrencias():
     con.commit()
     con.close()
 
+def extrair_ocorrencias_por_tipo_acidente(codigo_tipo):
+    con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
+    cur = con.cursor()
+
+    dados = cur.execute(f"SELECT a.id_conce,a.dia, a.mes, sum(a.qt_caminhao), a.id_risco FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_acidente_tip  = {codigo_tipo} group by a.id_conce, a.dia, a.mes,a.id_risco")
+
+    linhas = []
+
+    strGravar = 'id_conce,dia;mes;qt_acidentes;id_risco\n'
+    linhas.append(strGravar)        
+
+    for linha in dados:
+        path_arq_insert = f"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\info\{codigo_tipo}.csv"
+    
+        strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]}'   
+        linhas.append(f'{strGravar}\n')
+
+    # exclui antes de gravar     
+    if os.path.exists(path_arq_insert):
+        os.remove(path_arq_insert)
+
+    if len(linhas)>0:
+        # grava todo o conteudo
+        with open(path_arq_insert, 'w') as f:
+            f.writelines(linhas)
+
+      
+    con.close()
+    print('Gravado com sucesso!')
+
 def extrair_ocorrencias():
     con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
     cur = con.cursor()
@@ -853,4 +883,8 @@ def abrir_panda_csv():
 
 #abrir_panda_csv()
 print('extrair base')
-extrair_ocorrencias()
+#extrair_ocorrencias()
+
+extrair_ocorrencias_por_tipo_acidente(13)
+extrair_ocorrencias_por_tipo_acidente(128)
+extrair_ocorrencias_por_tipo_acidente(6)
