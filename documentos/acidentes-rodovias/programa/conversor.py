@@ -789,7 +789,7 @@ def extrair_ocorrencias_por_tipo_acidente(codigo_tipo):
 
     linhas = []
 
-    strGravar = 'id_conce,dia;mes;qt_acidentes;id_risco\n'
+    strGravar = 'id_conce;dia;mes;qt_acidentes;id_risco\n'
     linhas.append(strGravar)        
 
     for linha in dados:
