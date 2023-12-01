@@ -784,18 +784,18 @@ def apagar_registro_ocorrencias():
 def extrair_ocorrencias_por_tipo_acidente(id_conce, codigo_tipo):
     con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
     cur = con.cursor()
-
-    dados = cur.execute(f"SELECT a.id_conce,a.dia, a.mes, sum(a.qt_caminhao), a.id_risco FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_acidente_tip  = {codigo_tipo} and a.id_conce = {id_conce} group by a.id_conce, a.dia, a.mes,a.id_risco")
+    str_sql = f"SELECT  a.dia, a.mes , a.id_risco FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_acidente_tip  = {codigo_tipo} and a.id_conce = {id_conce} group by   a.dia, a.mes,a.id_risco"
+    dados = cur.execute(str_sql)
 
     linhas = []
 
-    strGravar = 'id_conce;dia;mes;qt_acidentes;id_risco\n'
+    strGravar = 'dia;mes;id_risco\n'
     linhas.append(strGravar)        
 
     for linha in dados:
         path_arq_insert = f"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\info\{id_conce}_{codigo_tipo}.csv"
     
-        strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]}'   
+        strGravar = f'{linha[0]};{linha[1]};{linha[2]}'   
         linhas.append(f'{strGravar}\n')
 
     # exclui antes de gravar     
@@ -886,7 +886,7 @@ print('extrair base')
 #extrair_ocorrencias()
 
 extrair_ocorrencias_por_tipo_acidente(4,13)
-extrair_ocorrencias_por_tipo_acidente(4,18)
+""" extrair_ocorrencias_por_tipo_acidente(4,18)
 extrair_ocorrencias_por_tipo_acidente(4,6)
 extrair_ocorrencias_por_tipo_acidente(4,29)
 extrair_ocorrencias_por_tipo_acidente(6,13)
@@ -896,4 +896,4 @@ extrair_ocorrencias_por_tipo_acidente(6,29)
 extrair_ocorrencias_por_tipo_acidente(8,13)
 extrair_ocorrencias_por_tipo_acidente(8,18)
 extrair_ocorrencias_por_tipo_acidente(8,29)
-extrair_ocorrencias_por_tipo_acidente(8,96)
+extrair_ocorrencias_por_tipo_acidente(8,96) """
