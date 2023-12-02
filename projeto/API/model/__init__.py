@@ -7,6 +7,7 @@ import os
 from model.base import Base
 from model.paciente import Paciente
 from model.modelo import Model
+from model.uf import Uf
 
 db_path = "database/"
 # Verifica se o diretorio não existe
@@ -15,7 +16,7 @@ if not os.path.exists(db_path):
    os.makedirs(db_path)
 
 # url de acesso ao banco (essa é uma url de acesso ao sqlite local)
-db_url = 'sqlite:///%s/acidentes_rodovia.sqlite3' % db_path
+db_url = 'sqlite:///%s/transportes.sqlite3' % db_path
 
 # cria a engine de conexão com o banco
 engine = create_engine(db_url, echo=False)
