@@ -847,12 +847,21 @@ def extrair_ocorrencias_por_tipo_acidente(id_conce, codigo_tipo):
 def extrair_ocorrencias():
     con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
     cur = con.cursor()
-    dados = cur.execute(f"SELECT dia, mes, id_risco FROM acidente_ocorrencia group by dia, mes, id_trecho, id_sentido, id_risco")
+
+    sql = "SELECT a.dia, a.mes,a.id_sentido,a.id_trecho,"
+    sql = sql + " sum(a.qt_acidente) total,"
+    sql = sql + " (select sum(qt_acidente) from acidente_ocorrencia where dia = a.dia "
+    sql = sql +  " and mes = a.mes and id_sentido = a.id_sentido and id_trecho = a.id_trecho group by  dia,mes,id_sentido, id_trecho) total_trecho,a.id_risco "
+    sql = sql + "        FROM acidente_ocorrencia a "
+    sql = sql + " GROUP BY a.dia,a.mes,a.id_risco, a.id_sentido, a.id_trecho "
+    sql = sql + " ORDER BY a.mes, a.dia,a.id_sentido, a.id_trecho"
+
+    dados = cur.execute(sql)
    
 
     linhas = []
 
-    strGravar = 'dia;mes;id_risco\n'
+    strGravar = 'dia;mes;id_sentido; id_trecho; percentual_risco;id_risco\n'
 
     linhas.append(strGravar)        
 
@@ -860,8 +869,11 @@ def extrair_ocorrencias():
     
     for linha in dados:
         
-    
-        strGravar = f'{linha[0]};{linha[1]};{linha[2]}'   
+        total = int(linha[4])
+        total_trecho = int(linha[5])
+        valor_percentual  =  round(total / total_trecho, 2) 
+
+        strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{str(valor_percentual).replace(",",".")};{linha[6]}'   
         linhas.append(f'{strGravar}\n')
 
     # exclui antes de gravar     
@@ -918,25 +930,46 @@ def gerar_nova_planilha(nome_arquivo):
     with open(path_arquivo, "r") as arquivo:
         acidentes = arquivo.readlines() 
 
-    rotulo = 'dia;mes;trecho;sentido;acidente_caminhao\n'
+    rotulo = 'dia;mes;id_acidente_tip, trecho;sentido;acidente_caminhao, id_risco\n'
     nova_lista.append(rotulo)
+    lista_tipos_acidentes = montar_lista_tipo_acidentes()
 
     for acidente in acidentes:
         linha = acidente.split(';')     
         acidente_caminhao = 1
 
+        
         if linha[0] != 'data':
-            if (datetime.strptime(linha[0], '%d/%m/%Y').date() >= datetime.strptime('01/01/2021', '%d/%m/%Y').date()):
+            if (linha[10] =='0' or str(linha[10]).strip() ==''):
+                acidente_caminhao = 0
+            else:
+                acidente_caminhao = linha[10]
+
+            if acidente_caminhao != 0:
+
+                #if (datetime.strptime(linha[0], '%d/%m/%Y').date() >= datetime.strptime('01/01/2021', '%d/%m/%Y').date()):
                 dia = linha[0][0:2]           
-                mes = linha[0][3:5]    
+                mes = linha[0][3:5]   
+                id_acidente_tip = recuperar_codigo_tipo_acidente(lista_tipos_acidentes, linha[7]) 
                 trecho=id_trecho(linha[5])
                 sentido = id_sentido(str(linha[6]).strip())
+                
+                
 
-                if (linha[10] =='0' or str(linha[10]).strip() ==''):
-                    acidente_caminhao = 0
+                '''calculo do risco 1- baixo quando for 1 acidente no dia / 2-medio quando for dois ao dia e hora / 3 - alto maior que 2
 
-                nova_linha = f"{dia};{mes};{trecho};{sentido};{acidente_caminhao}\n"
-                sql_value =  f"{dia},{mes},{trecho},{sentido},{acidente_caminhao}\n"
+                '''
+                quantidade = int(acidente_caminhao)       
+                if quantidade == 1:
+                    codigo_risco = 1
+                elif quantidade == 2:
+                    codigo_risco = 2
+                elif quantidade > 2:
+                    codigo_risco = 3      
+               
+                
+                nova_linha = f"{dia};{mes};{id_acidente_tip};{trecho};{sentido};{acidente_caminhao};{codigo_risco}\n"
+                sql_value =  f"{dia},{mes},{id_acidente_tip},{trecho},{sentido},{acidente_caminhao},{codigo_risco}\n"
                 nova_lista.append(nova_linha)            
                 sql_values.append(sql_value)
                 
@@ -969,6 +1002,6 @@ def id_trecho(nome):
             id_retorno = 2
 
     return id_retorno
-
+ 
 #gerar_nova_planilha('demostrativo_acidentes_novadutra.csv')
 extrair_ocorrencias()
