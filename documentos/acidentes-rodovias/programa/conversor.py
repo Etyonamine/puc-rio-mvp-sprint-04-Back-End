@@ -847,12 +847,12 @@ def extrair_ocorrencias_por_tipo_acidente(id_conce, codigo_tipo):
 def extrair_ocorrencias():
     con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
     cur = con.cursor()
-    dados = cur.execute(f"SELECT dia, mes, id_trecho, id_sentido,id_risco FROM acidente_ocorrencia group by dia, mes, id_trecho, id_sentido, id_risco")
+    dados = cur.execute(f"SELECT dia, mes, id_risco FROM acidente_ocorrencia group by dia, mes, id_trecho, id_sentido, id_risco")
    
 
     linhas = []
 
-    strGravar = 'dia;mes;trecho;sentido;id_risco\n'
+    strGravar = 'dia;mes;id_risco\n'
 
     linhas.append(strGravar)        
 
@@ -861,7 +861,7 @@ def extrair_ocorrencias():
     for linha in dados:
         
     
-        strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]}'   
+        strGravar = f'{linha[0]};{linha[1]};{linha[2]}'   
         linhas.append(f'{strGravar}\n')
 
     # exclui antes de gravar     
@@ -970,5 +970,5 @@ def id_trecho(nome):
 
     return id_retorno
 
-gerar_nova_planilha('demostrativo_acidentes_novadutra.csv')
+#gerar_nova_planilha('demostrativo_acidentes_novadutra.csv')
 extrair_ocorrencias()
