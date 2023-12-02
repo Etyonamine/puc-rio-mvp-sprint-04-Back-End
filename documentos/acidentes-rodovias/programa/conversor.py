@@ -15,6 +15,17 @@ class TipoAcidente:
         self.id = id
         self.descricao = descricao
         
+def gravar_arquivo_pasta_info(nome_arquivo,dados):
+    path_demo_novo = 'C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\info'
+    path_arq_novo = f'{path_demo_novo}/{nome_arquivo}'
+
+    # exclui o arquivo se existir
+    if os.path.exists(path_arq_novo):
+        os.remove(path_arq_novo)
+
+    # grava todo o conteudo
+    with open(path_arq_novo, 'w') as f:
+        f.writelines(dados)
 
 def gravar_arquivo_layout_novo(nome_arquivo, dados):
     path_demo_novo = 'C:/mvp/puc-rio-mvp-sprint-04-sistemas-inteligentes/documentos/acidentes-rodovias/novo_layout'
@@ -107,6 +118,7 @@ def tratar_dados():
             
         gravar_arquivo_layout_novo(nome_concessionaria, dados_layout_novo)
         icon = icon + 1
+ 
 
 def gravar_tipos(lista):
     i = 1
@@ -726,8 +738,29 @@ def gravar_sql_tabela_acidentes(lista, nome_arquivo):
     with open(path_arq_insert, 'w') as f:
         f.writelines(inserts )
 
+def gerar_insert_para_bd_arquivo(nome_arquivo):
+    path_arquivo = f'C:/mvp/puc-rio-mvp-sprint-04-sistemas-inteligentes/documentos/acidentes-rodovias/novo_layout/{nome_arquivo}'
+    
+    
+    lista_sql = []
+     
+    with open(path_arquivo, "r") as arquivo:
+        acidentes = arquivo.readlines() 
+
+    ''' Apagar a base '''            
+    apagar_registro_ocorrencias()
+     
+    icont =0 
+    montar_sql_tabela_acidentes(lista_sql,acidentes, icont)                
+
+    if len(lista_sql)>0:
+        # gravar_sql_tabela_acidentes(lista_sql, nome_concessionaria )
+        gravar_na_base(lista_sql)   
+
+    print('Gravado com sucesso!')
+  
 def gerar_insert_para_bd():
-    path_demo_novo_layout = 'C:/mvp/puc-rio-mvp-sprint-04-sistemas-inteligentes/documentos/acidentes-rodovias/novo_layout'
+    path_demo_novo_layout = f'C:/mvp/puc-rio-mvp-sprint-04-sistemas-inteligentes/documentos/acidentes-rodovias/novo_layout'
     nome_lista_concessionarias = 'Lista_concessionarias.csv'
     pth_lista_concessionario_completa = f'{path_demo_novo_layout}/{nome_lista_concessionarias.strip()}'
    
@@ -762,12 +795,12 @@ def gerar_insert_para_bd():
 
 def gravar_na_base(lista):
     con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
-    id_novo = 0
+   
     for valores in lista:
-        id_novo = id_novo + 1
+        
         x = valores
         x = x.removesuffix('\n')
-        sql = f'INSERT INTO acidente_ocorrencia VALUES({id_novo},{x})'        
+        sql = f'INSERT INTO acidente_ocorrencia VALUES({x})'        
         con.execute(sql)
         con.commit()
         
@@ -784,18 +817,18 @@ def apagar_registro_ocorrencias():
 def extrair_ocorrencias_por_tipo_acidente(id_conce, codigo_tipo):
     con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
     cur = con.cursor()
-    str_sql = f"SELECT  a.dia, a.mes , a.id_risco FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_acidente_tip  = {codigo_tipo} and a.id_conce = {id_conce} group by   a.dia, a.mes,a.id_risco"
+    str_sql = f"SELECT  a.dia, a.mes ,sum(qt_caminhao) total, a.id_risco FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_acidente_tip  = {codigo_tipo} and a.id_conce = {id_conce} group by   a.dia, a.mes,a.id_risco"
     dados = cur.execute(str_sql)
 
     linhas = []
 
-    strGravar = 'dia;mes;id_risco\n'
+    strGravar = 'dia;mes;total;id_risco\n'
     linhas.append(strGravar)        
 
     for linha in dados:
         path_arq_insert = f"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\info\{id_conce}_{codigo_tipo}.csv"
     
-        strGravar = f'{linha[0]};{linha[1]};{linha[2]}'   
+        strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]}'   
         linhas.append(f'{strGravar}\n')
 
     # exclui antes de gravar     
@@ -814,34 +847,33 @@ def extrair_ocorrencias_por_tipo_acidente(id_conce, codigo_tipo):
 def extrair_ocorrencias():
     con = sqlite3.connect(r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\database\db.sqlite3")    
     cur = con.cursor()
+    dados = cur.execute(f"SELECT dia, mes, id_trecho, id_sentido,id_risco FROM acidente_ocorrencia group by dia, mes, id_trecho, id_sentido, id_risco")
+   
+
+    linhas = []
+
+    strGravar = 'dia;mes;trecho;sentido;id_risco\n'
+
+    linhas.append(strGravar)        
+
+    path_arq_insert = r"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\info\18_nova_dutra.csv"
     
-    ii = 1
-
-    for i in range(22):
-
-        dados = cur.execute(f"SELECT a.dia, a.mes, sum(a.qt_caminhao), a.id_risco ,co.Sigla FROM acidente_ocorrencia a INNER JOIN concessionaria co on (co.id = a.id_conce) WHERE a.id_acidente_tip  = 13 and a.id_conce = {ii} group by  a.dia, a.mes,co.Sigla,a.id_risco")
-
-        linhas = []
-
-        strGravar = 'dia;mes;qt_acidentes;id_risco\n'
-        linhas.append(strGravar)        
-
-        for linha in dados:
-            path_arq_insert = f"C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\info\{ii}_{linha[4]}.csv"
+    for linha in dados:
         
-            strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]}'   
-            linhas.append(f'{strGravar}\n')
+    
+        strGravar = f'{linha[0]};{linha[1]};{linha[2]};{linha[3]};{linha[4]}'   
+        linhas.append(f'{strGravar}\n')
 
-        # exclui antes de gravar     
-        if os.path.exists(path_arq_insert):
-            os.remove(path_arq_insert)
+    # exclui antes de gravar     
+    if os.path.exists(path_arq_insert):
+        os.remove(path_arq_insert)
 
-        if len(linhas)>0:
-            # grava todo o conteudo
-            with open(path_arq_insert, 'w') as f:
-                f.writelines(linhas)
+    if len(linhas)>0:
+        # grava todo o conteudo
+        with open(path_arq_insert, 'w') as f:
+            f.writelines(linhas)
 
-        ii = ii + 1
+
     con.close()
     print('Gravado com sucesso!')
 
@@ -877,23 +909,66 @@ def abrir_panda_csv():
     df = pd.read_csv('acidente_ocorrencia.csv', sep='\t')
     print(df)
 
-#tratar_dados()
-#print('preparar base')
-#gerar_insert_para_bd()
+def gerar_nova_planilha(nome_arquivo):
+    path_arquivo =  rf'C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\documentos\acidentes-rodovias\demonstrativo_originais\{nome_arquivo}'
 
-#abrir_panda_csv()
-print('extrair base')
-#extrair_ocorrencias()
+    nova_lista = []
+    sql_values = []
 
-extrair_ocorrencias_por_tipo_acidente(4,13)
-""" extrair_ocorrencias_por_tipo_acidente(4,18)
-extrair_ocorrencias_por_tipo_acidente(4,6)
-extrair_ocorrencias_por_tipo_acidente(4,29)
-extrair_ocorrencias_por_tipo_acidente(6,13)
-extrair_ocorrencias_por_tipo_acidente(6,18)
-extrair_ocorrencias_por_tipo_acidente(6,6)
-extrair_ocorrencias_por_tipo_acidente(6,29)
-extrair_ocorrencias_por_tipo_acidente(8,13)
-extrair_ocorrencias_por_tipo_acidente(8,18)
-extrair_ocorrencias_por_tipo_acidente(8,29)
-extrair_ocorrencias_por_tipo_acidente(8,96) """
+    with open(path_arquivo, "r") as arquivo:
+        acidentes = arquivo.readlines() 
+
+    rotulo = 'dia;mes;trecho;sentido;acidente_caminhao\n'
+    nova_lista.append(rotulo)
+
+    for acidente in acidentes:
+        linha = acidente.split(';')     
+        acidente_caminhao = 1
+
+        if linha[0] != 'data':
+            if (datetime.strptime(linha[0], '%d/%m/%Y').date() >= datetime.strptime('01/01/2021', '%d/%m/%Y').date()):
+                dia = linha[0][0:2]           
+                mes = linha[0][3:5]    
+                trecho=id_trecho(linha[5])
+                sentido = id_sentido(str(linha[6]).strip())
+
+                if (linha[10] =='0' or str(linha[10]).strip() ==''):
+                    acidente_caminhao = 0
+
+                nova_linha = f"{dia};{mes};{trecho};{sentido};{acidente_caminhao}\n"
+                sql_value =  f"{dia},{mes},{trecho},{sentido},{acidente_caminhao}\n"
+                nova_lista.append(nova_linha)            
+                sql_values.append(sql_value)
+                
+            
+    nome_arquivo_novo = '18_nova_dutra.csv'
+    gravar_arquivo_pasta_info(nome_arquivo_novo, nova_lista)
+    apagar_registro_ocorrencias()
+    gravar_na_base(sql_values)
+
+def id_sentido (sentido):
+    id_retorno = 0 
+    match sentido:
+        case "Crescente":
+            id_retorno =1 
+        case "Decrescente":
+            id_retorno =2
+        case "Pista Norte":
+            id_retorno =3
+        case _:
+            id_retorno = 4
+
+    return id_retorno
+
+def id_trecho(nome):
+    id_retorno = 0
+    match nome:
+        case "BR-116/SP":
+            id_retorno = 1
+        case "BR-116/RJ":
+            id_retorno = 2
+
+    return id_retorno
+
+gerar_nova_planilha('demostrativo_acidentes_novadutra.csv')
+extrair_ocorrencias()
