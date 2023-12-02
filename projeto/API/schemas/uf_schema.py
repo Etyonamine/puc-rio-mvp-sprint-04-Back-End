@@ -18,7 +18,7 @@ class ListaUfSchema(BaseModel):
     Uf: List[UfViewSchema]
 
 
-def apresenta_lista_operacao(lista: List[Uf]):
+def apresenta_lista_uf(lista: List[Uf]):
     """ Retorna uma representação da lista de unidades federativas seguindo o schema definido em
         UfViewSchema.
 
