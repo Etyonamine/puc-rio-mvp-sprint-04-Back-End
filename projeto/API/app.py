@@ -76,8 +76,39 @@ def get_acidentes_riscos(query:BuscaAcidentesRiscoSchema):
     """Consulta busca as informações de acidentes e riscos coligados com os parametros de busca
 
     """
-
+    dia = query.dia
+    mes = query.mes
+    id_trecho = query.id_trecho
+    id_sentido = query.id_sentido
     
+    logger.debug(
+        f"Consultando acidentes e risco por dia = {dia}, mês ={mes }, id_trecho = {id_trecho}, id_sentido = {id_sentido} ")
+    try:
+        # criando conexão com a base
+        session = Session()
+        # fazendo a busca
+        acidentes_riscos = session.query(AcidentesRiscos)\
+                             .filter(AcidentesRiscos.dia == dia,
+                                     AcidentesRiscos.mes== mes, 
+                                     AcidentesRiscos.id_trecho == id_trecho,
+                                     AcidentesRiscos.id_sentido == id_sentido)
+
+        if not acidentes_riscos:
+            # se não há cadastrado
+            error_msg = "Operacao não encontrado na base :/"
+            logger.warning(f"Erro ao buscar a operacao error, {error_msg}")
+            return {"message": error_msg}, 404
+        else:
+            logger.debug(
+                f"A acidentes e risco por dia = {dia}, mês ={mes }, id_trecho = {id_trecho}, id_sentido = {id_sentido} ")
+            # retorna a representação de  s
+            return apresenta_lista_acidentes_riscos(acidentes_riscos), 200
+    except Exception as e:
+        # caso um erro fora do previsto
+        error_msg = f"Não foi possível consultar os acidentes e riscos:/{str(e)}"
+        logger.warning(
+            f"Erro ao consultar os acidentes e riscos com erro {e}, {error_msg}")
+        return {"message": error_msg}, 500
 
 
                 
