@@ -9,5 +9,5 @@ class Carregador:
         """
         
         return pd.read_csv(url, names=atributos,
-                           skiprows=1, delimiter=',') # Esses dois parâmetros são próprios para uso deste dataset. Talvez você não precise utilizar
+                           skiprows=1, delimiter=';') # Esses dois parâmetros são próprios para uso deste dataset. Talvez você não precise utilizar
     

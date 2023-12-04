@@ -7,8 +7,6 @@ class Avaliador:
         avaliação, entre outros.
         """
         predicoes = modelo.predict(X_test)
-        return (accuracy_score(Y_test, predicoes),
-                recall_score(Y_test, predicoes),
-                precision_score(Y_test, predicoes),
-                f1_score(Y_test, predicoes))
+        return (accuracy_score(Y_test, predicoes))
+               
     
