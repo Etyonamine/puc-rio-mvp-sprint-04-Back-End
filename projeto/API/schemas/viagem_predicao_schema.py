@@ -10,7 +10,7 @@ class ViagemPredicaoSchema(BaseModel):
     mes:int = 1
     id_sentido:int = 2
     id_trecho: int = 1
-    pc_risco: float = 80.00
+    percentual_risco: float = 0.70
 
 
 class ViagemPredicaoViewSchema(BaseModel):

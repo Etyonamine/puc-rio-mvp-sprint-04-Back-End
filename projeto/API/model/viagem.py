@@ -33,7 +33,7 @@ class Viagem(Base):
             valor_taxa_basica = valor da taxa de calculo para o premio do seguro no percurso da viagem
             valor_premio = valor calculado taxa basica x valor de mercadoria
             id_risco = codigo do risco retornado pela predição.
-            percentual_risco = valor passado para a predição para avaliar o risco com maior ocorrencia.
+            percentual_risco = valor em fração do percentual de risco passado para a predição para avaliar o risco com maior ocorrencia.
             data_inclusao = data de inclusao do registro.
         """
         self.data =  datetime.strptime(data, "%Y-%m-%d %H:%M:%S")  

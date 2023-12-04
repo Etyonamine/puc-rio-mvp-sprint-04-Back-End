@@ -41,7 +41,7 @@ def add_predicao(form: ViagemPredicaoSchema):
             mes (int): mes da viagem informada
             id_sentido (int): codigo do sentido da rodovia que será a viagem
             id_trecho (int): codigo do trecho a ser percorrido na viagem
-            pc_risco (float): valor percentual que a predicao deve identificar a classificação de risco mais frequente na rodovia
+            percentual_risco (float): valor fracionado do percentual que a predicao deve identificar a classificação de risco mais frequente na rodovia
     """    
     try: 
         # Carregando modelo
@@ -54,7 +54,7 @@ def add_predicao(form: ViagemPredicaoSchema):
                                         mes = form.mes, 
                                         id_sentido = form.id_sentido, 
                                         id_trecho = form.id_trecho,
-                                        pc_risco =  form.pc_risco,
+                                        pc_risco =  form.percentual_risco,
                                         id_risco = Model.preditor(modelo, form) )
                
         

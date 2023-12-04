@@ -1,105 +1,43 @@
-[2023-11-13 21:10:46,401] ERROR _log() L96   Error on request:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 897, in run_command
-    app = info.load_app()
-          ^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 312, in load_app
-    app = locate_app(import_name, None, raise_if_not_found=False)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 223, in locate_app
-    raise NoAppException(
-flask.cli.NoAppException: While importing 'app', an ImportError was raised:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 218, in locate_app
-    __import__(module_name)
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/app.py", line 9, in <module>
-    from schemas import *
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/__init__.py", line 1, in <module>
-    from schemas.paciente_schema import PacienteSchema,  PacienteBuscaSchema, PacienteViewSchema, PacienteDelSchema, \
-ImportError: cannot import name 'predict_diabetes' from 'schemas.paciente_schema' (/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/paciente_schema.py) - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 21:10:47,018] INFO _log() L96   127.0.0.1 - - [13/Nov/2023 21:10:47] "[35m[1mGET /pacientes HTTP/1.1[0m" 500 - - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 21:10:47,040] ERROR _log() L96   Error on request:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 897, in run_command
-    app = info.load_app()
-          ^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 312, in load_app
-    app = locate_app(import_name, None, raise_if_not_found=False)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 223, in locate_app
-    raise NoAppException(
-flask.cli.NoAppException: While importing 'app', an ImportError was raised:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 218, in locate_app
-    __import__(module_name)
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/app.py", line 9, in <module>
-    from schemas import *
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/__init__.py", line 1, in <module>
-    from schemas.paciente_schema import PacienteSchema,  PacienteBuscaSchema, PacienteViewSchema, PacienteDelSchema, \
-ImportError: cannot import name 'predict_diabetes' from 'schemas.paciente_schema' (/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/paciente_schema.py) - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 21:10:51,377] INFO _log() L96   127.0.0.1 - - [13/Nov/2023 21:10:51] "[35m[1mGET /pacientes HTTP/1.1[0m" 500 - - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 21:10:51,385] ERROR _log() L96   Error on request:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 897, in run_command
-    app = info.load_app()
-          ^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 312, in load_app
-    app = locate_app(import_name, None, raise_if_not_found=False)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 223, in locate_app
-    raise NoAppException(
-flask.cli.NoAppException: While importing 'app', an ImportError was raised:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 218, in locate_app
-    __import__(module_name)
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/app.py", line 9, in <module>
-    from schemas import *
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/__init__.py", line 1, in <module>
-    from schemas.paciente_schema import PacienteSchema,  PacienteBuscaSchema, PacienteViewSchema, PacienteDelSchema, \
-ImportError: cannot import name 'predict_diabetes' from 'schemas.paciente_schema' (/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/paciente_schema.py) - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 21:10:54,563] INFO _log() L96   127.0.0.1 - - [13/Nov/2023 21:10:54] "[35m[1mGET /pacientes HTTP/1.1[0m" 500 - - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
+[2023-12-04 06:32:46,133] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:46] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:46,151] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:46] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:46,250] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:46] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:46,258] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:46] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:46,264] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:46] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:47,289] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:47] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:47,323] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:47] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:47,329] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:47] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:47,329] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:47] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:32:47,511] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:32:47] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:33:30,251] WARNING add_predicao() L66   Erro ao executar a predição - erro = 'ViagemPredicaoSchema' object has no attribute 'percentual_risco' - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L66  
+[2023-12-04 06:33:30,252] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:33:30] "[35m[1mPOST /predicao HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:32,448] INFO _log() L96   [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.138:5000 - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:32,448] INFO _log() L96   [33mPress CTRL+C to quit[0m - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:34,707] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:34] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:34,718] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:34] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:34,822] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:34] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:34,826] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:34] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:34,830] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:34] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:39,209] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:39] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:39,240] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:39] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:39,245] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:39] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:39,245] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:39] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:35:39,429] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:35:39] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:36:07,763] WARNING add_predicao() L66   Erro ao executar a predição - erro = 'ViagemPredicaoSchema' object has no attribute 'pc_risco' - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L66  
+[2023-12-04 06:36:07,764] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:36:07] "[35m[1mPOST /predicao HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:37:21,043] INFO _log() L96   [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.138:5000 - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:37:21,043] INFO _log() L96   [33mPress CTRL+C to quit[0m - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:37:24,613] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:37:24] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:37:24,698] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:37:24] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:37:24,722] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:37:24] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:37:24,722] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:37:24] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:37:24,859] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:37:24] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:37:24,867] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:37:24] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:38:04,698] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:38:04] "POST /predicao HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:41:06,135] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:41:06] "POST /predicao HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-04 06:41:10,762] INFO _log() L96   127.0.0.1 - - [04/Dec/2023 06:41:10] "POST /predicao HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
