@@ -4,7 +4,7 @@ from urllib.parse import unquote
 
 from sqlalchemy.exc import IntegrityError
 
-from model import Session, Paciente, Model, Viagem, ViagemPredicao
+from model import Session, Paciente, Model, Viagem, ViagemPredicao, AcidentesRiscos
 from logger import logger
 from schemas import *
 from flask_cors import CORS
@@ -19,6 +19,7 @@ CORS(app)
 home_tag = Tag(name="Documentação", description="Seleção de documentação: Swagger, Redoc ou RapiDoc")
 paciente_tag = Tag(name="Paciente", description="Adição, visualização, remoção e predição de pacientes com Diabetes")
 viagem_predicao_tag = Tag(name="Viagem_Predicao", description="Predição de riscos à acidentes para a viagem")
+acidentes_riscos_tag = Tag(name="AcidenteRisco", description="visualização registros de acidentes e riscos")
 
 # Rota home
 @app.get('/', tags=[home_tag])
@@ -65,6 +66,22 @@ def add_predicao(form: ViagemPredicaoSchema):
         error_msg = "Não foi possível executar a predicao :/"
         logger.warning(f"Erro ao executar a predição - erro = {e}")
         return {"message": error_msg}, 500    
+
+# ***************************************************  Metodos de Acidentes e riscos ***************************************
+@app.get('/acidentes_riscos', tags=[acidentes_riscos_tag],
+        responses={"200": ListaAcidentesRiscosSchema,
+                  "404": ErrorSchema,
+                  "500": ErrorSchema})
+def get_acidentes_riscos(query:BuscaAcidentesRiscoSchema):
+    """Consulta busca as informações de acidentes e riscos coligados com os parametros de busca
+
+    """
+
+    
+
+
+                
+
 
 
 
