@@ -4,7 +4,7 @@ from urllib.parse import unquote
 
 from sqlalchemy.exc import IntegrityError
 
-from model import Session, Paciente, Model, Uf
+from model import Session, Paciente, Model, Viagem, ViagemPredicao
 from logger import logger
 from schemas import *
 from flask_cors import CORS
@@ -18,7 +18,7 @@ CORS(app)
 # Definindo tags para agrupamento das rotas
 home_tag = Tag(name="Documentação", description="Seleção de documentação: Swagger, Redoc ou RapiDoc")
 paciente_tag = Tag(name="Paciente", description="Adição, visualização, remoção e predição de pacientes com Diabetes")
-uf_tag = Tag(name="UF", description ="Visualização de informaçõe de estados federativos do Brasil")
+viagem_predicao_tag = Tag(name="Viagem_Predicao", description="Predição de riscos à acidentes para a viagem")
 
 # Rota home
 @app.get('/', tags=[home_tag])
@@ -27,33 +27,44 @@ def home():
     """
     return redirect('/openapi')
 
-# Rota de listagem de Unidades federativas do Brasil
-@app.get('/uf',tags=[uf_tag],
-        responses={"200": ListaUfSchema,
-                   "404": ErrorSchema})
-def get_uf():
-    """Consulta as UF 
 
-    Retorna uma listagem de unidades federativas
-    """
-    logger.debug(f"Consultando as unidades federativas do Brasil")
-    try:
-        # criando conexão com a base
-        session = Session()
-        # fazendo a busca
-        lista = session.query(Uf).order_by(Uf.descricao.asc()).all()
-         
-        if not lista:            
-            # se não há registros cadastrados
-            return {"lista": []}, 200
-        else:
-            logger.debug(f"%d uf encontrados" %
-                         len(lista))
-            # retorna a representação de tipo_operacaos
-            return apresenta_lista_uf(lista), 200
+# ***************************************************  Metodos de Viagem ***************************************
+
+# Rota novo registro na tabela viagem
+@app.post('/predicao', tags=[viagem_predicao_tag],
+          responses={"200": ViagemPredicaoViewSchema,                     
+                     "500": ErrorSchema})
+def add_predicao(form: ViagemPredicaoSchema):
+    """ Retorna uma representação do resultado da predicao feita para a viagem
+        Args:
+            dia (int): dia da viagem informada
+            mes (int): mes da viagem informada
+            id_sentido (int): codigo do sentido da rodovia que será a viagem
+            id_trecho (int): codigo do trecho a ser percorrido na viagem
+            pc_risco (float): valor percentual que a predicao deve identificar a classificação de risco mais frequente na rodovia
+    """    
+    try: 
+        # Carregando modelo
+        ml_path = 'ml_model/18_nova_dutra.pkl'
+        modelo = Model.carrega_modelo(ml_path)
+
+        # cria objeto viagem predicao
+        viagem_predicao = ViagemPredicao(
+                                        dia = form.dia, 
+                                        mes = form.mes, 
+                                        id_sentido = form.id_sentido, 
+                                        id_trecho = form.id_trecho,
+                                        pc_risco =  form.pc_risco,
+                                        id_risco = Model.preditor(modelo, form) )
+               
+        
+        return apresenta_resultado_predicao(viagem_predicao.id_risco), 200    
+
     except Exception as e:
         # caso um erro fora do previsto
-        error_msg = f"Não foi possível consultar as UF de listas :/{str(e)}"
-        logger.warning(
-            f"Erro ao consultar as unidades federativas, {error_msg}")
-        return {"message": error_msg}, 500
+        error_msg = "Não foi possível executar a predicao :/"
+        logger.warning(f"Erro ao executar a predição - erro = {e}")
+        return {"message": error_msg}, 500    
+
+
+

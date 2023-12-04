@@ -6,6 +6,8 @@ import os
 # importando os elementos definidos no modelo
 from model.base import Base
 from model.paciente import Paciente
+from model.viagem import Viagem
+from model.viagemPredicao import ViagemPredicao
 from model.modelo import Model
 from model.uf import Uf
 

@@ -17,16 +17,13 @@ class Model:
         return model
     
     def preditor(model, form):
-        """Realiza a predição de um paciente com base no modelo treinado
+        """Realiza a predição de risco de acidente com base no modelo treinado
         """
-        X_input = np.array([form.preg, 
-                            form.plas, 
-                            form.pres, 
-                            form.skin, 
-                            form.test, 
-                            form.mass, 
-                            form.pedi, 
-                            form.age
+        X_input = np.array([form.dia, 
+                            form.mes, 
+                            form.id_trecho, 
+                            form.id_sentido, 
+                            form.percentual_risco
                         ])
         # Faremos o reshape para que o modelo entenda que estamos passando
         diagnosis = model.predict(X_input.reshape(1, -1))
