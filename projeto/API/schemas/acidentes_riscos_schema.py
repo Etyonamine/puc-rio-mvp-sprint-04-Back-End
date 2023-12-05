@@ -6,6 +6,7 @@ class AcidentesRiscosViewSchema (BaseModel):
     """ Define como deverá retornado
 
     """    
+    id: int = 1
     trecho:str = 'BR-116/SP'
     sentido:str = 'Pista Sul'
     acidente:str = 'Tombamento'
@@ -36,14 +37,17 @@ def apresenta_lista_acidentes_riscos(lista: List[AcidentesRiscos]):
 
     """
     result = []
+    i = 1
     for item in lista:
        
         result.append({
+            "id": str(i),
             "trecho": item.trecho,
             "sentido": item.id_sentido,
             "acidente": item.tipo_acidente,
             "risco": item.risco,
             "total": item.total
         })
+        i = i + 1
 
     return {"lista": result}    
