@@ -5,12 +5,9 @@ import os
 
 # importando os elementos definidos no modelo
 from model.base import Base
-from model.paciente import Paciente
-from model.viagem import Viagem
 from model.viagemPredicao import ViagemPredicao
 from model.acidentes_risco import AcidentesRiscos
 from model.modelo import Model
-from model.uf import Uf
 
 db_path = "database/"
 # Verifica se o diretorio não existe

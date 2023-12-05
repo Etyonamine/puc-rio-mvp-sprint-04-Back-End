@@ -129,5 +129,4 @@ dmypy.json
 .pyre/
 
 # pasta log
-.log/
-log/
+.log

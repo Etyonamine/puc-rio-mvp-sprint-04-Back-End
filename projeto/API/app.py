@@ -4,7 +4,7 @@ from urllib.parse import unquote
 
 from sqlalchemy.exc import IntegrityError
 
-from model import Session, Paciente, Model, Viagem, ViagemPredicao, AcidentesRiscos
+from model import Session, Model,  ViagemPredicao, AcidentesRiscos
 from logger import logger
 from schemas import *
 from flask_cors import CORS
@@ -17,7 +17,6 @@ CORS(app)
 
 # Definindo tags para agrupamento das rotas
 home_tag = Tag(name="Documentação", description="Seleção de documentação: Swagger, Redoc ou RapiDoc")
-paciente_tag = Tag(name="Paciente", description="Adição, visualização, remoção e predição de pacientes com Diabetes")
 viagem_predicao_tag = Tag(name="Viagem_Predicao", description="Predição de riscos à acidentes para a viagem")
 acidentes_riscos_tag = Tag(name="AcidenteRisco", description="visualização registros de acidentes e riscos")
 
@@ -29,7 +28,7 @@ def home():
     return redirect('/openapi')
 
 
-# ***************************************************  Metodos de Viagem ***************************************
+# ***************************************************  Metodos de Viagem ***************************************************
 
 # Rota novo registro na tabela viagem
 @app.post('/predicao', tags=[viagem_predicao_tag],
