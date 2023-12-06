@@ -32,8 +32,7 @@ class BuscaAcidentesRiscoSchema(BaseModel):
 
 
 def apresenta_lista_acidentes_riscos(lista: List[AcidentesRiscos]):
-    """ Retorna uma representação da lista de unidades federativas seguindo o schema definido em
-        UfViewSchema.
+    """ Retorna uma representação da lista de Acidentes de riscos
 
     """
     result = []

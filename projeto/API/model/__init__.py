@@ -7,6 +7,7 @@ import os
 from model.base import Base
 from model.viagemPredicao import ViagemPredicao
 from model.acidentes_risco import AcidentesRiscos
+from model.risco import Risco
 from model.modelo import Model
 
 db_path = "database/"

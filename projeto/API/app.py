@@ -4,7 +4,7 @@ from urllib.parse import unquote
 
 from sqlalchemy.exc import IntegrityError
 
-from model import Session, Model,  ViagemPredicao, AcidentesRiscos
+from model import Session, Model,  ViagemPredicao, AcidentesRiscos, Risco
 from logger import logger
 from schemas import *
 from flask_cors import CORS
@@ -19,6 +19,8 @@ CORS(app)
 home_tag = Tag(name="Documentação", description="Seleção de documentação: Swagger, Redoc ou RapiDoc")
 viagem_predicao_tag = Tag(name="Viagem_Predicao", description="Predição de riscos à acidentes para a viagem")
 acidentes_riscos_tag = Tag(name="AcidenteRisco", description="visualização registros de acidentes e riscos")
+risco_tag = Tag(name='Risco', description="Consulta de riscos")
+
 
 # Rota home
 @app.get('/', tags=[home_tag])
@@ -28,9 +30,10 @@ def home():
     return redirect('/openapi')
 
 
-# ***************************************************  Metodos de Viagem ***************************************************
 
-# Rota novo registro na tabela viagem
+# ***************************************************  Metodos de Viagem Predicao***************************************************
+
+# Rota viagem predicao
 @app.post('/predicao', tags=[viagem_predicao_tag],
           responses={"200": ViagemPredicaoViewSchema,                     
                      "500": ErrorSchema})
@@ -67,6 +70,7 @@ def add_predicao(form: ViagemPredicaoSchema):
         return {"message": error_msg}, 500    
 
 # ***************************************************  Metodos de Acidentes e riscos ***************************************
+# Rota consulta de acidentes riscos
 @app.get('/acidentes_riscos', tags=[acidentes_riscos_tag],
         responses={"200": ListaAcidentesRiscosSchema,
                   "404": ErrorSchema,
@@ -94,7 +98,7 @@ def get_acidentes_riscos(query:BuscaAcidentesRiscoSchema):
 
         if not acidentes_riscos:
             # se não há cadastrado
-            error_msg = "Operacao não encontrado na base :/"
+            error_msg = "acidentes não encontrado na base :/"
             logger.warning(f"Erro ao buscar a operacao error, {error_msg}")
             return {"message": error_msg}, 404
         else:
@@ -110,8 +114,41 @@ def get_acidentes_riscos(query:BuscaAcidentesRiscoSchema):
         return {"message": error_msg}, 500
 
 
-                
+# ***************************************************  Metodos de Risco ***************************************************
+# Rota consulta de Riscos
+@app.get('/riscos',tags=[risco_tag],
+        responses={"200": ListaRiscosSchema,
+                    "404": ErrorSchema,
+                    "500": ErrorSchema})          
+def get_riscos():
+    """Lista as informações de riscos
 
+    """
+     
+    
+    logger.debug(
+        f"Consultando lista de risco ")
+    try:
+        # criando conexão com a base
+        session = Session()
+        # fazendo a busca
+        riscos = session.query(Risco)                             
 
+        if not riscos:
+            # se não há cadastrado
+            error_msg = "Riscos não encontrado na base :/"
+            logger.warning(f"Erro ao buscar a operacao error, {error_msg}")
+            return {"message": error_msg}, 404
+        else:
+            logger.debug(
+                f"lista de riscos encontrados")
+            # retorna a representação de  s
+            return apresenta_lista_riscos(riscos), 200
+    except Exception as e:
+        # caso um erro fora do previsto
+        error_msg = f"Não foi possível consultar os riscos:/{str(e)}"
+        logger.warning(
+            f"Erro ao consultar os riscos com erro {e}, {error_msg}")
+        return {"message": error_msg}, 500
 
 
