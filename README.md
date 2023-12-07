@@ -2,7 +2,7 @@
 Repositorio que contém o fonte da API , modelo e o Colab
 
 ## API 
-Os fontes da API encontra-se no subdiretorio em projeto\API.
+Os fontes da API encontra-se no subdiretorio em projeto\API. 
 No arquivo README.md neste subdiretorio estão todas as instruções.
 
 ## Colab
