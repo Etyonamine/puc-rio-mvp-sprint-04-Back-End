@@ -7,9 +7,11 @@ Este API é a parte backend da entrega do MVP - Sprint 4 do  **Curso de Pós Gra
 ---
 1)Git e Python instalado no desktop e/ou notebook   
 
-2)Clonar o repositório https://github.com/Etyonamine/puc-rio-mvp-sprint-1-back-end.git
+2)Clonar o repositório  https://github.com/Etyonamine/puc-rio-mvp-sprint-04-BackEnd-E-Colab.git
 
-3)Será necessário ter todas as libs python listadas no `requirements.txt` instaladas.
+3)Acessar a pasta projeto/API
+
+4)Será necessário ter todas as libs python listadas no `requirements.txt` instaladas.
 
 ## Como executar 
 ---
@@ -18,7 +20,7 @@ Este API é a parte backend da entrega do MVP - Sprint 4 do  **Curso de Pós Gra
 
 1)Será necessário ter todas as libs python listadas no `requirements.txt` instaladas.
 
-2)Após clonar o repositório, é necessário ir ao diretório raiz, pelo terminal, para poder executar os comandos descritos abaixo.
+2)Após clonar o repositório, é necessário ir ao diretório projeto/API, pelo terminal, para poder executar os comandos descritos abaixo.
 ```
     Este comando instala as dependências/bibliotecas, descritas no arquivo `requirements.txt`.
     2.1) $ pip install -r requirements.txt     
