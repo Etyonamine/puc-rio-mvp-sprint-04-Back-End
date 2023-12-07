@@ -10,4 +10,4 @@ No arquivo README.md neste subdiretorio contém todas as instruções para execu
 Clique no link->[colab - acidentes nova Dutra](https://colab.research.google.com/github/Etyonamine/puc-rio-mvp-sprint-04-sistemas-inteligentes/blob/main/colabs/mvp_colab_acidentes_rodovias_18_nova_dutra.ipynb)
 
 ## Arquivo - DataSet
-O arquivo dataset chamado "18_nova_dutra.csv" encontra-se no subdiretório chamado "info"
+O arquivo dataset chamado "18_nova_dutra.csv" que foi utilizado no modelo encontra-se no subdiretório chamado "info"
