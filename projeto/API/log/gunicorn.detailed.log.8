@@ -1,105 +1,26 @@
-[2023-11-13 20:48:17,365] ERROR _log() L96   Error on request:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 897, in run_command
-    app = info.load_app()
-          ^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 312, in load_app
-    app = locate_app(import_name, None, raise_if_not_found=False)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 223, in locate_app
-    raise NoAppException(
-flask.cli.NoAppException: While importing 'app', an ImportError was raised:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 218, in locate_app
-    __import__(module_name)
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/app.py", line 9, in <module>
-    from schemas import *
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/__init__.py", line 1, in <module>
-    from schemas.paciente_schema import PacienteSchema,  PacienteBuscaSchema, PacienteViewSchema, PacienteDelSchema, \
-ImportError: cannot import name 'predict_diabetes' from 'schemas.paciente_schema' (/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/paciente_schema.py) - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 20:48:17,952] INFO _log() L96   127.0.0.1 - - [13/Nov/2023 20:48:17] "[35m[1mGET /pacientes HTTP/1.1[0m" 500 - - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 20:48:17,982] ERROR _log() L96   Error on request:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 897, in run_command
-    app = info.load_app()
-          ^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 312, in load_app
-    app = locate_app(import_name, None, raise_if_not_found=False)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 223, in locate_app
-    raise NoAppException(
-flask.cli.NoAppException: While importing 'app', an ImportError was raised:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 218, in locate_app
-    __import__(module_name)
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/app.py", line 9, in <module>
-    from schemas import *
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/__init__.py", line 1, in <module>
-    from schemas.paciente_schema import PacienteSchema,  PacienteBuscaSchema, PacienteViewSchema, PacienteDelSchema, \
-ImportError: cannot import name 'predict_diabetes' from 'schemas.paciente_schema' (/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/paciente_schema.py) - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 20:48:23,487] INFO _log() L96   127.0.0.1 - - [13/Nov/2023 20:48:23] "[35m[1mGET /pacientes HTTP/1.1[0m" 500 - - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 20:48:23,493] ERROR _log() L96   Error on request:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
-    execute(self.server.app)
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
-    application_iter = app(environ, start_response)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
-    raise err from None
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 897, in run_command
-    app = info.load_app()
-          ^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 312, in load_app
-    app = locate_app(import_name, None, raise_if_not_found=False)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 223, in locate_app
-    raise NoAppException(
-flask.cli.NoAppException: While importing 'app', an ImportError was raised:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 218, in locate_app
-    __import__(module_name)
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/app.py", line 9, in <module>
-    from schemas import *
-  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/__init__.py", line 1, in <module>
-    from schemas.paciente_schema import PacienteSchema,  PacienteBuscaSchema, PacienteViewSchema, PacienteDelSchema, \
-ImportError: cannot import name 'predict_diabetes' from 'schemas.paciente_schema' (/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/paciente_schema.py) - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
-[2023-11-13 20:48:25,341] INFO _log() L96   127.0.0.1 - - [13/Nov/2023 20:48:25] "[35m[1mGET /pacientes HTTP/1.1[0m" 500 - - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
+[2023-12-05 22:13:27,944] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:13:27] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:13:43,297] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:13:43,298] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:13:43] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:13:58,267] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:13:58,268] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:13:58] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:14:22,305] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:14:22,306] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:14:22] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:15:27,997] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:15:27] "GET /riscos HTTP/1.1" 200 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:15:29,287] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:15:29,288] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:15:29] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:15:59,614] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:15:59,615] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:15:59] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:19:12,283] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:19:12,284] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:19:12] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:20:04,997] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:20:04,998] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:20:04] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:20:35,306] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:20:35,307] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:20:35] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:20:35,321] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:20:35,322] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:20:35] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:20:54,293] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:20:54,294] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:20:54] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:21:05,649] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:21:05,649] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:21:05] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-05 22:21:35,964] WARNING get_riscos() L150  Erro ao consultar os riscos com erro QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r), Não foi possível consultar os riscos:/QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r) - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\app.py L150 
+[2023-12-05 22:21:35,964] INFO _log() L96   127.0.0.1 - - [05/Dec/2023 22:21:35] "[35m[1mGET /riscos HTTP/1.1[0m" 500 - - call_trace=C:\mvp\puc-rio-mvp-sprint-04-sistemas-inteligentes\projeto\API\venv\Lib\site-packages\werkzeug\_internal.py L96  
