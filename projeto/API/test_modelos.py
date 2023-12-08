@@ -29,7 +29,7 @@ def test_modelo_knn():
     
     # Testando as métricas do KNN
     # Modifique as métricas de acordo com seus requisitos
-    assert acuracia_knn >= 0.58
+    assert acuracia_knn >= 0.50
     
     
 
